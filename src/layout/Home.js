@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import Header from "./Header";
 import CanvasContent from "./CanvasContent";
+import LandingSchedule from "../components/LandingSchedule";
+import LandingPartners from "../components/LandingPartners";
 import { Link as ScrollLink, Element } from "react-scroll";
 import "./App.scss";
 
@@ -20,20 +22,33 @@ function Home() {
     <div className="App">
       {showHeader && <Header />}
       <CanvasContent ref={contentScroll} onScroll={checkScroll}>
-        <ScrollLink
-          activeClass="active"
-          to="test1"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          Lmao
-        </ScrollLink>
-        <img src="/img/background.png" alt="shortcut-bg" />
-        <Element name="test1" className="element">
-          lol
-        </Element>
+        <div className="landing-background slide">
+          <img
+            src="/img/background.png"
+            alt="shortcut-bg"
+            style={{ width: "100%", height: "auto" }}
+          />
+          <i className="fas fa-chevron-down" />
+        </div>
+
+        <LandingSchedule />
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/DDByv3z_z_U"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        />
+
+        <LandingPartners />
+
+        <div className="interact-buttons">
+          <button>join</button>
+          <button>get involved</button>
+        </div>
+        <div className="footer">The footer should be here</div>
       </CanvasContent>
     </div>
   );
