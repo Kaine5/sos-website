@@ -114,3 +114,42 @@ body {
 .whatever {
   color: red;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  div {
+    width: 50%;
+
+    text-align: center;
+
+    color: white;
+  }
+}
+
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  div {
+    width: 50%;
+
+    text-align: center;
+  }
+}
+
+.flex-container0 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  div {
+    width: 50%;
+
+    text-align: center;
+  }
+}
+
+.footer {
+  width: 100%;
+}

@@ -4,6 +4,7 @@ import CanvasContent from "./CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
 import LandingPartners from "../components/LandingPartners";
 import { Link as ScrollLink, Element } from "react-scroll";
+import Footer from "../components/Footer";
 import "./App.scss";
 
 function Home() {
@@ -48,7 +49,9 @@ function Home() {
           <button>join</button>
           <button>get involved</button>
         </div>
-        <div className="footer">The footer should be here</div>
+        <div className="footer">
+          <Footer />
+        </div>
       </CanvasContent>
     </div>
   );
