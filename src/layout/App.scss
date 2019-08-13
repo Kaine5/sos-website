@@ -102,6 +102,48 @@ body {
   }
 }
 
+.LandingSchedule {
+  border: solid black 4px;
+  height: 60vh;
+  width: 100%;
+}
+
+.landingPartners {
+  border: solid black 4px;
+  width: 100%;
+  height: 320px;
+}
+
+.routeText {
+  font-size: 53px;
+  font-weight: 800;
+}
+
+.normalText {
+  font-size: 20px;
+}
+
+.blue {
+  color: #4dcce5;
+}
+
+.red {
+  color: #e8592e;
+}
+
+.yellow {
+  color: #fdc81e;
+}
+.partnerPicture {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+  background-color: black;
+}
+.partnerColumn {
+  display: flex;
+  flex-direction: row;
+}
 .CanvasContent {
   width: 70vw;
 }
@@ -109,10 +151,9 @@ body {
 .btn {
   cursor: pointer;
   display: inline-block;
-}
-
-.whatever {
-  color: red;
+  background-color: #b2b2b2;
+  height: 200px;
+  width: 200px;
 }
 
 .flex-container {

@@ -3,6 +3,7 @@ import Header from "./Header";
 import CanvasContent from "./CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
 import LandingPartners from "../components/LandingPartners";
+import Button from "../components/Button";
 import { Link as ScrollLink, Element } from "react-scroll";
 import Footer from "../components/Footer";
 import "./App.scss";
@@ -35,19 +36,19 @@ function Home() {
         <LandingSchedule />
 
         <iframe
-          width="560"
-          height="315"
+          width="100%"
+          height="600"
           src="https://www.youtube.com/embed/DDByv3z_z_U"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         />
 
         <LandingPartners />
 
         <div className="interact-buttons">
-          <button>join</button>
-          <button>get involved</button>
+          <Button name="join" />
+          <Button name="get involved" />
         </div>
         <div className="footer">
           <Footer />

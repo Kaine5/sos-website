@@ -2,13 +2,13 @@ import React from "react";
 
 const LandingSchedule = props => {
   return (
-    <div>
+    <div className="LandingSchedule">
       <div>
-        <h1>Business</h1>
-        <h1>Design</h1>
-        <h1>Tech</h1>
+        <p className="routeText blue">Business</p>
+        <p className="routeText red">Design</p>
+        <p className="routeText yellow">Tech</p>
       </div>
-      <div>Lorem ipsum dono si amet</div>
+      <div className="normalText">Lorem ipsum dono si amet</div>
       <button>learn more </button>
     </div>
   );
