@@ -1,5 +1,4 @@
-import React, { useRef, useState } from "react";
-import Navbar from "./Navbar";
+import React from "react";
 import Header from "./Header";
 import CanvasContent from "./CanvasContent";
 
