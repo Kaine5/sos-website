@@ -42,10 +42,16 @@ body {
     .navButton-name {
       transform: rotate(270deg);
       min-width: 20vh;
+      text-align: center;
     }
   }
 }
 
 .CanvasContent {
   width: 70vw;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
 }

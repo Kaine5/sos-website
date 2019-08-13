@@ -1,28 +1,21 @@
-import React, { useRef, useState } from "react";
+import React from "react";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from "./Home";
+import Schedule from "./Schedule";
+import GetInvolved from "./GetInvolved";
 import Navbar from "./Navbar";
-import Header from "./Header";
-import CanvasContent from "./CanvasContent";
-import "./App.scss";
 
-function App() {
-  const contentScroll = useRef();
-  const [showHeader, setShowHeader] = useState(false);
-
-  const checkScroll = () => {
-    if (contentScroll.current.scrollTop >= 200) {
-      setShowHeader(true);
-    } else {
-      setShowHeader(false);
-    }
-    //this function should check for vh offset (Will need a formula to calculate the percentage) and show the header if needed
-  };
+const App = () => {
   return (
-    <div className="App">
-      {showHeader && <Header />}
-      <CanvasContent ref={contentScroll} onScroll={checkScroll} />
-      <Navbar />
+    <div>
+      <Router>
+        <Route path="/" exact component={Home} />
+        <Route path="/schedule/" component={Schedule} />
+        <Route path="/getinvolved" component={GetInvolved} />
+        <Navbar />
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

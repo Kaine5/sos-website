@@ -4,9 +4,9 @@ import NavButton from "../components/NavButton";
 const Navbar = props => {
   return (
     <div className="Navbar">
-      <NavButton name="home" />
-      <NavButton name="schedule" />
-      <NavButton name="get involved" />
+      <NavButton link="/" name="home" />
+      <NavButton link="/schedule/" name="schedule" />
+      <NavButton link="/getinvolved/" name="get involved" />
     </div>
   );
 };

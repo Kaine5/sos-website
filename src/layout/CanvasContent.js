@@ -1,9 +1,11 @@
 import React from "react";
+import Button from "../components/Button";
 
 const CanvasContent = React.forwardRef((props, ref) => {
   return (
     <div className="Canvas" ref={ref} onScroll={props.onScroll}>
       <div className="CanvasContent">
+        <Button />
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus
         in tortor vel placerat. Suspendisse ipsum orci, commodo a augue id,
         tincidunt dictum quam. Sed viverra dictum elit, interdum hendrerit purus
