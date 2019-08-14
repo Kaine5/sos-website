@@ -1,9 +1,69 @@
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-Black.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-BlackItalic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-BoldItalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-BookItalic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CircularStd";
+  src: url("/fonts/CircularStd-MediumItalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+
 body {
   height: 100%;
   width: 100%;
   margin: 0;
   background-color: #f2f2f2;
+  font-family: "CircularStd";
+  font-size: 20px;
 }
+
+
 
 .Header {
   height: 20vh;
@@ -13,8 +73,8 @@ body {
 
 .App {
   align-items: center;
-  
 }
+
 .Canvas {
   height: 60vh;
   width: 100vw;
@@ -51,6 +111,18 @@ body {
   }
 }
 
+
+
+.partnerPicture {
+  height: 43px;
+  width: 43px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+
+
 .CanvasContent {
   width: 70vw;
 }
@@ -58,8 +130,23 @@ body {
 .btn {
   cursor: pointer;
   display: inline-block;
+  background-color: #b2b2b2;
+  height: 200px;
+  width: 200px;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  div {
+    width: 50%;
+
+    text-align: center;
+
+    color: white;
+  }
+}
 
 .container {
 
@@ -98,13 +185,32 @@ h1 {
   color:rgb(0, 169, 157);
 }
 
-.red {
-  color:#E8592E;
+.flex-container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  div {
+    width: 50%;
+
+    text-align: center;
+  }
 }
 
-.yellow {
-  color:#ffc107;
+.flex-container0 {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  div {
+    width: 50%;
+
+    text-align: center;
+  }
 }
+
+.footer {
+  width: 100%;
+}
+
 
 .paragrath {
 width: 80%;

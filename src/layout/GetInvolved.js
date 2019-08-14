@@ -20,7 +20,7 @@ function GetInvolved() {
 
       <div class="item-2"> 
         <p className="paragrath">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <div className="button">learn  <br></br>
+        <div className="button">learn<br></br>
         more</div>
       </div>
     </div>
