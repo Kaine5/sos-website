@@ -3,15 +3,16 @@ import { ReactComponent as FacebookLogo } from "../Facebook logo.svg";
 import { ReactComponent as InstagramLogo } from "../Instagram Logo.svg";
 import { ReactComponent as TwitterLogo } from "../Twitter logo.svg";
 import { ReactComponent as LinkedInLogo } from "../Linkedin logo.svg";
-
+import { ReactComponent as ShortcutLogo } from "../Shortcut Logo.svg";
 export default function Footer() {
   return (
     <div className="footer">
       <div className="flex-container">
         <div className="flex-container-left">
-          <div>
+          {/* <div>
             <img className="shortcutlogo" src="/img/shortcutlogo.png" />
-          </div>
+          </div> */}
+          <ShortcutLogo className="shortcutlogo" />
           <div className="flex-container-media">
             <div>
               <FacebookLogo className="logo" />
@@ -35,7 +36,7 @@ export default function Footer() {
         </div>
 
         <div className="flex-container-right">
-          <div>
+          <div className="subscribe">
             <p className="newsletter">Subsribe to our newsletter</p>
             <div className="flex-container-input">
               <input
