@@ -1,27 +1,30 @@
 import React from "react";
+import styles from "../styles/LandingPartners.module.scss";
 
 const LandingPartners = props => {
   return (
-    <div className="landingPartners">
-      <div>
+    <div className={styles.landingPartners}>
+      <div className={styles.item1}>
         Co-organizers
-        <div className="partnerColumn">
+        <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
         </div>
       </div>
-      <div>
+
+      <div className={styles.item2}>
         Partners
-        <div className="partnerColumn">
+        <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
         </div>
       </div>
-      <div>
+
+      <div className={styles.item3}>
         Sponsors
-        <div className="partnerColumn">
+        <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
@@ -35,6 +38,6 @@ const LandingPartners = props => {
   );
 };
 const PartnerPicture = props => {
-  return <div className="partnerPicture">Lo</div>;
+  return <div className="partnerPicture" />;
 };
 export default LandingPartners;

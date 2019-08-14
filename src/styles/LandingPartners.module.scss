@@ -1,0 +1,37 @@
+.landingPartners {
+  border: solid black 4px;
+  width: 100%;
+  height: 37vh;
+  display: grid;
+  font-weight: 600;
+  font-size: 20px;
+  grid-template-columns: repeat(8, 73px [icon-node]);
+  grid-template-rows: [top-margin-start] 15% [first-line-title] 5% [first-line-node] 10% [middle-margin] 25% [second-line-title] 5% [second-line-node] 10% auto;
+}
+
+.partnerRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+
+.item1 {
+  grid-row-start: first-line-title;
+  grid-row-end: span first-line-node;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.item2 {
+  grid-row-start: first-line-title;
+  grid-row-end: span first-line-node;
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+
+.item3 {
+  grid-row-start: second-line-title;
+  grid-row-end: span second-line-node;
+  grid-column-start: 2;
+  grid-column-end: 9;
+}
