@@ -1,0 +1,42 @@
+.Header {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.headerContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+}
+
+.headerLeft,
+.headerRight {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center p {
+    margin: 0;
+  }
+}
+
+.headerLeft {
+  align-items: flex-start;
+}
+
+.headerRight {
+  align-items: flex-end;
+}
+
+.headerMiddle {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 45%;
+    height: auto;
+  }
+}
