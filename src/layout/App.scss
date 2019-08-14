@@ -62,20 +62,14 @@ body {
   font-size: 20px;
 }
 
-.Header {
-  height: 20vh;
-  width: 100vw;
-  border: 1px solid red;
-}
-
 .App {
   align-items: center;
 }
 
 .Canvas {
-  height: 60vh;
+  height: 70vh;
   width: 100vw;
-  top: 20vh;
+  top: 15vh;
   position: absolute;
   overflow: scroll;
   display: flex;
@@ -104,6 +98,12 @@ body {
       transform: rotate(270deg);
       min-width: 20vh;
       text-align: center;
+      text-decoration: none;
+      color: gray;
+      font-weight: 600;
+    }
+    .navButton-name.active {
+      color: black;
     }
   }
 }
@@ -112,11 +112,15 @@ body {
   height: 43px;
   width: 43px;
   border-radius: 50%;
+  margin-right: 30px;
   background-color: black;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .CanvasContent {
-  width: 70vw;
+  width: 60vw;
 }
 
 .btn {

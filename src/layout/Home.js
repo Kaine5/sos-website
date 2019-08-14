@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 import CanvasContent from "./CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
 import LandingPartners from "../components/LandingPartners";
@@ -37,7 +37,7 @@ function Home() {
 
         <iframe
           width="100%"
-          height="600"
+          height="700"
           src="https://www.youtube.com/embed/DDByv3z_z_U"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

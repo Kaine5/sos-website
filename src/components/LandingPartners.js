@@ -1,13 +1,12 @@
 import React from "react";
-import styles from "../styles/LandingPartners.module.scss"
+import styles from "../styles/LandingPartners.module.scss";
 
 const LandingPartners = props => {
   return (
     <div className={styles.landingPartners}>
-
       <div className={styles.item1}>
         Co-organizers
-        <div className="partnerRow">
+        <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
         </div>
@@ -15,7 +14,7 @@ const LandingPartners = props => {
 
       <div className={styles.item2}>
         Partners
-        <div className="partnerRow">
+        <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
@@ -25,7 +24,7 @@ const LandingPartners = props => {
 
       <div className={styles.item3}>
         Sponsors
-        <div className="partnerRow">
+        <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
@@ -39,6 +38,6 @@ const LandingPartners = props => {
   );
 };
 const PartnerPicture = props => {
-  return <div className="partnerPicture">Lo</div>;
+  return <div className="partnerPicture" />;
 };
 export default LandingPartners;
