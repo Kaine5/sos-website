@@ -134,7 +134,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: row;
-  background-color: black;
+  background-color: #24262d;
   div {
     width: 50%;
 
@@ -177,30 +177,111 @@ h1 {
   color: rgb(0, 169, 157);
 }
 
-.flex-container1 {
+.flex-container-right {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #24262d;
+  padding-bottom: 10px;
   div {
     width: 50%;
-
-    text-align: center;
   }
 }
 
-.flex-container0 {
+.flex-container-left {
   display: flex;
   flex-direction: column;
-  background-color: black;
-  div {
-    width: 50%;
+  background-color: #24262d;
+  padding-bottom: 10px;
+}
 
-    text-align: center;
+.flex-container-media {
+  display: flex;
+  margin-left: 20px;
+  div {
+    width: 25%;
   }
 }
 
+.flex-container-input {
+  display: flex;
+}
+
+.shortcutlogo {
+  width: 130px;
+  height: auto;
+  // margin-left: -40px;
+  margin-top: 20px;
+}
+.logo {
+  height: 25px;
+  width: 25px;
+}
 .footer {
   width: 100%;
+
+  background: #24262d 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.newsletter {
+  font-size: 14px;
+  text-align: left;
+  color: #b2b2b2;
+  font-weight: bold;
+  opacity: 1;
+  margin-top: 20px;
+}
+
+.contact {
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #b2b2b2;
+  border-radius: 2px;
+  opacity: 1;
+  color: #b2b2b2;
+  width: 112px;
+  height: 21px;
+  margin-top: 20px;
+}
+
+.info {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  text-align: left;
+  font-size: 11px;
+  letter-spacing: 0;
+  color: #b2b2b2;
+  opacity: 1;
+  font-weight: normal;
+  font-style: normal;
+}
+.info-left {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  text-align: left;
+  font-size: 10.51px;
+  letter-spacing: 0;
+  color: #b2b2b2;
+  opacity: 1;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.text {
+  background: #24262d 0% 0% no-repeat padding-box;
+  border: 1px solid #999999;
+  opacity: 1;
+  margin-top: -8px;
+}
+.go {
+  width: 28px;
+  height: 24px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border: 1px solid #999999;
+  opacity: 1;
+  color: #b2b2b2;
+  margin-top: -8px;
 }
 
 .paragrath {
