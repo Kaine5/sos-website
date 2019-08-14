@@ -1,11 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./Home";
 import Schedule from "./Schedule";
 import GetInvolved from "./GetInvolved";
 import Navbar from "./Navbar";
 
 const App = () => {
+  console.log(window.location.pathname);
   return (
     <div>
       <Router>
