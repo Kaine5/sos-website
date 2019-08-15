@@ -15,15 +15,11 @@ const LandingSchedule = props => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
       </div>
-
-      <div style={{ marginLeft: "20px", position: "relative" }}>
-        <Box3d />
+      <div className={styles.item3}>
+        <div style={{ marginLeft: "20px", position: "relative" }}>
+          <Box3d />
+        </div>
       </div>
-
-      <button className={`${styles.item3} ${styles.buttonText}`}>
-        {" "}
-        learn<br />more{" "}
-      </button>
     </div>
   );
 };
