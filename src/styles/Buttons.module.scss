@@ -1,0 +1,23 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  height: 600px;
+  width: 600px;
+  background-image: url("/img/Square button_1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  &:hover {
+    background-image: url("/img/Square button_2.jpg");
+  }
+  &:active {
+    background-image: url("/img/Square button_3.jpg");
+  }
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
