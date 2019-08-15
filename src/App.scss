@@ -168,3 +168,9 @@ h1 {
   font-size: 40px;
   background-color: grey;
 }
+
+.interact-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
