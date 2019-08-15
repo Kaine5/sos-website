@@ -122,14 +122,6 @@ body {
   width: 60vw;
 }
 
-.btn {
-  cursor: pointer;
-  display: inline-block;
-  background-color: #b2b2b2;
-  height: 200px;
-  width: 200px;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -175,4 +167,10 @@ h1 {
   border: 3px solid black;
   font-size: 40px;
   background-color: grey;
+}
+
+.interact-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

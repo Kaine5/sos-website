@@ -1,0 +1,48 @@
+.btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-image: url("/img/Square button_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 98% 98%;
+  &:hover {
+    background-image: url("/img/Square button_2.jpg");
+    background-size: 100% 100%;
+    .textContainer {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &:active {
+    background-image: url("/img/Square button_3.jpg");
+    background-size: 96% 96%;
+    .textContainer {
+      width: 96%;
+      height: 96%;
+    }
+  }
+  .textContainer {
+    width: 98%;
+    height: 98%;
+  }
+  p {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 45%;
+    font-size: 53px;
+    font-weight: 800;
+  }
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+}
