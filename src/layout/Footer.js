@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../styles/Footer.module.scss";
 
-import { ReactComponent as FacebookLogo } from "../Facebook logo.svg";
-import { ReactComponent as InstagramLogo } from "../Instagram Logo.svg";
-import { ReactComponent as TwitterLogo } from "../Twitter logo.svg";
-import { ReactComponent as LinkedInLogo } from "../Linkedin logo.svg";
-import { ReactComponent as ShortcutLogo } from "../Shortcut Logo.svg";
+import { ReactComponent as FacebookLogo } from "../logos/Facebook logo.svg";
+import { ReactComponent as InstagramLogo } from "../logos/Instagram Logo.svg";
+import { ReactComponent as TwitterLogo } from "../logos/Twitter logo.svg";
+import { ReactComponent as LinkedInLogo } from "../logos/Linkedin logo.svg";
+import { ReactComponent as ShortcutLogo } from "../logos/Shortcut Logo.svg";
 
 function Footer() {
   return (

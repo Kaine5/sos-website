@@ -1,12 +1,12 @@
 import React from "react";
-import NavButton from "../components/NavButton";
+import NavButton from "./NavButton";
 
 const Navbar = props => {
   return (
-    <div className="Navbar">
-      <NavButton link="/" name="home" />
-      <NavButton link="/schedule/" name="schedule" />
-      <NavButton link="/getinvolved/" name="get involved" />
+    <div className='Navbar'>
+      <NavButton link='/' name='home' />
+      <NavButton link='/schedule/' name='schedule' />
+      <NavButton link='/getinvolved/' name='get involved' />
     </div>
   );
 };
