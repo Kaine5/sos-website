@@ -3,12 +3,12 @@
   height: 70vh;
   width: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     " a . "
     " a . "
-    " a b "
+    " a b"
     " . c ";
 }
 
@@ -45,7 +45,6 @@
   place-self: center stretch;
   font-size: 30px;
   line-height: 1.5em;
-  margin-left: 20px;
 }
 
 .item2 {
@@ -55,7 +54,7 @@
 .item3 {
   display: block;
   grid-area: c;
-  background-color: gray;
+
   width: 90%;
   height: 70%;
   place-self: center;

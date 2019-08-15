@@ -1,6 +1,7 @@
 import React from "react";
 import Box3d from "../components/Box3d";
 import styles from "../styles/LandingSchedule.module.scss";
+import Button from "./Button";
 
 const LandingSchedule = props => {
   return (
@@ -16,8 +17,8 @@ const LandingSchedule = props => {
         tempor incididunt ut labore et dolore magna aliqua.
       </div>
       <div className={styles.item3}>
-        <div style={{ marginLeft: "20px", position: "relative" }}>
-          <Box3d />
+        <div>
+          <Button height="15vw" width="30vw" name="learn more" />
         </div>
       </div>
     </div>
