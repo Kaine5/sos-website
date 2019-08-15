@@ -57,3 +57,30 @@ export default function Footer() {
     </div>
   );
 }
+// import React, { Component } from 'react'
+
+// export default class Footer extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state= {email: ""};
+//     this.onChange= this.onChange.bind(this);
+//     this.onSubmit= this.onSubmit.bind(this);
+//   }
+
+//   onChange(e) {
+//     this.setState({email: e.target.value});
+//   }
+
+//   onSubmit(e) {
+//     alert('thanks for your subscription');
+//     e.preventDefault();
+//   }
+
+//   render() {
+//     return (
+//       <div>
+//         <form onSubmit={this.onSubmit}></form>
+//       </div>
+//     )
+//   }
+// }
