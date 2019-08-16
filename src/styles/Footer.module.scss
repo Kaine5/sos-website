@@ -1,19 +1,16 @@
+@import "mixin";
+
 .footer {
   width: 100%;
-
-  background: #24262d 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .flexContainer {
   display: flex;
   flex-direction: row;
-  background-color: #24262d;
   div {
     width: 50%;
-
     text-align: center;
-
     color: white;
   }
 
@@ -63,6 +60,8 @@
     flex-direction: column;
     background-color: #24262d;
     padding-bottom: 10px;
+    padding-left: 10px;
+
     div {
       width: 50%;
     }
@@ -102,6 +101,10 @@
           opacity: 1;
           color: #b2b2b2;
           margin-top: 5px;
+
+          @include tablet-landscape {
+            padding: 0 5px;
+          }
         }
       }
     }
@@ -128,6 +131,45 @@
       opacity: 1;
       font-weight: normal;
       font-style: normal;
+    }
+  }
+
+  @include tablet-screen-up {
+    flex-direction: column;
+    div {
+      width: 100%;
+    }
+    .flexContainerLeft {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .flexContainerRight {
+      justify-content: center;
+      align-items: center;
+      div {
+        width: 90%;
+      }
+      .subscribe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .newsletter {
+          width: auto;
+        }
+
+        .flexContainerInput {
+          .text {
+            width: 100%;
+            height: 100%;
+          }
+          .go {
+            width: 30%;
+            height: auto;
+          }
+        }
+      }
     }
   }
 }
