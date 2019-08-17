@@ -34,10 +34,11 @@ function Home() {
         </div>
 
         <LandingSchedule />
+        <div className="resp-container">
 
-        <iframe
+        <iframe className="resp-iframe"
           width="100%"
-          height="700"
+          height="100%"
           src="https://www.youtube.com/embed/DDByv3z_z_U"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -45,6 +46,7 @@ function Home() {
           title="sos-video"
         />
 
+        </div>
         <LandingPartners />
 
         <div className="interact-buttons">
