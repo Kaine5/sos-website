@@ -41,7 +41,6 @@ function Home() {
         </div>
 
         <LandingSchedule />
-
         <div className='resp-container'>
           <iframe
             className='resp-iframe'

@@ -1,23 +1,39 @@
 import React from "react";
+import CanvasContent from "../components/CanvasContent";
 import Header from "../components/Header";
+import styles from "../styles/GetInvolved.module.scss";
+import Button from "../components/Button";
 
-function GetInvolved() {
+const GetInvolved = props => {
   return (
-    <div className='App'>
+    <div className={styles.getInvolved}>
       <Header />
 
-      <div className='container'>
-        <div className='item-1'>
-          <p className='paragrath'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
+      <CanvasContent>
+        <p className={styles.item1}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
 
-        <div className='item-2' />
-      </div>
+        <div className={styles.item2}>
+          <div className={styles.btnImage}>
+            <Button height='15vw' width='15vw' />
+            <img src='/img/btn-illustration1.png' alt='btn1' />
+          </div>
+
+          <div className={styles.btnImage}>
+            <Button height='15vw' width='15vw' />
+            <img src='/img/btn-illustration2.png' alt='btn2' />
+          </div>
+
+          <div className={styles.btnImage}>
+            <Button height='15vw' width='15vw' />
+            <img src='/img/btn-illustration3.png' alt='btn3' />
+          </div>
+        </div>
+      </CanvasContent>
     </div>
   );
-}
+};
 
 export default GetInvolved;
