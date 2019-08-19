@@ -10,31 +10,73 @@
 }
 
 .titleText {
-  font-size: 4vw;
+  font-size: 5vw;
   font-weight: 800;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 
 
 .item1 {
+  margin-top: 3vw;
+  margin-left: 3vw;
 }
 .item2 {
-  
+  margin-top: 3vw;
+  margin-left: 3vw;
+  font-size: 3vw;
 }
 .item3 {
-  padding: 20px;
+  padding: 3vw;
 }
 
- 
+
   @include tablet-landscape {
 
-
-      
+    .LandingSchedule {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 0.5fr 1fr;
+      grid-template-areas:
+    " a . "
+    " a b "
+    " . c "
+    }
+    .item1 {
+      grid-area: a;
+    
+    }
+    .item2 {
+      grid-area: b;
+      font-size: 2vw;
+    }
+    .item3 {
+      grid-area: c;
+    }
 
   }
 
   @include desktop-screen {
+    .LandingSchedule {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 0.5fr 1fr;
+      grid-template-areas:
+    " a . "
+    " a b "
+    " . c "
+    }
+    .item1 {
+      grid-area: a;
+    
+    }
+    .item2 {
+      grid-area: b;
+      font-size: 2vw;
+    }
+    .item3 {
+      grid-area: c;
+    }
 
     
   
@@ -43,6 +85,26 @@
 
 
   @include big-desktop-screen {
+    .LandingSchedule {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 0.5fr 1fr;
+      grid-template-areas:
+    " a . "
+    " a b "
+    " . c "
+    }
+    .item1 {
+      grid-area: a;
+    
+    }
+    .item2 {
+      grid-area: b;
+      font-size: 2vw;
+    }
+    .item3 {
+      grid-area: c;
+    }
 
   }
 
