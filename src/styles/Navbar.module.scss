@@ -1,0 +1,26 @@
+.Navbar {
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+  .navButton {
+    border-left: solid black 4px;
+    height: 33.33vh;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .navButtonName {
+      transform: rotate(270deg);
+      min-width: 20vh;
+      text-align: center;
+      text-decoration: none;
+      color: gray;
+      font-weight: 600;
+    }
+  }
+}

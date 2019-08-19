@@ -4,10 +4,12 @@ import CanvasContent from "../components/CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
 import LandingPartners from "../components/LandingPartners";
 import Button from "../components/Button";
-// import { Link as ScrollLink, Element } from "react-scroll";
+
 import Footer from "../layout/Footer";
 import "../App.scss";
 import styles from "../styles/Home.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
   const contentScroll = useRef();
@@ -21,15 +23,25 @@ function Home() {
     }
     //this function should check for vh offset (Will need a formula to calculate the percentage) and show the header if needed
   };
+
   return (
     <div className='App'>
       {showHeader && <Header />}
       <CanvasContent ref={contentScroll} onScroll={checkScroll}>
         <div className={styles.landingBackground}>
-          <i className='fas fa-chevron-down' />
+          <div className={styles.arrow}>
+            <a href='#landingSchedule'>
+              <FontAwesomeIcon
+                icon={faChevronDown}
+                size='3x'
+                className={styles.bounce}
+              />
+            </a>
+          </div>
         </div>
 
         <LandingSchedule />
+
         <div className='resp-container'>
           <iframe
             className='resp-iframe'

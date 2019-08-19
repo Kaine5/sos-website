@@ -1,11 +1,10 @@
 import React from "react";
-import Box3d from "../components/Box3d";
 import styles from "../styles/LandingSchedule.module.scss";
 import Button from "./Button";
 
-const LandingSchedule = props => {
+const LandingSchedule = () => {
   return (
-    <div className={styles.LandingSchedule}>
+    <div className={styles.LandingSchedule} id='landingSchedule'>
       <div className={styles.item1}>
         <p className={`${styles.titleText} ${styles.blue}`}>Business</p>
         <p className={`${styles.titleText} ${styles.red}`}>Design</p>

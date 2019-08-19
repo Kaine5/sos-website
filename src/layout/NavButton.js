@@ -1,16 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const NavButton = props => {
+const NavButton = ({ styles, link, name }) => {
   return (
-    <div className="navButton">
+    <div className={styles.navButton}>
       <NavLink
         exact
-        to={props.link}
-        activeClassName="active"
-        className="navButton-name"
+        to={link}
+        activeClassName='active'
+        className={styles.navButtonName}
       >
-        {props.name}
+        {name}
       </NavLink>
     </div>
   );

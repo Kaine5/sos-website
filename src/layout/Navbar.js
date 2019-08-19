@@ -1,12 +1,13 @@
 import React from "react";
 import NavButton from "./NavButton";
+import styles from "../styles/Navbar.module.scss";
 
-const Navbar = props => {
+const Navbar = () => {
   return (
-    <div className='Navbar'>
-      <NavButton link='/' name='home' />
-      <NavButton link='/schedule/' name='schedule' />
-      <NavButton link='/getinvolved/' name='get involved' />
+    <div className={styles.Navbar}>
+      <NavButton link='/' name='home' styles={styles} />
+      <NavButton link='/schedule/' name='schedule ' styles={styles} />
+      <NavButton link='/getinvolved/' name='get involved' styles={styles} />
     </div>
   );
 };
