@@ -19,7 +19,8 @@ const App = () => {
         <Route path='/schedule/' component={Schedule} />
         <Route path='/getinvolved' component={GetInvolved} />
         <Hamburger openNav={openNav} />
-        <Navbar hideNav={hideNav} />
+
+        <Navbar hideNav={hideNav} openNav={openNav} />
       </Router>
     </div>
   );
