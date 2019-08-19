@@ -13,12 +13,14 @@ const LandingSchedule = props => {
       </div>
 
       <div className={styles.item2}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod
+        </p>
       </div>
       <div className={styles.item3}>
         <div>
-          <Button height="15vw" width="30vw" name="learn more" />
+          <Button height='15vw' width='30vw' name='learn more' />
         </div>
       </div>
     </div>

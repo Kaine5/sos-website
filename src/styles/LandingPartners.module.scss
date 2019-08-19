@@ -1,37 +1,106 @@
+@import "mixin";
+
 .landingPartners {
   border: solid black 4px;
   width: 100%;
-  height: 37vh;
-  display: grid;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
   font-weight: 600;
-  font-size: 20px;
-  grid-template-columns: repeat(8, 73px [icon-node]);
-  grid-template-rows: [top-margin-start] 15% [first-line-title] 5% [first-line-node] 10% [middle-margin] 25% [second-line-title] 5% [second-line-node] 10% auto;
+  font-size: 3vw;
+}
+
+.CanvasContent {
+  width: 60vw;
 }
 
 .partnerRow {
   display: flex;
-  flex-direction: row;
-  margin-top: 0.5em;
+  flex-flow: row wrap;
 }
 
 .item1 {
-  grid-row-start: first-line-title;
-  grid-row-end: span first-line-node;
-  grid-column-start: 2;
-  grid-column-end: 4;
+  padding: 20px 10px 0px 20px;
+}
+
+.item1 > p {
+  padding: 10px;
+}
+
+.item1 > div {
+  padding: 0px 10px 0px 10px;
 }
 
 .item2 {
-  grid-row-start: first-line-title;
-  grid-row-end: span first-line-node;
-  grid-column-start: 5;
-  grid-column-end: 9;
+  padding: 10px 10px 0px 20px;
+}
+
+.item2 > p {
+  padding: 10px;
+}
+
+.item2 > div {
+  padding: 0px 10px 0px 10px;
 }
 
 .item3 {
-  grid-row-start: second-line-title;
-  grid-row-end: span second-line-node;
-  grid-column-start: 2;
-  grid-column-end: 9;
+  padding: 10px 10px 20px 20px;
+}
+
+.item3 > p {
+  padding: 10px;
+}
+
+.item3 > div {
+  padding: 0px 10px 0px 10px;
+}
+
+@include desktop-screen {
+  .landingPartners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      " a b "
+      " c c ";
+    font-size: 2vw;
+  }
+
+  .item1 {
+    grid-area: a;
+  }
+
+  .item2 {
+    grid-area: b;
+    padding: 20px 10px 0px 20px;
+  }
+
+  .item3 {
+    grid-area: c;
+  }
+}
+
+@include big-desktop-screen {
+  .landingPartners {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      " a b "
+      " c c ";
+    font-size: 2vw;
+  }
+
+  .item1 {
+    grid-area: a;
+  }
+
+  .item2 {
+    grid-area: b;
+    padding: 20px 10px 0px 20px;
+  }
+
+  .item3 {
+    grid-area: c;
+  }
 }

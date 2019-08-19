@@ -1,3 +1,5 @@
+@import "mixin";
+
 .Header {
   height: 15vh;
   width: 100vw;
@@ -41,5 +43,21 @@
   img {
     width: 45%;
     height: auto;
+  }
+}
+
+@include phone-screen {
+  .headerContent {
+    justify-content: center;
+    .headerLeft,
+    .headerRight {
+      display: none;
+    }
+
+    .headerMiddle {
+      img {
+        width: 100%;
+      }
+    }
   }
 }

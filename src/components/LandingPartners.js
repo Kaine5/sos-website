@@ -4,17 +4,19 @@ import styles from "../styles/LandingPartners.module.scss";
 const LandingPartners = props => {
   return (
     <div className={styles.landingPartners}>
+
       <div className={styles.item1}>
-        Co-organizers
+        <p>Co-organizers</p>
         <div className={styles.partnerRow}>
           <PartnerPicture />
           <PartnerPicture />
+          
         </div>
       </div>
 
       <div className={styles.item2}>
-        Partners
-        <div className={styles.partnerRow}>
+        <p>Partners</p>
+        <div className={styles.partnerRow} >
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
@@ -23,9 +25,8 @@ const LandingPartners = props => {
       </div>
 
       <div className={styles.item3}>
-        Sponsors
+        <p>Sponsors</p>
         <div className={styles.partnerRow}>
-          <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
           <PartnerPicture />
@@ -34,6 +35,8 @@ const LandingPartners = props => {
           <PartnerPicture />
         </div>
       </div>
+   
+
     </div>
   );
 };

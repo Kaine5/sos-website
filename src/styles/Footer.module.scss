@@ -1,5 +1,10 @@
 @import "mixin";
 
+/* 1) Use vw for setting font-size, 
+the footer text is almost invisible on desktop and desktop-big;
+
+2) Center p text for phone, tablet-up */
+
 .footer {
   width: 100%;
   opacity: 1;
@@ -8,6 +13,7 @@
 .flexContainer {
   display: flex;
   flex-direction: row;
+
   div {
     width: 50%;
     text-align: center;
@@ -54,6 +60,7 @@
       font-style: normal;
     }
   }
+
   .flexContainerRight {
     align-items: flex-start;
     display: flex;
@@ -142,6 +149,12 @@
     .flexContainerLeft {
       justify-content: center;
       align-items: center;
+      margin: 0px;
+    }
+
+    .flexContainerMedia {
+      justify-content: center;
+      width: 50%;
     }
 
     .flexContainerRight {
@@ -181,6 +194,15 @@
     .flexContainerLeft {
       justify-content: center;
       align-items: center;
+      .infoLeft {
+        text-align: center;
+        margin-left: 0;
+      }
+    }
+
+    .flexContainerMedia {
+      justify-content: center;
+      width: 50%;
     }
 
     .flexContainerRight {

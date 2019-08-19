@@ -1,6 +1,6 @@
 .landingBackground {
   height: 70vh;
-  .homeImg {
-    height: 100%;
-  }
+  background-image: url("/img/background.png");
+  background-size: cover;
+  background-position: center;
 }

@@ -26,31 +26,27 @@ function Home() {
       {showHeader && <Header />}
       <CanvasContent ref={contentScroll} onScroll={checkScroll}>
         <div className={styles.landingBackground}>
-          <img
-            src='/img/background.png'
-            alt='shortcut-bg'
-            className={styles.homeImg}
-          />
           <i className='fas fa-chevron-down' />
         </div>
 
         <LandingSchedule />
-
-        <iframe
-          width='100%'
-          height='700'
-          src='https://www.youtube.com/embed/DDByv3z_z_U'
-          frameBorder='0'
-          allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen
-          title='sos-video'
-        />
-
+        <div className='resp-container'>
+          <iframe
+            className='resp-iframe'
+            width='100%'
+            height='100%'
+            src='https://www.youtube.com/embed/DDByv3z_z_U'
+            frameBorder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            allowFullScreen
+            title='sos-video'
+          />
+        </div>
         <LandingPartners />
 
         <div className='interact-buttons'>
-          <Button height='30vw' width='30vw' name='join' />
-          <Button height='30vw' width='30vw' name='get involved' />
+          <Button height='30vw' width='50%' name='join' />
+          <Button height='30vw' width='50%' name='get involved' />
         </div>
 
         <Footer />
