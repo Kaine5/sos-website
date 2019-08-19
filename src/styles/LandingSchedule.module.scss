@@ -2,174 +2,52 @@
 @import "mixin";
 
 .LandingSchedule {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   border: solid black 4px;
-  height: 70vh;
+  height: auto;
   width: 100%;
-  display: grid;
-  grid-template-rows: 50px 1fr 1fr 1fr 1fr 50px;
-  grid-template-columns: auto 40% 40% auto;
-  grid-template-areas:
-    " . . . . "
-    " . a . . "
-    " . a . . "
-    " . a b . "
-    " . . c . "
-    " . . . . ";
+}
+
+.titleText {
+  font-size: 4vw;
+  font-weight: 800;
+  line-height: 1;
 }
 
 
 
-@include phone-screen {
-  .LandingSchedule {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-  }
-
-  .item1 {
-    margin: 30px 20px 10px 30px;
-    }
-   
-  .item2, .item3 {
-  margin: 10px 20px 10px 30px;
-  }
-
+.item1 {
 }
+.item2 {
+  
+}
+.item3 {
+  padding: 20px;
+}
+
  
-  @include tablet-screen-up {
-    .LandingSchedule {
-      display: flex;
-      flex-direction: column;
-      align-items: left;
-      height: auto;
-    }
+  @include tablet-landscape {
 
-    .item1 {
-      margin: 30px 20px 10px 30px;
-      }
-     
-    .item2, .item3 {
-    margin: 10px 20px 10px 30px;
-    }
 
+      
+
+  }
+
+  @include desktop-screen {
+
+    
   
   }
 
 
-  @include tablet-landscape {
-    
-    .LandingSchedule {
-     
-      grid-template-rows: 20px 1fr 1fr 1fr 1fr 50px;
-      grid-column-gap: 20px;
-    }
-
-    .item2, .item3 {
-      position: relative;
-      right: 30px;
-      top: 30px;
-    }
-
-    .item2 {
-      margin-bottom: 20px;
-    }
-
-    .titleText {
-      font-size: 2em;
-      
-    }
-   
-  }
-
-  @include desktop-screen {
-    
-    .LandingSchedule {
-      grid-template-rows: 20% 1fr 1fr 1fr 1fr 30px;
-      grid-column-gap: 20px;
-      grid-row-gap: 20px;
-    }
-.item1 {
-  place-self: center;
-}
-
-
-    .item2, .item3 {
-      position: relative;
-      right: 30px;
-      top: 30px;
-    }
-    .titleText {
-      font-size: 2em;
-      
-    }
-
-    .item2, .item3 {
-      position: relative;
-      right: 30px;
-    
-    }
-  }
 
   @include big-desktop-screen {
 
-    .LandingSchedule {
-      grid-template-rows: 30px 1fr 1fr 1fr 1fr 30px;
-      grid-column-gap: 10px;
-    }
-   
-    .item1 {
-      grid-area: a;
-      place-self: center;
-     
-    }
-
-    .item2 {
-      margin-bottom: 20px;
-     
-    }
-    .item2, .item3 {
-      position: relative;
-      right: 30px;
-     
-    }
-    .titleText {
-      font-size: 2em;
-      
-    }
-
   }
 
 
-.item1 {
-  grid-area: a;
-  font-size: 1.7vw;
-}
 
-.item2 {
-  grid-area: b;
-  font-size: 1.5vw;
-}
-
-.item3 {
-  grid-area: c;
-}
-
-
-
-.titleText {
-  font-size: 3em;
-  font-weight: 800;
-  line-height: 1.5em;
-}
-
-.buttonText {
-  font-family: inherit;
-  font-size: 40px;
-  font-weight: 800;
-  line-height: 0.9em;
-  padding: 20px;
-}
 
 .red {
   color: #e8592e;
