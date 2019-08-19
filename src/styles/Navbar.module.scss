@@ -1,3 +1,5 @@
+@import "mixin";
+
 .Navbar {
   float: right;
   position: absolute;
@@ -16,11 +18,35 @@
     justify-content: center;
     .navButtonName {
       transform: rotate(270deg);
-      min-width: 20vh;
+      min-width: 30vh;
       text-align: center;
       text-decoration: none;
       color: gray;
       font-weight: 600;
     }
+  }
+}
+
+@include phone-screen {
+  .Navbar {
+    transition: all 0.5s ease-in;
+
+    .navButton {
+      width: auto;
+      background: #00a99d;
+      .navButtonName {
+        transform: rotate(0deg);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-out;
   }
 }

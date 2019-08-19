@@ -95,7 +95,7 @@ body {
 }
 
 .active {
-  color: black;
+  color: black !important;
 }
 
 .CanvasContent {
@@ -175,5 +175,17 @@ h1 {
 @include phone-screen {
   .CanvasContent {
     width: 90%;
+  }
+}
+
+@include tablet-screen-up {
+  .CanvasContent {
+    width: 80%;
+  }
+}
+
+@include tablet-landscape {
+  .CanvasContent {
+    width: 80%;
   }
 }

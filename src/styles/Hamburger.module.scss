@@ -1,0 +1,19 @@
+@import "mixin";
+
+@include phone-screen {
+  .hamburger {
+    position: fixed;
+    cursor: pointer;
+    left: 5%;
+    top: 5%;
+    transform: translate(-5%, -50%);
+    z-index: 10;
+
+    .line {
+      width: 30px;
+      height: 3px;
+      margin: 5px;
+      background: black;
+    }
+  }
+}
