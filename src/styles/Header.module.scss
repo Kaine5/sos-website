@@ -1,9 +1,13 @@
+@import "mixin";
+
 .Header {
   height: 15vh;
   width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-size: 2vw;
+  align-items: center;
 }
 .headerContent {
   display: flex;
@@ -38,5 +42,23 @@
   img {
     width: 45%;
     height: auto;
+  }
+}
+
+
+@include tablet-landscape {
+  .Header {
+    font-size: 1.5vw;
+  }
+}
+@include desktop-screen {
+  .Header {
+    font-size: 1.5vw;
+  }
+}
+
+@include big-desktop-screen {
+  .Header {
+    font-size: 1.5vw;
   }
 }
