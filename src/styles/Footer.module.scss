@@ -1,5 +1,10 @@
 @import "mixin";
 
+/* 1) Use vw for setting font-size, 
+the footer text is almost invisible on desktop and desktop-big;
+
+2) Center p text for phone, tablet-up */
+
 .footer {
   width: 100%;
   opacity: 1;
