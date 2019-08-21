@@ -5,12 +5,12 @@
   align-items: center;
   height: 100%;
   width: 100%;
-  background-image: url("/img/Square button_1.jpg");
+  background-image: url("/img/SquareButton1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 98% 98%;
   &:hover {
-    background-image: url("/img/Square button_2.jpg");
+    background-image: url("/img/SquareButton2.png");
     background-size: 100% 100%;
     .textContainer {
       width: 100%;
@@ -18,7 +18,7 @@
     }
   }
   &:active {
-    background-image: url("/img/Square button_3.jpg");
+    background-image: url("/img/SquareButton3.png");
     background-size: 96% 96%;
     .textContainer {
       width: 96%;

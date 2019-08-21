@@ -9,7 +9,9 @@ const Header = props => {
           <p>October 5th > 6th</p> <p> 2019 | The Shortcut</p>
         </div>
         <div className={headerStyles.headerMiddle}>
-          <img src="/img/sos-logo.png" alt="logo" />
+          <a href='/'>
+            <img src='/img/sos-logo.png' alt='logo' />
+          </a>
         </div>
         <div className={headerStyles.headerRight}>
           <p>Lapinlahdenkatu 16,</p> <p>Helsinki | Maria 01</p>

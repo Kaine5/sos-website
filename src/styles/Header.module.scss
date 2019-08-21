@@ -40,11 +40,13 @@
 
 .headerMiddle {
   width: 40%;
-  display: flex;
-  justify-content: center;
-  img {
-    width: 45%;
-    height: auto;
+  a {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 45%;
+      height: auto;
+    }
   }
 }
 

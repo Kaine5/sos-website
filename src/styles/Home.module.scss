@@ -1,6 +1,6 @@
 .landingBackground {
   height: 70vh;
-  background-image: url("/img/background.png");
+  background-image: url("/img/background.jpg");
   background-size: cover;
   background-position: center;
 
@@ -17,7 +17,7 @@
       -o-animation: bounce 0.7s infinite linear;
       -webkit-animation: bounce 0.7s infinite linear;
       animation: bounce 0.7s infinite linear;
-      color: white;
+      color: #e8592e;
     }
 
     @-webkit-keyframes bounce {
