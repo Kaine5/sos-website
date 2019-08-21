@@ -149,10 +149,20 @@ h1 {
   background-color: grey;
 }
 
+.wrapper {
+  height: 100%;
+}
+
 .interact-buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 70%;
+  margin-bottom: 10px;
+}
+.footer {
+  height: 30%;
+  margin-top: 10px;
 }
 
 /* iframe */
@@ -161,6 +171,8 @@ h1 {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .resp-iframe {
