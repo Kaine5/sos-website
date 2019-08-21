@@ -49,6 +49,19 @@
 
 @import "styles/mixin";
 
+::-webkit-input-placeholder {
+  font-family: "CircularStd";
+}
+::-moz-placeholder {
+  font-family: "CircularStd";
+}
+:-ms-input-placeholder {
+  font-family: "CircularStd";
+}
+::placeholder {
+  font-family: "CircularStd";
+}
+
 body {
   height: 100%;
   width: 100%;

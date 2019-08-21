@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const CanvasContent = React.forwardRef((props, ref) => {
   return (
@@ -11,5 +12,9 @@ const CanvasContent = React.forwardRef((props, ref) => {
     </div>
   );
 });
+
+CanvasContent.propTypes = {
+  onScroll: PropTypes.func
+};
 
 export default CanvasContent;

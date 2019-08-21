@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 
 const NavButton = ({ styles, link, name }) => {
@@ -7,7 +8,7 @@ const NavButton = ({ styles, link, name }) => {
       <NavLink
         exact
         to={link}
-        activeClassName='active'
+        activeClassName="active"
         className={styles.navButtonName}
       >
         {name}
@@ -16,4 +17,8 @@ const NavButton = ({ styles, link, name }) => {
   );
 };
 
+NavButton.propTypes = {
+  link: PropTypes.string,
+  name: PropTypes.string
+};
 export default NavButton;
