@@ -55,13 +55,23 @@ function Home() {
         </div>
         <LandingPartners />
 
-        <div className="wrapper">
-          <div className="interact-buttons">
-            <Button height="24vw" width="50%" name="join" />
-            <Button height="24vw" width="50%" name="get involved" />
+        <div className={styles.wrapper}>
+          <div className={styles.interactButtons}>
+            <Button
+              height="23vw"
+              width="49%"
+              name="join"
+              backgroundImage={`url("/img/Joinbutton.png")`}
+            />
+            <Button
+              height="23vw"
+              width="49%"
+              name="get involved"
+              backgroundImage={`url("/img/Getinvolved.png")`}
+            />
           </div>
 
-          <Footer className="footer" />
+          <Footer className={styles.footer} />
         </div>
       </CanvasContent>
     </div>
