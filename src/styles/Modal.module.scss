@@ -8,12 +8,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9;
   &.inactive {
     display: none;
   }
   .modalContent {
-    height: 30vh;
-    width: 30vw;
+    position: relative;
+    height: 50vh;
+    width: 50vw;
     background-color: white;
+  }
+  .icon {
+    position: absolute;
+    top: 0%;
+    right: 0%;
   }
 }

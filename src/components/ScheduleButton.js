@@ -5,7 +5,10 @@ import styles from "../styles/ScheduleButton.module.scss";
 const ScheduleButton = props => {
   console.log(styles.ScheduleButton);
   return (
-    <div className={`${styles.ScheduleButton} ${styles[props.type]}`}>
+    <div
+      className={`${styles.ScheduleButton} ${styles[props.type]}`}
+      onClick={props.onClick}
+    >
       <div className={styles.ScheduleButtonTitle}>{props.title}</div>
       <div className={styles.sideText}>{props.type}</div>
     </div>
@@ -23,7 +26,8 @@ const validType = (props, propName, componentName) => {
 
 ScheduleButton.propTypes = {
   type: validType,
-  title: PropTypes.string
+  title: PropTypes.string,
+  onClick: PropTypes.func
 };
 
 export default ScheduleButton;

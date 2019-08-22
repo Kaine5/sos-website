@@ -3,9 +3,14 @@ import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import Modal from "../components/Modal";
 import ScheduleButton from "../components/ScheduleButton";
+import WorkshopCard from "../components/WorkshopCard";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 function Schedule() {
   const [modalActive, setModalActive] = useState(false);
+  const [workshopType, setWorkshopType] = useState("Tech");
   const onModalClick = e => {
     if (e.target.className.includes("modalContainer")) {
       setModalActive(false);
@@ -16,23 +21,31 @@ function Schedule() {
       <Header />
       <CanvasContent hasBorder="true">
         <Modal active={modalActive} onModalClick={onModalClick}>
-          <button onClick={() => setModalActive(false)}>Hide modal</button>
+          <WorkshopCard type={workshopType} />
         </Modal>
-        <button onClick={() => setModalActive(true)}>Show modal</button>
         <ScheduleButton
           type="Business"
           title="This is a business button"
-          onClick={() => setModalActive(true)}
+          onClick={() => {
+            setWorkshopType("Business");
+            setModalActive(true);
+          }}
         />
         <ScheduleButton
           type="Design"
           title="This is a design button"
-          onClick={() => setModalActive(true)}
+          onClick={() => {
+            setWorkshopType("Design");
+            setModalActive(true);
+          }}
         />
         <ScheduleButton
           type="Tech"
           title="This is a tech button"
-          onClick={() => setModalActive(true)}
+          onClick={() => {
+            setWorkshopType("Tech");
+            setModalActive(true);
+          }}
         />
       </CanvasContent>
     </div>
