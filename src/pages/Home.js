@@ -25,15 +25,28 @@ function Home() {
   };
 
   return (
-    <div className='App'>
-      {showHeader && <Header />}
+    <div className="App">
+      {showHeader && (
+        <Header
+          left={
+            <div>
+              <p>October 5th > 6th</p> <p> 2019 | The Shortcut</p>
+            </div>
+          }
+          right={
+            <div>
+              <p>Lapinlahdenkatu 16,</p> <p>Helsinki | Maria 01</p>
+            </div>
+          }
+        />
+      )}
       <CanvasContent ref={contentScroll} onScroll={checkScroll}>
         <div className={styles.landingBackground}>
           <div className={styles.arrow}>
-            <a href='#landingSchedule'>
+            <a href="#landingSchedule">
               <FontAwesomeIcon
                 icon={faChevronDown}
-                size='3x'
+                size="3x"
                 className={styles.bounce}
               />
             </a>
@@ -41,23 +54,23 @@ function Home() {
         </div>
 
         <LandingSchedule />
-        <div className='resp-container'>
+        <div className="resp-container">
           <iframe
-            className='resp-iframe'
-            width='100%'
-            height='100%'
-            src='https://www.youtube.com/embed/DDByv3z_z_U'
-            frameBorder='0'
-            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+            className="resp-iframe"
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/DDByv3z_z_U"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-            title='sos-video'
+            title="sos-video"
           />
         </div>
         <LandingPartners />
 
-        <div className='interact-buttons'>
-          <Button height='30vw' width='50%' name='join' />
-          <Button height='30vw' width='50%' name='get involved' />
+        <div className="interact-buttons">
+          <Button height="30vw" width="50%" name="join" />
+          <Button height="30vw" width="50%" name="get involved" />
         </div>
 
         <Footer />

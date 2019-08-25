@@ -4,25 +4,57 @@ import CanvasContent from "../components/CanvasContent";
 import Modal from "../components/Modal";
 import ScheduleButton from "../components/ScheduleButton";
 import WorkshopCard from "../components/WorkshopCard";
+import Button from "../components/Button.js";
+import styles from "../styles/Schedule.module.scss";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
-
-function Schedule() {
+const Schedule = () => {
   const [modalActive, setModalActive] = useState(false);
   const [workshopType, setWorkshopType] = useState("Tech");
+  const [currentSchedule, setCurrentSchedule] = useState("5th");
   const onModalClick = e => {
-    if (e.target.className.includes("modalContainer")) {
-      setModalActive(false);
+    console.log(e.target.className);
+    if (e.target.className) {
+      if (
+        e.target.className.includes("modalContainer") ||
+        e.target.className.includes("Modal_icon")
+      ) {
+        setModalActive(false);
+      }
     }
   };
-  return (
-    <div className="App">
-      <Header />
-      <CanvasContent hasBorder="true">
-        <Modal active={modalActive} onModalClick={onModalClick}>
-          <WorkshopCard type={workshopType} />
-        </Modal>
+  const firstDaySchedule = () => {
+    return (
+      <React.Fragment>
+        <ScheduleButton
+          type="Tech"
+          title="This is a Tech button"
+          onClick={() => {
+            setWorkshopType("Tech");
+            setModalActive(true);
+          }}
+        />
+        <ScheduleButton
+          type="Business"
+          title="This is a business button"
+          onClick={() => {
+            setWorkshopType("Business");
+            setModalActive(true);
+          }}
+        />
+        <ScheduleButton
+          type="Design"
+          title="This is a Design button"
+          onClick={() => {
+            setWorkshopType("Design");
+            setModalActive(true);
+          }}
+        />
+      </React.Fragment>
+    );
+  };
+  const secondDaySchedule = () => {
+    return (
+      <React.Fragment>
         <ScheduleButton
           type="Business"
           title="This is a business button"
@@ -47,9 +79,38 @@ function Schedule() {
             setModalActive(true);
           }}
         />
+      </React.Fragment>
+    );
+  };
+  return (
+    <div className="App">
+      <Header
+        left={
+          <div className={styles.ScheduleDateSelector}>
+            <div onClick={() => setCurrentSchedule("5th")}>
+              October 5<sup>th</sup>
+            </div>
+            <div onClick={() => setCurrentSchedule("6th")}>
+              October 6<sup>th</sup>
+            </div>
+          </div>
+        }
+        right={
+          <div>
+            <Button height="70px" width="150px" name="Get your ticket" />{" "}
+          </div>
+        }
+      />
+      <CanvasContent hasBorder="true">
+        <Modal active={modalActive} onModalClick={onModalClick}>
+          <WorkshopCard type={workshopType} />
+        </Modal>
+        <div className={styles.ScheduleList}>
+          {currentSchedule === "5th" ? firstDaySchedule() : secondDaySchedule()}
+        </div>
       </CanvasContent>
     </div>
   );
-}
+};
 
 export default Schedule;

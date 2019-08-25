@@ -20,7 +20,19 @@
   }
   .icon {
     position: absolute;
-    top: 0%;
-    right: 0%;
+    height: 2em;
+    width: 2em;
+    top: -2%;
+    right: -2%;
+    background-image: url("/img/exitNormal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &:hover {
+      background-image: url("/img/exitHover.png");
+    }
+    &:active {
+      background-image: url("/img/exitPressed.png");
+    }
   }
 }

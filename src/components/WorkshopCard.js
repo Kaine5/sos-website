@@ -24,7 +24,7 @@ const WorkshopCard = props => {
         <div className={styles.CardSpeakerTitle}>Tempo rapper</div>
       </div>
       <div className={styles.WorkshopCardSide}>
-        <div className={styles.CardType}>{`${props.type}`}</div>
+        <div className={styles.CardType}>{`${props.type} Track`}</div>
       </div>
     </div>
   );
