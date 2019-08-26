@@ -24,12 +24,6 @@
 }
 @font-face {
   font-family: "CircularStd";
-  src: url("/fonts/CircularStd-Black.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "CircularStd";
   src: url("/fonts/CircularStd-Book.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
@@ -83,15 +77,22 @@ body {
 
 .Canvas {
   height: 70vh;
-  width: 100vw;
+  width: 70vw;
+  margin: 0 15vw;
   top: 15vh;
   position: absolute;
   overflow: scroll;
   scroll-behavior: smooth;
   display: flex;
   justify-content: center;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
   &::-webkit-scrollbar {
     display: none;
+  }
+  &.hasBorder {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
   }
 }
 
