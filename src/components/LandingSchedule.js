@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const LandingSchedule = () => {
   return (
-    <div className={styles.LandingSchedule} id='landingSchedule'>
+    <div className={styles.LandingSchedule} id="landingSchedule">
       <div className={styles.item1}>
         <p className={`${styles.titleText} ${styles.blue}`}>Business</p>
         <p className={`${styles.titleText} ${styles.red}`}>Design</p>
@@ -18,8 +18,8 @@ const LandingSchedule = () => {
         </p>
       </div>
       <div className={styles.item3}>
-        <div>
-          <Button height='15vw' width='30vw' name='learn more' />
+        <div className={styles.button}>
+          <Button height="13vw" width="25vw" name="learn more" />
         </div>
       </div>
     </div>

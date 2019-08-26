@@ -9,7 +9,7 @@ import styles from "../styles/Schedule.module.scss";
 import data from "../data/Workshop.json";
 
 const Schedule = () => {
-  console.log(data);
+  console.log(data.firstDay);
   const [modalActive, setModalActive] = useState(false);
   const [workshopType, setWorkshopType] = useState("Tech");
   const [currentSchedule, setCurrentSchedule] = useState("5th");

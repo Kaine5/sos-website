@@ -1,3 +1,5 @@
+@import "mixin";
+
 .landingBackground {
   height: 70vh;
   background-image: url("/img/background.jpg");
@@ -89,6 +91,37 @@
       100% {
         top: 0;
       }
+    }
+  }
+}
+
+.wrapper {
+  height: 100%;
+  margin-top: 10px;
+
+  .interactButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70%;
+    margin-bottom: 10px;
+  }
+  .footer {
+    height: 30%;
+    margin-top: 10px;
+  }
+}
+
+@include phone-screen {
+  .wrapper {
+    margin-top: 10px;
+
+    .interactButtons {
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .footer {
+      margin-top: 10px;
     }
   }
 }
