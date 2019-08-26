@@ -6,8 +6,10 @@ import ScheduleButton from "../components/ScheduleButton";
 import WorkshopCard from "../components/WorkshopCard";
 import Button from "../components/Button.js";
 import styles from "../styles/Schedule.module.scss";
+import data from "../data/Workshop.json";
 
 const Schedule = () => {
+  console.log(data);
   const [modalActive, setModalActive] = useState(false);
   const [workshopType, setWorkshopType] = useState("Tech");
   const [currentSchedule, setCurrentSchedule] = useState("5th");
@@ -79,6 +81,30 @@ const Schedule = () => {
             setModalActive(true);
           }}
         />
+        <ScheduleButton
+          type="Business"
+          title="This is a business button"
+          onClick={() => {
+            setWorkshopType("Business");
+            setModalActive(true);
+          }}
+        />
+        <ScheduleButton
+          type="Design"
+          title="This is a design button"
+          onClick={() => {
+            setWorkshopType("Design");
+            setModalActive(true);
+          }}
+        />
+        <ScheduleButton
+          type="Tech"
+          title="This is a tech button"
+          onClick={() => {
+            setWorkshopType("Tech");
+            setModalActive(true);
+          }}
+        />
       </React.Fragment>
     );
   };
@@ -87,10 +113,16 @@ const Schedule = () => {
       <Header
         left={
           <div className={styles.ScheduleDateSelector}>
-            <div onClick={() => setCurrentSchedule("5th")}>
+            <div
+              className={currentSchedule === "5th" ? styles.active : undefined}
+              onClick={() => setCurrentSchedule("5th")}
+            >
               October 5<sup>th</sup>
             </div>
-            <div onClick={() => setCurrentSchedule("6th")}>
+            <div
+              className={currentSchedule === "6th" ? styles.active : undefined}
+              onClick={() => setCurrentSchedule("6th")}
+            >
               October 6<sup>th</sup>
             </div>
           </div>

@@ -1,0 +1,728 @@
+{
+  "firstDay": {
+    "date": "5th October",
+    "workshopsList": {
+      "session": [
+        {
+          "id": 1,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "secondDay": {
+    "date": "5th October",
+    "workshopsList": {
+      "session": [
+        {
+          "id": 1,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "14:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "list": [
+            {
+              "workshopID": 1,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 2,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 3,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 4,
+              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopType": "Business",
+              "workshopDesc": "This is the first business workshop for today",
+              "speaker": {
+                "speakerName": "John Doe",
+                "speakerTitle": "CEO of A",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 5,
+              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopType": "Tech",
+              "workshopDesc": "This is the first tech workshop for today",
+              "speaker": {
+                "speakerName": "John Dat",
+                "speakerTitle": "CEO of B",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": 6,
+              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopType": "Design",
+              "workshopDesc": "This is the first design workshop for today",
+              "speaker": {
+                "speakerName": "Jay Dis",
+                "speakerTitle": "CEO of c",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:00",
+              "endTime": "10:00",
+              "place": "The Shortcut- Maria 01"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
