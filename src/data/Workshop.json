@@ -4,7 +4,7 @@
     "workshopsList": {
       "session": [
         {
-          "id": 1,
+          "id": "S1",
           "list": [
             {
               "workshopID": 1,
@@ -93,10 +93,10 @@
           ]
         },
         {
-          "id": 2,
+          "id": "S2",
           "list": [
             {
-              "workshopID": 1,
+              "workshopID": 7,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",
@@ -110,7 +110,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
+              "workshopID": 8,
               "workshopTitle": "WORKSHOP 2 TITLE",
               "workshopType": "Tech",
               "workshopDesc": "This is the first tech workshop for today",
@@ -124,7 +124,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 3,
+              "workshopID": 9,
               "workshopTitle": "WORKSHOP 3 TITLE",
               "workshopType": "Design",
               "workshopDesc": "This is the first design workshop for today",
@@ -138,7 +138,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
+              "workshopID": 10,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",
@@ -152,7 +152,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
+              "workshopID": 11,
               "workshopTitle": "WORKSHOP 2 TITLE",
               "workshopType": "Tech",
               "workshopDesc": "This is the first tech workshop for today",
@@ -166,7 +166,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 6,
+              "workshopID": 12,
               "workshopTitle": "WORKSHOP 3 TITLE",
               "workshopType": "Design",
               "workshopDesc": "This is the first design workshop for today",
@@ -185,7 +185,7 @@
           "id": 3,
           "list": [
             {
-              "workshopID": 1,
+              "workshopID": 31,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",
@@ -199,7 +199,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
+              "workshopID": 32,
               "workshopTitle": "WORKSHOP 2 TITLE",
               "workshopType": "Tech",
               "workshopDesc": "This is the first tech workshop for today",
@@ -213,7 +213,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 3,
+              "workshopID": 33,
               "workshopTitle": "WORKSHOP 3 TITLE",
               "workshopType": "Design",
               "workshopDesc": "This is the first design workshop for today",
@@ -227,7 +227,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
+              "workshopID": 34,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",
@@ -241,7 +241,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
+              "workshopID": 35,
               "workshopTitle": "WORKSHOP 2 TITLE",
               "workshopType": "Tech",
               "workshopDesc": "This is the first tech workshop for today",
@@ -255,7 +255,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 6,
+              "workshopID": 36,
               "workshopTitle": "WORKSHOP 3 TITLE",
               "workshopType": "Design",
               "workshopDesc": "This is the first design workshop for today",
@@ -274,7 +274,7 @@
           "id": 4,
           "list": [
             {
-              "workshopID": 1,
+              "workshopID": 41,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",
@@ -288,7 +288,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
+              "workshopID": 42,
               "workshopTitle": "WORKSHOP 2 TITLE",
               "workshopType": "Tech",
               "workshopDesc": "This is the first tech workshop for today",
@@ -302,7 +302,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 3,
+              "workshopID": 43,
               "workshopTitle": "WORKSHOP 3 TITLE",
               "workshopType": "Design",
               "workshopDesc": "This is the first design workshop for today",
@@ -316,7 +316,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
+              "workshopID": 44,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",
@@ -330,7 +330,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
+              "workshopID": 45,
               "workshopTitle": "WORKSHOP 2 TITLE",
               "workshopType": "Tech",
               "workshopDesc": "This is the first tech workshop for today",
@@ -344,7 +344,7 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 6,
+              "workshopID": 46,
               "workshopTitle": "WORKSHOP 3 TITLE",
               "workshopType": "Design",
               "workshopDesc": "This is the first design workshop for today",
@@ -370,7 +370,7 @@
           "id": 1,
           "list": [
             {
-              "workshopID": 1,
+              "workshopID": 11,
               "workshopTitle": "WORKSHOP 1 TITLE",
               "workshopType": "Business",
               "workshopDesc": "This is the first business workshop for today",

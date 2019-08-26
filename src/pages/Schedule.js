@@ -13,6 +13,8 @@ const Schedule = () => {
   const [modalActive, setModalActive] = useState(false);
   const [workshopType, setWorkshopType] = useState("Tech");
   const [currentSchedule, setCurrentSchedule] = useState("5th");
+  const [currentWorkshop, setCurrentWorkshop] = useState({});
+
   const onModalClick = e => {
     console.log(e.target.className);
     if (e.target.className) {
@@ -24,90 +26,37 @@ const Schedule = () => {
       }
     }
   };
-  const firstDaySchedule = () => {
+  const sessionRender = array => {
+    let renderedRow = array.map(workshop => {
+      return (
+        <ScheduleButton
+          key={workshop.workshopID}
+          type={workshop.workshopType}
+          title={workshop.workshopTitle}
+          onClick={() => {
+            setWorkshopType(workshop.workshopType);
+            setModalActive(true);
+            setCurrentWorkshop(workshop);
+          }}
+        />
+      );
+    });
+    return <div className={styles.ScheduleList}>{renderedRow}</div>;
+  };
+  const dayRender = array => {
+    let renderedDay = array.map(session => {
+      return sessionRender(session.list);
+    });
+    return <div>{renderedDay}</div>;
+  };
+  const daySchedule = renderData => {
     return (
       <React.Fragment>
-        <ScheduleButton
-          type="Tech"
-          title="This is a Tech button"
-          onClick={() => {
-            setWorkshopType("Tech");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Business"
-          title="This is a business button"
-          onClick={() => {
-            setWorkshopType("Business");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Design"
-          title="This is a Design button"
-          onClick={() => {
-            setWorkshopType("Design");
-            setModalActive(true);
-          }}
-        />
+        {dayRender(renderData.workshopsList.session)}
       </React.Fragment>
     );
   };
-  const secondDaySchedule = () => {
-    return (
-      <React.Fragment>
-        <ScheduleButton
-          type="Business"
-          title="This is a business button"
-          onClick={() => {
-            setWorkshopType("Business");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Design"
-          title="This is a design button"
-          onClick={() => {
-            setWorkshopType("Design");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Tech"
-          title="This is a tech button"
-          onClick={() => {
-            setWorkshopType("Tech");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Business"
-          title="This is a business button"
-          onClick={() => {
-            setWorkshopType("Business");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Design"
-          title="This is a design button"
-          onClick={() => {
-            setWorkshopType("Design");
-            setModalActive(true);
-          }}
-        />
-        <ScheduleButton
-          type="Tech"
-          title="This is a tech button"
-          onClick={() => {
-            setWorkshopType("Tech");
-            setModalActive(true);
-          }}
-        />
-      </React.Fragment>
-    );
-  };
+
   return (
     <div className="App">
       <Header
@@ -138,7 +87,9 @@ const Schedule = () => {
           <WorkshopCard type={workshopType} />
         </Modal>
         <div className={styles.ScheduleList}>
-          {currentSchedule === "5th" ? firstDaySchedule() : secondDaySchedule()}
+          {currentSchedule === "5th"
+            ? daySchedule(data.firstDay)
+            : daySchedule(data.secondDay)}
         </div>
       </CanvasContent>
     </div>
