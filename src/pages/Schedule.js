@@ -84,7 +84,7 @@ const Schedule = () => {
       />
       <CanvasContent hasBorder="true">
         <Modal active={modalActive} onModalClick={onModalClick}>
-          <WorkshopCard type={workshopType} />
+          <WorkshopCard workshop={currentWorkshop} />
         </Modal>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
