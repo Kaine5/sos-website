@@ -33,6 +33,7 @@ const Schedule = () => {
           key={workshop.workshopID}
           type={workshop.workshopType}
           title={workshop.workshopTitle}
+          speaker={workshop.speaker.speakerName}
           onClick={() => {
             setWorkshopType(workshop.workshopType);
             setModalActive(true);

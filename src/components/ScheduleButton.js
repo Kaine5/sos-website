@@ -10,6 +10,7 @@ const ScheduleButton = props => {
       onClick={props.onClick}
     >
       <div className={styles.ScheduleButtonTitle}>{props.title}</div>
+      <div className={styles.ScheduleButtonSpeaker}>{props.speaker}</div>
       <div className={styles.sideText}>{props.type}</div>
     </div>
   );
