@@ -1,3 +1,5 @@
+@import "mixin";
+
 .ScheduleButton {
   width: 150px;
   height: 225px;
@@ -43,4 +45,26 @@
 .ScheduleButtonTitle {
   margin: 15% 10%;
   font-size: 20px;
+}
+
+@include tablet-landscape {
+  .ScheduleButton {
+    width: 120px;
+    height: 180px;
+
+    .ScheduleButtonTitle {
+      font-size: 12px;
+    }
+  }
+}
+
+@include phone-screen {
+  .ScheduleButton {
+    width: 100px;
+    height: 150px;
+
+    .ScheduleButtonTitle {
+      font-size: 12px;
+    }
+  }
 }

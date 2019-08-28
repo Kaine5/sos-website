@@ -1,3 +1,5 @@
+@import "mixin";
+
 .WorkshopCard {
   border: 6px solid #00a99d;
   background-color: #b2e5e1;
@@ -57,7 +59,7 @@
     }
     .CardSpeakerName {
       font-weight: 800;
-      font-size: 20;
+      font-size: 20px;
     }
     .CardSpeakerTitle {
       font-weight: 600;
@@ -75,6 +77,67 @@
       font-weight: 800;
       font-size: 15px;
       right: 0;
+    }
+  }
+}
+
+@include tablet-landscape {
+  .WorkshopCard {
+    
+  }
+}
+
+@include phone-screen {
+  .WorkshopCard {
+    .WorkshopCardLeft {
+      .CardTitle {
+      font-size: 25px;
+      font-weight: 600;
+      }
+      .CardContent {
+      font-size: 15px;
+      font-weight: 400;
+      height: 50%;
+      }
+      .CardTime {
+      font-size: 12px;
+      font-weight: normal;
+      font-style: italic;
+      }
+    }
+    .WorkshopCardRight {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .CardSpeakerPicture {
+        img {
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+        }
+      }
+      .CardSpeakerName {
+        font-weight: 400;
+        font-size: 12px;
+      }
+      .CardSpeakerTitle {
+        font-weight: 400;
+        font-size: 12px;
+      }
+    }
+    .WorkshopCardSide {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .CardType {
+        transform: rotate(270deg);
+        transform-origin: 50% 0%;
+        font-weight: 400;
+        font-size: 12px;
+        right: 0;
+      }
     }
   }
 }
