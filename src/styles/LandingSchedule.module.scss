@@ -6,28 +6,33 @@
   border: solid black 4px;
   height: 70vh;
   width: 100%;
-  padding: 10px;
+  padding: 3px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .titleText {
-  font-size: 4vw;
+  font-size: 4vmax;
   font-weight: 800;
   line-height: 1.5;
 }
 
 .item1 {
-  margin-top: 3vw;
-  margin-left: 3vw;
+  margin-top: 2vw;
+  margin-left: 2vw;
 }
 .item2 {
   margin-top: 3vw;
   margin-left: 3vw;
-  font-size: 3vw;
+  padding: 0 3vw 0vw 0;
+  font-size: 1.5vmax;
+  justify-self: end;
+  align-self: end;
 }
 .item3 {
-  padding: 3vw;
+  padding: 0 2vw 2vw 0;
+  align-self: end;
+  justify-self: end;
 }
 
 .red {
@@ -38,15 +43,15 @@
   color: #fdc81e;
 }
 
-.blue {
-  color: #4dcce5;
+.green {
+  color: #00a99d;
 }
 
-@include tablet-landscape {
+@include tablet-screen-up {
   .LandingSchedule {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
       " a . "
       " a b "
@@ -57,7 +62,29 @@
   }
   .item2 {
     grid-area: b;
-    font-size: 2vw;
+    font-size: 1.5vmax;
+  }
+  .item3 {
+    grid-area: c;
+  }
+}
+
+@include tablet-landscape {
+  .LandingSchedule {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 12vmax;
+    grid-template-areas:
+      " a . "
+      " a b "
+      " . c ";
+  }
+  .item1 {
+    grid-area: a;
+  }
+  .item2 {
+    grid-area: b;
+    font-size: 1.5vmax;
   }
   .item3 {
     grid-area: c;
@@ -68,7 +95,7 @@
   .LandingSchedule {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
       " a . "
       " a b "
@@ -79,7 +106,7 @@
   }
   .item2 {
     grid-area: b;
-    font-size: 2vw;
+    font-size: 1.25vmax;
   }
   .item3 {
     grid-area: c;
@@ -90,7 +117,7 @@
   .LandingSchedule {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
       " a . "
       " a b "
@@ -101,7 +128,7 @@
   }
   .item2 {
     grid-area: b;
-    font-size: 2vw;
+    font-size: 1.25vmax;
   }
   .item3 {
     grid-area: c;
@@ -110,43 +137,25 @@
 
 @include phone-screen {
   .LandingSchedule {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .item1 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 5%;
-      width: 100%;
-      height: 30%;
-      p {
-        line-height: 60px;
-      }
-    }
-
-    .item2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 0;
-      margin: 0;
-      margin-top: 5%;
-      width: 100%;
-      height: 30%;
-
-      p {
-        text-align: center;
-      }
-    }
-
-    .item3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 12vmax;
+    grid-template-areas:
+      " a . "
+      " a b "
+      " . c ";
+  }
+  .item1 {
+    grid-area: a;
+  }
+  .titleText {
+    font-size: 4vmax;
+  }
+  .item2 {
+    grid-area: b;
+    font-size: 2vmax;
+  }
+  .item3 {
+    grid-area: c;
   }
 }

@@ -62,7 +62,7 @@ function Home() {
             className="resp-iframe"
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/DDByv3z_z_U"
+            src="https://www.youtube.com/embed/lnaxoZ8XNu4"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -74,13 +74,13 @@ function Home() {
         <div className={styles.wrapper}>
           <div className={styles.interactButtons}>
             <Button
-              height="23vw"
+              height="auto"
               width="49%"
               name="join"
               backgroundImage={`url("/img/Joinbutton.png")`}
             />
             <Button
-              height="23vw"
+              height="auto"
               width="49%"
               name="get involved"
               backgroundImage={`url("/img/Getinvolved.png")`}

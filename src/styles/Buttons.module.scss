@@ -1,3 +1,5 @@
+@import "mixin";
+
 .btn {
   cursor: pointer;
   display: flex;
@@ -5,16 +7,17 @@
   align-items: center;
   height: 100%;
   width: 99%;
+  font-size: 2.5vmax;
   // background-image: url("/img/Getinvolved.png");
-  background-position: center;
+  background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: 95% 95%;
+  background-size: 70% auto;
   background-color: #b2b2b2;
   box-shadow: 10px 10px black;
   border: 4px solid black;
   &:hover {
     // background-image: url("/img/Getinvolved.png");
-    background-size: 98% 98%;
+    background-size: 70% auto;
     background-color: #b2b2b2;
     transform: translate(-4px, -4px);
     box-shadow: 12px 12px black;
@@ -26,7 +29,7 @@
   }
   &:active {
     // background-image: url("/img/Getinvolvedwhite.png");
-    background-size: 96% 96%;
+    background-size: 70% auto;
     background-color: #b2b2b2;
     box-shadow: none;
     .textContainer {
@@ -52,4 +55,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@include phone-screen {
+  .btn {
+    box-shadow: 5px 5px black;
+    &:hover {
+      box-shadow: 6px 6px black;
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
 }

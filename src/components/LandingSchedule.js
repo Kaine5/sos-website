@@ -6,20 +6,19 @@ const LandingSchedule = () => {
   return (
     <div className={styles.LandingSchedule} id="landingSchedule">
       <div className={styles.item1}>
-        <p className={`${styles.titleText} ${styles.blue}`}>Business</p>
         <p className={`${styles.titleText} ${styles.red}`}>Design</p>
+        <p className={`${styles.titleText} ${styles.green}`}>Business</p>
         <p className={`${styles.titleText} ${styles.yellow}`}>Tech</p>
       </div>
 
       <div className={styles.item2}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod
-        </p>
+        <p>2 Days. 48+ hands-on workshops </p>
+        <p>For entrepreneurs and startups </p>
+        <p> Learn from the doers</p>
       </div>
       <div className={styles.item3}>
         <div className={styles.button}>
-          <Button height="13vw" width="25vw" name="learn more" />
+          <Button height="8vmax" width="24vmax" name="learn more" />
         </div>
       </div>
     </div>

@@ -194,6 +194,7 @@ the footer text is almost invisible on desktop and desktop-big;
     .flexContainerLeft {
       justify-content: center;
       align-items: center;
+      height: 35vh;
       .infoLeft {
         text-align: center;
         margin-left: 0;
@@ -211,50 +212,7 @@ the footer text is almost invisible on desktop and desktop-big;
     }
 
     .flexContainerRight {
-      justify-content: center;
-      align-items: center;
-      div {
-        width: 90%;
-      }
-      .subscribe {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .newsletter {
-          width: auto;
-        }
-
-        .flexContainerInput {
-          .text {
-            width: 100%;
-            height: 100%;
-          }
-          .go {
-            width: 30%;
-            height: auto;
-          }
-        }
-      }
-    }
-  }
-
-  @include phone-screen {
-    flex-direction: column;
-    div {
-      width: 100%;
-    }
-    .flexContainerLeft {
-      justify-content: center;
-      align-items: center;
-    }
-
-    .flexContainerMedia {
-      justify-content: center;
-      width: 50%;
-    }
-
-    .flexContainerRight {
+      display: none;
       justify-content: center;
       align-items: center;
       div {

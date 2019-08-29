@@ -185,18 +185,22 @@ h1 {
 
 @include phone-screen {
   .CanvasContent {
-    width: 90%;
+    width: 100vw;
+  }
+  .Canvas {
+    width: 95vw;
+    margin: 0 2.5vw;
   }
 }
 
 @include tablet-screen-up {
   .CanvasContent {
-    width: 80%;
+    width: 100%;
   }
 }
 
 @include tablet-landscape {
   .CanvasContent {
-    width: 80%;
+    width: 100%;
   }
 }

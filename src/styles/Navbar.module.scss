@@ -13,6 +13,7 @@
     border-left: solid black 4px;
     height: 33.33vh;
     width: 3vw;
+    padding: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +36,7 @@
     .navButton {
       border: none;
       width: auto;
-      background-color: rgba(242, 242, 242, 0.75);
+      background-color: rgba(242, 242, 242, 0.9);
       cursor: pointer;
 
       .navButtonName {
@@ -55,5 +56,13 @@
     visibility: hidden;
     opacity: 0;
     transition: all 0.5s ease-out;
+  }
+}
+@include tablet-screen-up {
+  .Navbar {
+    width: 5vw;
+    .navButton {
+      width: 100%;
+    }
   }
 }
