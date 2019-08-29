@@ -1,10 +1,5 @@
 @import "mixin";
 
-@include phone-screen {
-}
-.Schedule {
-  font-size: 20px;
-}
 .ScheduleList {
   display: flex;
   flex-direction: row;
@@ -47,5 +42,17 @@
     border: 3px solid #24262d;
     color: #24262d;
     font-weight: 800;
+  }
+}
+
+@include tablet-landscape {
+  .ScheduleList {
+    
+  }
+}
+
+@include phone-screen {
+  .ScheduleList {
+    flex-wrap: wrap;
   }
 }
