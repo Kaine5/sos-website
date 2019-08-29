@@ -1,3 +1,5 @@
+@import "mixin";
+
 .modalContainer {
   position: fixed;
   height: 100vh;
@@ -33,6 +35,18 @@
     }
     &:active {
       background-image: url("/img/exitPressed.png");
+    }
+  }
+}
+
+@include phone-screen {
+  .modalContainer {
+  
+    .modalContent {
+  
+    height: 50vmin;
+    width: 50vmax;
+    
     }
   }
 }
