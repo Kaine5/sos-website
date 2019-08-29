@@ -1,3 +1,4 @@
+@import "mixin";
 .btn {
   cursor: pointer;
   display: flex;
@@ -44,7 +45,7 @@
     top: 5%;
     left: 5%;
     width: 40%;
-    font-weight: 800;
+    font-weight: 700;
   }
 }
 
@@ -52,4 +53,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@include phone-screen {
+  .btnContainer {
+  height: 42vw !important;
+  width: 42vw !important;
+  }
+}
+
+@include tablet-screen-up {
+  .btnContainer {
+    height: 35vw !important;
+    width: 35vw !important;
+    }
 }
