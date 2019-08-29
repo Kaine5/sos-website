@@ -1,8 +1,11 @@
 @import "mixin";
 
 .ScheduleButton {
-  width: 150px;
-  height: 225px;
+  font-size: 20px;
+  width: 10vw;
+  min-width: 150px;
+  height: 30vh;
+  min-height: 225px;
   border: #e8592e 4px solid;
   background-color: #fbe1d9;
   color: #e8592e;
@@ -10,7 +13,6 @@
   font-weight: 800;
   letter-spacing: 0;
   cursor: pointer;
-  margin-top: 1em;
 
   &.Design {
     color: #e8592e;
@@ -44,7 +46,15 @@
 }
 .ScheduleButtonTitle {
   margin: 15% 10%;
-  font-size: 20px;
+  font-size: 1em;
+}
+
+.ScheduleButtonSpeaker {
+  font-size: 10px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
 }
 
 @include tablet-landscape {

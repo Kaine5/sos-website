@@ -33,6 +33,7 @@ const Schedule = () => {
           key={workshop.workshopID}
           type={workshop.workshopType}
           title={workshop.workshopTitle}
+          speaker={workshop.speaker.speakerName}
           onClick={() => {
             setWorkshopType(workshop.workshopType);
             setModalActive(true);
@@ -58,7 +59,7 @@ const Schedule = () => {
   };
 
   return (
-    <div className="App">
+    <div className={`App`}>
       <Header
         left={
           <div className={styles.ScheduleDateSelector}>
