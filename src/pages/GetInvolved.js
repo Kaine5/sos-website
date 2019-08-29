@@ -18,13 +18,17 @@ const GetInvolved = props => {
         <div className={styles.item2}>
 
           <div className={styles.btnImage}>
-            <Button height='20vw' width='20vw' name='Be a sponsor' />
-            <img src='/img/btn-illustration2.png' alt='btn2' />
+            <Button height='20vw' width='20vw' name='Be a sponsor'
+              backgroundImage={`url("/img/btn-illustration21.png")`}
+            />
+
           </div>
 
           <div className={styles.btnImage}>
-            <Button height='20vw' width='20vw' name='Volunteer in the events' />
-            <img src='/img/btn-illustration3.png' alt='btn3' />
+            <Button height='20vw' width='20vw' name='Volunteer in the events'
+              backgroundImage={`url("/img/btn-illustration3.png")`}
+            />
+
           </div>
         </div>
       </CanvasContent>
