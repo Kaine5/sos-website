@@ -8,34 +8,27 @@ const LandingPartners = props => {
       <div className={styles.item1}>
         <p>Co-organizers</p>
         <div className={styles.partnerRow}>
-          <PartnerPicture />
-          <PartnerPicture />
-          
+          <div className={styles.imgcontainer}>
+            <img src="/img/aaltologo.png" className={styles.imglogo} />
+          </div>
+          <div className={styles.imgcontainer}>
+            <img src="/img/icebreakerlogo.png" className={styles.imglogo} />
+          </div>
+          <div className={styles.imgcontainer}>
+            <img src="/img/maria01logo.png" className={styles.imglogo} />
+          </div>
+          <div className={styles.imgcontainer}>
+            <img src="/img/trulylogo.png" className={styles.imglogo} />
+          </div>
+          <div className={styles.imgcontainer}>
+            <img src="/img/verticallogo.png" className={styles.imglogo} />
+          </div>
+
         </div>
       </div>
 
-      <div className={styles.item2}>
-        <p>Partners</p>
-        <div className={styles.partnerRow} >
-          <PartnerPicture />
-          <PartnerPicture />
-          <PartnerPicture />
-          <PartnerPicture />
-        </div>
-      </div>
 
-      <div className={styles.item3}>
-        <p>Sponsors</p>
-        <div className={styles.partnerRow}>
-          <PartnerPicture />
-          <PartnerPicture />
-          <PartnerPicture />
-          <PartnerPicture />
-          <PartnerPicture />
-          <PartnerPicture />
-        </div>
-      </div>
-   
+
 
     </div>
   );
