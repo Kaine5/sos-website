@@ -59,7 +59,7 @@ const Schedule = () => {
   };
 
   return (
-    <div className="App">
+    <div className={`App`}>
       <Header
         left={
           <div className={styles.ScheduleDateSelector}>

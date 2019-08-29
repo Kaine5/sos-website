@@ -30,16 +30,23 @@
 @include phone-screen {
   .Navbar {
     transition: all 0.5s ease-in;
+    width: 100%;
 
     .navButton {
+      border: none;
       width: auto;
-      background: #00a99d;
+      background-color: rgba(242, 242, 242, 0.75);
+      cursor: pointer;
+
       .navButtonName {
         transform: rotate(0deg);
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+          color: black;
+        }
       }
     }
   }
