@@ -44,9 +44,8 @@
     display: flex;
     justify-content: center;
     img {
-      height: 10vh;
+      height: 9vh;
       width: auto;
-      max-width: 12vw;
     }
   }
 }
@@ -65,12 +64,6 @@
     .headerLeft,
     .headerRight {
       display: none;
-    }
-
-    .headerMiddle {
-      img {
-        width: 100%;
-      }
     }
   }
 }

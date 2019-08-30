@@ -173,7 +173,7 @@ h1 {
   margin-bottom: 10px;
   height: 70vh;
   background-color: black;
-  -webkit-overflow-scrolling: touch;
+  pointer-events: none;
 }
 
 .resp-iframe {
