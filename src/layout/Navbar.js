@@ -10,7 +10,7 @@ const Navbar = ({ hideNav, openNav }) => {
     >
       <NavButton link='/' name='home' styles={styles} />
       {/* /schedule/ */}
-      <NavButton link='/schedule/ ' name='schedule ' styles={styles} />
+      <NavButton link='# ' name='schedule ' styles={styles} />
       {/* /getinvolved/ */}
       <NavButton link='#' name='get involved' styles={styles} />
     </div>
