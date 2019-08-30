@@ -1,14 +1,13 @@
-@import 'mixin';
+@import "mixin";
 
 .LandingSchedule {
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 12vmax;
   grid-template-areas:
-    ' a . '
-    ' a b '
-    ' . c ';
+    " a . "
+    " a b "
+    " . c ";
   border: solid black 4px;
   height: 70vh;
   width: 100%;
@@ -31,7 +30,7 @@
 .item2 {
   margin-top: 3vw;
   margin-left: 3vw;
-  
+
   padding: 0 3vw 0vw 0;
   font-size: 2vmax;
   text-align: right;
@@ -42,8 +41,8 @@
 }
 
 .item2 > p {
-margin-right: 1em;
-margin-bottom: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
 }
 
 .item3 {
@@ -52,11 +51,6 @@ margin-bottom: 1em;
   height: 12vmax;
   justify-self: end;
 }
-
-
-
-
-
 
 .red {
   color: #e8592e;
@@ -70,19 +64,15 @@ margin-bottom: 1em;
   color: #00a99d;
 }
 
-
-
-
-
 @include tablet-screen-up {
   .LandingSchedule {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      ' a . '
-      ' a b '
-      ' . c ';
+      " a . "
+      " a b "
+      " . c ";
   }
   .item1 {
     grid-area: a;
@@ -102,9 +92,9 @@ margin-bottom: 1em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      ' a . '
-      ' a b '
-      ' . c ';
+      " a . "
+      " a b "
+      " . c ";
   }
   .item1 {
     grid-area: a;
@@ -124,9 +114,9 @@ margin-bottom: 1em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      ' a . '
-      ' a b '
-      ' . c ';
+      " a . "
+      " a b "
+      " . c ";
   }
   .item1 {
     grid-area: a;
@@ -147,22 +137,34 @@ margin-bottom: 1em;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      ' a . '
-      ' a b '
-      ' . c ';
+      " a . "
+      " a b "
+      " . c ";
   }
   .item1 {
     grid-area: a;
     font-size: 3vw;
-
-  }
-  .item2 {
-    grid-area: b;
-    font-size: 2vw;
-  }
-  .item3 {
-    grid-area: c;
   }
 }
 
-
+// @include phone-screen {
+//   .LandingSchedule {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     grid-template-rows: 1fr 0.5fr 12vmax;
+//     grid-template-areas:
+//       " a . "
+//       " a b "
+//       " . c ";
+//   }
+//   .item1 {
+//     grid-area: a;
+//   }
+//   .item2 {
+//     grid-area: b;
+//     font-size: 2vw;
+//   }
+//   .item3 {
+//     grid-area: c;
+//   }
+// }
