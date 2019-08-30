@@ -25,18 +25,17 @@
 .partnerRow {
   display: flex;
   flex-flow: row wrap;
-  margin-top: 20px;
-  
+  margin-top: 15px;
   justify-content: space-between;
 }
 
 .item1 {
-  padding: 20px 10px 0px 20px;
+  padding: 0;
 }
 
 .item1 > p {
   padding: 10px;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 
 .item1 > div {
@@ -45,29 +44,36 @@
 
 .imglogo {
   height: auto;
-  width: 130px;
+  width: 8vw;
+  min-width: 70px;
 }
 
 @include phone-screen {
   .landingPartners {
-    height: 70vh;
+    height: auto;
     font-size: 5vw;
   }
 }
 
 @include tablet-screen-up {
   .landingPartners {
-    height: 60vh;
+    height: auto;
     .partnerRow {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
   }
 }
 
 @include tablet-landscape {
   .landingPartners {
-    height: 40vh;
+    height: auto;
+  }
+  .partnerRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }

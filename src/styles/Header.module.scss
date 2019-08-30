@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 2vmax;
   align-items: center;
 }
 .headerContent {
@@ -46,6 +46,14 @@
     img {
       width: 45%;
       height: auto;
+    }
+  }
+}
+@include tablet-screen-up {
+  .headerLeft,
+  .headerRight {
+    p {
+      font-size: 0.9rem;
     }
   }
 }

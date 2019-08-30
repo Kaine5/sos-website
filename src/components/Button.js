@@ -5,7 +5,9 @@ import buttonStyles from "../styles/Buttons.module.scss";
 const Button = props => {
   return (
     <div
-      className={buttonStyles.btnContainer}
+      className={`${buttonStyles.btnContainer} ${
+        buttonStyles[props.specialClass]
+      }`}
       style={{
         height: props.height,
         width: props.width

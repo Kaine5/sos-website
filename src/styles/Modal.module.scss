@@ -30,6 +30,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    z-index: 10;
     &:hover {
       background-image: url("/img/exitHover.png");
     }
@@ -41,12 +42,9 @@
 
 @include phone-screen {
   .modalContainer {
-  
     .modalContent {
-  
-    height: 50vmin;
-    width: 50vmax;
-    
+      height: 50vmin;
+      width: 50vmax;
     }
   }
 }

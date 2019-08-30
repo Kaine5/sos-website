@@ -83,7 +83,6 @@
 
 @include tablet-landscape {
   .WorkshopCard {
-    
   }
 }
 
@@ -91,18 +90,18 @@
   .WorkshopCard {
     .WorkshopCardLeft {
       .CardTitle {
-      font-size: 25px;
-      font-weight: 600;
+        font-size: 25px;
+        font-weight: 600;
       }
       .CardContent {
-      font-size: 15px;
-      font-weight: 400;
-      height: 50%;
+        font-size: 15px;
+        font-weight: 400;
+        height: 50%;
       }
       .CardTime {
-      font-size: 12px;
-      font-weight: normal;
-      font-style: italic;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: italic;
       }
     }
     .WorkshopCardRight {

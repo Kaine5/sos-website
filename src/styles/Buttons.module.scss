@@ -59,11 +59,36 @@
 @include phone-screen {
   .btn {
     box-shadow: 5px 5px black;
+    height: 100%;
+    width: 100%;
+    background-size: 50% auto;
     &:hover {
       box-shadow: 6px 6px black;
     }
     &:active {
       box-shadow: none;
     }
+  }
+  .btnContainer.footerButton {
+    height: 25vh !important;
+    width: 95vw !important;
+  }
+}
+@include tablet-screen-up {
+  .btn {
+    box-shadow: 5px 5px black;
+    height: 100%;
+    width: 100%;
+    background-size: 50% auto;
+    &:hover {
+      box-shadow: 6px 6px black;
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
+  .btnContainer.footerButton {
+    height: 25vh !important;
+    width: 70vw !important;
   }
 }

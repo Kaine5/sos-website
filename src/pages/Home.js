@@ -78,12 +78,14 @@ function Home() {
               width="49%"
               name="join"
               backgroundImage={`url("/img/Joinbutton.png")`}
+              specialClass="footerButton"
             />
             <Button
               height="auto"
               width="49%"
               name="get involved"
               backgroundImage={`url("/img/Getinvolved.png")`}
+              specialClass="footerButton"
             />
           </div>
 
