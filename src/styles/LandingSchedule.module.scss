@@ -1,4 +1,4 @@
-@import "mixin";
+@import 'mixin';
 
 .LandingSchedule {
   display: flex;
@@ -53,9 +53,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      " a . "
-      " a b "
-      " . c ";
+      ' a . '
+      ' a b '
+      ' . c ';
   }
   .item1 {
     grid-area: a;
@@ -75,9 +75,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      " a . "
-      " a b "
-      " . c ";
+      ' a . '
+      ' a b '
+      ' . c ';
   }
   .item1 {
     grid-area: a;
@@ -97,9 +97,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      " a . "
-      " a b "
-      " . c ";
+      ' a . '
+      ' a b '
+      ' . c ';
   }
   .item1 {
     grid-area: a;
@@ -119,9 +119,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      " a . "
-      " a b "
-      " . c ";
+      ' a . '
+      ' a b '
+      ' . c ';
   }
   .item1 {
     grid-area: a;
@@ -135,16 +135,15 @@
   }
 }
 
-/*
 @include phone-screen {
   .LandingSchedule {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 12vmax;
     grid-template-areas:
-      " a . "
-      " a b "
-      " . c ";
+      ' a . '
+      ' a b '
+      ' . c ';
   }
   .item1 {
     grid-area: a;
@@ -157,4 +156,3 @@
     grid-area: c;
   }
 }
-*/
