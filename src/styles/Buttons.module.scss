@@ -14,6 +14,8 @@
   background-size: 70% auto;
   background-color: #b2b2b2;
   box-shadow: 10px 10px #24262d;
+  -webkit-box-shadow: 10px 10px #24262d;
+  -moz-box-shadow: 10px 10px #24262d;
   border: 4px solid #24262d;
   &:hover {
     // background-image: url("/img/Getinvolved.png");
@@ -21,6 +23,8 @@
     background-color: #b2b2b2;
     transform: translate(-4px, -4px);
     box-shadow: 12px 12px #24262d;
+    -webkit-box-shadow: 12px 12px #24262d;
+    -moz-box-shadow: 12px 12px #24262d;
 
     // .textContainer {
     //   width: 100%;
@@ -33,6 +37,8 @@
     background-color: #b2b2b2;
     transform: translate(4px, 4px);
     box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     // .textContainer {
     //   width: 96%;
     //   height: 96%;
@@ -66,9 +72,13 @@
     background-size: 50% auto;
     &:hover {
       box-shadow: 6px 6px #24262d;
+      -webkit-box-shadow: 6px 6px #24262d;
+      -moz-box-shadow: 6px 6px #24262d;
     }
     &:active {
       box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
     }
   }
   .btnContainer.footerButton {
@@ -80,14 +90,20 @@
 @include phone-screen {
   .btn {
     box-shadow: 5px 5px #24262d;
+    -webkit-box-shadow: 5px 5px #24262d;
+    -moz-box-shadow: 5px 5px #24262d;
     height: 100%;
     width: 100%;
     background-size: 50% auto;
     &:hover {
       box-shadow: 6px 6px #24262d;
+      -webkit-box-shadow: 6px 6px #24262d;
+      -moz-box-shadow: 6px 6px #24262d;
     }
     &:active {
       box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
     }
   }
   .btnContainer.footerButton {
@@ -99,14 +115,20 @@
 @include tablet-landscape {
   .btn {
     box-shadow: 5px 5px #24262d;
+    -webkit-box-shadow: 5px 5px #24262d;
+    -moz-box-shadow: 5px 5px #24262d;
     height: 100%;
     width: 100%;
     background-size: 30% auto;
     &:hover {
       box-shadow: 6px 6px #24262d;
+      -webkit-box-shadow: 6px 6px #24262d;
+      -moz-box-shadow: 6px 6px #24262d;
     }
     &:active {
       box-shadow: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
     }
   }
   .btnContainer.footerButton {

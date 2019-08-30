@@ -25,7 +25,7 @@ function Home() {
   };
 
   return (
-    <div className="App">
+    <div className='App'>
       {showHeader && (
         <Header
           left={
@@ -46,10 +46,10 @@ function Home() {
       <CanvasContent ref={contentScroll} onScroll={checkScroll}>
         <div className={styles.landingBackground}>
           <div className={styles.arrow}>
-            <a href="#landingSchedule">
+            <a href='#landingSchedule'>
               <FontAwesomeIcon
                 icon={faChevronDown}
-                size="3x"
+                size='3x'
                 className={styles.bounce}
               />
             </a>
@@ -57,16 +57,17 @@ function Home() {
         </div>
 
         <LandingSchedule />
-        <div className="resp-container">
+        <div className='resp-container'>
           <iframe
-            className="resp-iframe"
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/kWkWzewYrvc"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            className='resp-iframe'
+            width='100%'
+            height='100%'
+            src='https://www.youtube.com/embed/kWkWzewYrvc'
+            frameBorder='0'
+            allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
             allowFullScreen
-            title="sos-video"
+            title='sos-video'
+            scrolling='no'
           />
         </div>
         <LandingPartners />
@@ -74,18 +75,18 @@ function Home() {
         <div className={styles.wrapper}>
           <div className={styles.interactButtons}>
             <Button
-              height="auto"
-              width="49%"
-              name="join"
+              height='auto'
+              width='49%'
+              name='join'
               backgroundImage={`url("/img/Joinbutton.png")`}
-              specialClass="footerButton"
+              specialClass='footerButton'
             />
             <Button
-              height="auto"
-              width="49%"
-              name="get involved"
+              height='auto'
+              width='49%'
+              name='get involved'
               backgroundImage={`url("/img/Getinvolved.png")`}
-              specialClass="footerButton"
+              specialClass='footerButton'
             />
           </div>
 
