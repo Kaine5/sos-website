@@ -87,7 +87,6 @@ body {
   justify-content: center;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;
-  -webkit-overflow-scrolling: touch;
   &::-webkit-scrollbar {
     display: none;
   }
@@ -178,13 +177,12 @@ h1 {
 }
 
 .resp-iframe {
-  position: absolitute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   border: 0;
-  -webkit-overflow-scrolling: touch;
 }
 
 @include phone-screen {
