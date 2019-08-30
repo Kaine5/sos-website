@@ -1,4 +1,5 @@
 @import "mixin";
+
 .btn {
   cursor: pointer;
   display: flex;
@@ -57,8 +58,8 @@
 
 @include phone-screen {
   .btnContainer {
-  height: 45vw !important;
-  width: 45vw !important;
+    height: 45vw !important;
+    width: 45vw !important;
   }
 }
 
@@ -66,5 +67,5 @@
   .btnContainer {
     height: 35vw !important;
     width: 35vw !important;
-    }
+  }
 }

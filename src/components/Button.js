@@ -16,7 +16,7 @@ const Button = props => {
         style={{ backgroundImage: props.backgroundImage }}
       >
         <div className={buttonStyles.textContainer}>
-          <p>{props.name}</p>
+          <p style={{ fontSize: `${props.textsize}` }}>{props.name}</p>
         </div>
       </div>
     </div>

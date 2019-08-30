@@ -9,8 +9,10 @@ const Navbar = ({ hideNav, openNav }) => {
       onClick={() => openNav()}
     >
       <NavButton link='/' name='home' styles={styles} />
-      <NavButton link='/schedule/' name='schedule ' styles={styles} />
-      <NavButton link='/getinvolved/' name='get involved' styles={styles} />
+      {/* /schedule/ */}
+      <NavButton link='#' name='schedule ' styles={styles} />
+      {/* /getinvolved/ */}
+      <NavButton link='#' name='get involved' styles={styles} />
     </div>
   );
 };
