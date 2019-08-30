@@ -57,24 +57,6 @@
   align-items: center;
 }
 
-@include phone-screen {
-  .btn {
-    box-shadow: 5px 5px black;
-    height: 100%;
-    width: 100%;
-    background-size: 50% auto;
-    &:hover {
-      box-shadow: 6px 6px black;
-    }
-    &:active {
-      box-shadow: none;
-    }
-  }
-  .btnContainer.footerButton {
-    height: 30vh !important;
-    width: 95vw !important;
-  }
-}
 @include tablet-screen-up {
   .btn {
     box-shadow: 5px 5px black;
@@ -93,17 +75,39 @@
     width: 70vw !important;
   }
 }
-
-@media (min-aspect-ratio: 1.9) {
+@include phone-screen {
+  .btn {
+    box-shadow: 5px 5px black;
+    height: 100%;
+    width: 100%;
+    background-size: 50% auto;
+    &:hover {
+      box-shadow: 6px 6px black;
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
   .btnContainer.footerButton {
-    height: 25vh !important;
-    width: 70vw !important;
+    height: 30vh !important;
+    width: 95vw !important;
   }
 }
-
-@media (max-aspect-ratio: 1.5) {
+@include tablet-landscape {
+  .btn {
+    box-shadow: 5px 5px black;
+    height: 100%;
+    width: 100%;
+    background-size: 50% auto;
+    &:hover {
+      box-shadow: 6px 6px black;
+    }
+    &:active {
+      box-shadow: none;
+    }
+  }
   .btnContainer.footerButton {
-    height: 25vh !important;
+    height: 30vh !important;
     width: 70vw !important;
   }
 }
