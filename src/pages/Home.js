@@ -58,7 +58,7 @@ function Home() {
 
         <LandingSchedule />
         <div className="resp-container">
-          <iframe
+          {/* <iframe
             className="resp-iframe"
             width="100%"
             height="100%"
@@ -67,7 +67,10 @@ function Home() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="sos-video"
-          />
+          /> */}
+          <video width="100%" height="100%" controls>
+            <source src="./video/sos-video.mp4" type="video/mp4" />
+          </video>
         </div>
         <LandingPartners />
 
