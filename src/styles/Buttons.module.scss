@@ -22,20 +22,21 @@
     transform: translate(-4px, -4px);
     box-shadow: 12px 12px black;
 
-    .textContainer {
-      width: 100%;
-      height: 100%;
-    }
+    // .textContainer {
+    //   width: 100%;
+    //   height: 100%;
+    // }
   }
   &:active {
     // background-image: url("/img/Getinvolvedwhite.png");
     background-size: 70% auto;
     background-color: #b2b2b2;
+    transform: translate(4px, 4px);
     box-shadow: none;
-    .textContainer {
-      width: 96%;
-      height: 96%;
-    }
+    // .textContainer {
+    //   width: 96%;
+    //   height: 96%;
+    // }
   }
   .textContainer {
     position: relative;
