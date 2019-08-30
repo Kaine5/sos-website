@@ -58,16 +58,9 @@ function Home() {
 
         <LandingSchedule />
         <div className="resp-container">
-          <iframe
-            className="resp-iframe"
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/lnaxoZ8XNu4"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-            title="sos-video"
-          />
+          <video height="100%" width="100%" controls>
+            <source src="/video/sos-video.mp4" />
+          </video>
         </div>
         <LandingPartners />
 
