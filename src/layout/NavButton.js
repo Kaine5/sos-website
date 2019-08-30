@@ -8,7 +8,7 @@ const NavButton = ({ styles, link, name }) => {
       <NavLink
         exact
         to={link}
-        activeClassName="active"
+        activeClassName='active'
         className={styles.navButtonName}
       >
         {name}
