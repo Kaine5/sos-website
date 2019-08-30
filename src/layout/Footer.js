@@ -18,16 +18,16 @@ function Footer() {
           <ShortcutLogo className={styles.shortcutlogo} />
           <div className={styles.flexContainerMedia}>
             <div>
-              <FacebookLogo className={styles.logo} />
+              <a href={'https://www.facebook.com/theshortcut/'}><FacebookLogo className={styles.logo} /></a>
             </div>
             <div>
-              <InstagramLogo className={styles.logo} />
+              <a href={'https://www.instagram.com/theshortcutorg/?hl=fi'}><InstagramLogo className={styles.logo} /></a>
             </div>
             <div>
-              <TwitterLogo className={styles.logo} />
+              <a href={'https://twitter.com/theshortcutorg'}><TwitterLogo className={styles.logo} /> </a>
             </div>
             <div>
-              <LinkedInLogo className={styles.logo} />
+              <a href={'https://www.linkedin.com/company/theshortcut/'}><LinkedInLogo className={styles.logo} /></a>
             </div>
           </div>
           <p className={styles.infoLeft}>
@@ -52,7 +52,7 @@ function Footer() {
             </div>
           </div>
 
-          <input className={styles.contact} type='submit' value='Contact us' />
+          <a href="mailTo:info@theshortcut.org"><input className={styles.contact} type='submit' value='Contact us' /></a>
           <p className={styles.info}>
             info@theshortcut.org | (+358) 46 571 2720{" "}
           </p>
