@@ -149,6 +149,7 @@ the footer text is almost invisible on desktop and desktop-big;
       width: 100%;
     }
     .flexContainerLeft {
+      height: 50%;
       justify-content: center;
       align-items: center;
 
@@ -163,13 +164,9 @@ the footer text is almost invisible on desktop and desktop-big;
       width: 50%;
     }
 
-    .flexContainerMedia {
-      justify-content: center;
-      width: 50%;
-    }
-
     .flexContainerRight {
       // display: none;
+      height: 50%;
       justify-content: center;
       align-items: center;
       div {
