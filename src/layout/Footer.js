@@ -26,11 +26,11 @@ function Footer() {
       .then(res => {
         if (res.data.result === "success") {
           // If result is success
-          console.log(res);
+          alert("Thank you for subscribing!");
           setCurrentEmail("");
         } else {
           // If not success
-          console.log(res);
+          alert("This email has already subscribed");
           setCurrentEmail("");
         }
       })
