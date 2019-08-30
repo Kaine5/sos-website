@@ -77,14 +77,14 @@ function Home() {
         <div className={styles.wrapper}>
           <div className={styles.interactButtons}>
             <Button
-              height="auto"
+              height="100%"
               width="49%"
               name="join"
               backgroundImage={`url("/img/Joinbutton.png")`}
               specialClass="footerButton"
             />
             <Button
-              height="auto"
+              height="100%"
               width="49%"
               name="get involved"
               backgroundImage={`url("/img/Getinvolved.png")`}
