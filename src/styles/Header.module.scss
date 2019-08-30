@@ -44,8 +44,9 @@
     display: flex;
     justify-content: center;
     img {
-      width: 45%;
-      height: auto;
+      height: 10vh;
+      width: auto;
+      max-width: 12vw;
     }
   }
 }
