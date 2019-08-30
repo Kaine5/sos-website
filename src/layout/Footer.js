@@ -72,7 +72,7 @@ function Footer() {
             <form onSubmit={handleSubmit} className={styles.flexContainerInput}>
               <input
                 className={styles.text}
-                type='text'
+                type='email'
                 placeholder='Your email'
                 name='school'
                 onChange={e => setCurrentEmail(e.target.value)}
@@ -83,7 +83,14 @@ function Footer() {
             </form>
           </div>
 
-          <input className={styles.contact} type='submit' value='Contact us' />
+          <a
+            className={styles.contact}
+            href='https://theshortcut.org/home/contact/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Contact Us
+          </a>
           <p className={styles.info}>
             info@theshortcut.org | (+358) 46 571 2720{" "}
           </p>
