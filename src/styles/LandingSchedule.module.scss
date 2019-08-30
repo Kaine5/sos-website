@@ -1,8 +1,14 @@
 @import 'mixin';
 
 .LandingSchedule {
-  display: flex;
-  flex-direction: column;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 12vmax;
+  grid-template-areas:
+    ' a . '
+    ' a b '
+    ' . c ';
   border: solid black 4px;
   height: 70vh;
   width: 100%;
@@ -12,7 +18,7 @@
 }
 
 .titleText {
-  font-size: 4vmax;
+  font-size: 6vmax;
   font-weight: 800;
   line-height: 1.5;
 }
@@ -20,20 +26,37 @@
 .item1 {
   margin-top: 2vw;
   margin-left: 2vw;
+  grid-area: a;
 }
 .item2 {
   margin-top: 3vw;
   margin-left: 3vw;
+  
   padding: 0 3vw 0vw 0;
-  font-size: 1.5vmax;
-  justify-self: end;
-  align-self: end;
+  font-size: 2vmax;
+  text-align: right;
+  width: 100%;
+  grid-area: b;
+  font-size: 2vmax;
+  justify-self: start;
 }
+
+.item2 > p {
+margin-right: 1em;
+margin-bottom: 1em;
+}
+
 .item3 {
   padding: 0 2vw 2vw 0;
-  align-self: end;
+  grid-area: c;
+  height: 12vmax;
   justify-self: end;
 }
+
+
+
+
+
 
 .red {
   color: #e8592e;
@@ -46,6 +69,10 @@
 .green {
   color: #00a99d;
 }
+
+
+
+
 
 @include tablet-screen-up {
   .LandingSchedule {
@@ -62,7 +89,7 @@
   }
   .item2 {
     grid-area: b;
-    font-size: 1.5vmax;
+    font-size: 2vmax;
   }
   .item3 {
     grid-area: c;
@@ -84,7 +111,7 @@
   }
   .item2 {
     grid-area: b;
-    font-size: 1.5vmax;
+    font-size: 2vmax;
   }
   .item3 {
     grid-area: c;
@@ -103,10 +130,11 @@
   }
   .item1 {
     grid-area: a;
+    font-size: 3vw;
   }
   .item2 {
     grid-area: b;
-    font-size: 1.25vmax;
+    font-size: 2vw;
   }
   .item3 {
     grid-area: c;
@@ -125,34 +153,16 @@
   }
   .item1 {
     grid-area: a;
+    font-size: 3vw;
+
   }
   .item2 {
     grid-area: b;
-    font-size: 1.25vmax;
+    font-size: 2vw;
   }
   .item3 {
     grid-area: c;
   }
 }
 
-@include phone-screen {
-  .LandingSchedule {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 12vmax;
-    grid-template-areas:
-      ' a . '
-      ' a b '
-      ' . c ';
-  }
-  .item1 {
-    grid-area: a;
-  }
-  .item2 {
-    grid-area: b;
-    font-size: 2vmax;
-  }
-  .item3 {
-    grid-area: c;
-  }
-}
+
