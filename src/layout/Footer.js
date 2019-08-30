@@ -72,18 +72,18 @@ function Footer() {
             <form onSubmit={handleSubmit} className={styles.flexContainerInput}>
               <input
                 className={styles.text}
-                type="text"
-                placeholder="Your email"
-                name="school"
+                type='text'
+                placeholder='Your email'
+                name='school'
                 onChange={e => setCurrentEmail(e.target.value)}
                 value={currentEmail}
-                autoComplete="off"
+                autoComplete='off'
               />
-              <input className={styles.go} type="submit" value="Go" />
+              <input className={styles.go} type='submit' value='Go' />
             </form>
           </div>
 
-          <input className={styles.contact} type="submit" value="Contact us" />
+          <input className={styles.contact} type='submit' value='Contact us' />
           <p className={styles.info}>
             info@theshortcut.org | (+358) 46 571 2720{" "}
           </p>
