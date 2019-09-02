@@ -46,16 +46,24 @@ function Footer() {
           <ShortcutLogo className={styles.shortcutlogo} />
           <div className={styles.flexContainerMedia}>
             <div>
-              <FacebookLogo className={styles.logo} />
+              <a href={"https://www.facebook.com/theshortcut/"}>
+                <FacebookLogo className={styles.logo} />
+              </a>
             </div>
             <div>
-              <InstagramLogo className={styles.logo} />
+              <a href={"https://www.instagram.com/theshortcutorg/?hl=fi"}>
+                <InstagramLogo className={styles.logo} />
+              </a>
             </div>
             <div>
-              <TwitterLogo className={styles.logo} />
+              <a href={"https://twitter.com/theshortcutorg"}>
+                <TwitterLogo className={styles.logo} />{" "}
+              </a>
             </div>
             <div>
-              <LinkedInLogo className={styles.logo} />
+              <a href={"https://www.linkedin.com/company/theshortcut/"}>
+                <LinkedInLogo className={styles.logo} />
+              </a>
             </div>
           </div>
           <p className={styles.infoLeft}>
@@ -72,22 +80,22 @@ function Footer() {
             <form onSubmit={handleSubmit} className={styles.flexContainerInput}>
               <input
                 className={styles.text}
-                type='email'
-                placeholder='Your email'
-                name='school'
+                type="email"
+                placeholder="Your email"
+                name="school"
                 onChange={e => setCurrentEmail(e.target.value)}
                 value={currentEmail}
-                autoComplete='off'
+                autoComplete="off"
               />
-              <input className={styles.go} type='submit' value='Go' />
+              <input className={styles.go} type="submit" value="Go" />
             </form>
           </div>
 
           <a
             className={styles.contact}
-            href='https://theshortcut.org/home/contact/'
-            target='_blank'
-            rel='noopener noreferrer'
+            href="https://theshortcut.org/home/contact/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Contact Us
           </a>
