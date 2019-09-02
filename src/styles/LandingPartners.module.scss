@@ -53,6 +53,11 @@
     height: auto;
     font-size: 5vw;
   }
+  .imglogo{
+    height: auto;
+  width: 14vw;
+  min-width: 0;
+  }
 }
 
 @include tablet-screen-up {
