@@ -190,7 +190,7 @@
               "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
+                "speakerName": "Lars & Jan",
                 "speakerTitle": "Vertical",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
@@ -214,7 +214,7 @@
             },
             {
               "workshopID": "B6",
-              "workshopTitle": "How to disttibute shares in the company",
+              "workshopTitle": "How to distribute shares in the company",
               "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
@@ -417,8 +417,8 @@
               "workshopType": "Business",
               "workshopDesc": "Want to turn dry professional messages into emotionally engaging, credibility-enhancing experiences? How to make them inspiring, meaningful, and interactive? Having trouble coming up with the right mix of posts? Don’t know what to say, or don’t have the time to post it? In this workshop you will learn about visual storytelling and when, what, and where to apply them. It will cover everything you need to know about creating killer content for the top social media platforms like Facebook, Twitter, Instagram and LindkeIn. There will be hands-on practice about various content types, sharing platforms, and what might work best for your business. Learn how to plan and create a month’s worth of content in a few hours. Get familiar with using tools that will make creating and scheduling your content easier.",
               "speaker": {
-                "speakerName": "Aleksi",
-                "speakerTitle": "",
+                "speakerName": "Aleksi Leskinen",
+                "speakerTitle": "JustAleksi Visuals",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
               "startTime": "9:50",
