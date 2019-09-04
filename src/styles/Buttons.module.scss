@@ -94,11 +94,13 @@
     width: 100%;
     background-size: 40% auto;
     &:hover {
+      transform: none;
       box-shadow: 5px 5px #24262d;
       -webkit-box-shadow: 5px 5px #24262d;
       -moz-box-shadow: 5px 5px #24262d;
     }
     &:active {
+      transform: translate(4px, 4px);
       box-shadow: none;
       -webkit-box-shadow: none;
       -moz-box-shadow: none;
