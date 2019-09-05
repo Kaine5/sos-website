@@ -140,3 +140,23 @@
     }
   }
 }
+
+@include tablet-screen-up {
+  .WorkshopCard {
+    .WorkshopCardLeft {
+      .CardContent {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@include tablet-landscape {
+  .WorkshopCard {
+    .WorkshopCardLeft {
+      .CardContent {
+        font-size: 15px;
+      }
+    }
+  }
+}
