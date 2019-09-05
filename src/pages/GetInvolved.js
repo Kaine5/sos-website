@@ -41,7 +41,9 @@ const GetInvolved = props => {
               backgroundImage={`url("/img/btn-illustration3.png")`}
               onClick={() =>
                 setHeadText(
-                  "Want to run the show? Join us at SOS 2019. Let's create memorable experiences and ........ <br/> Contact: GoogleForm"
+                  `Access startup companies and doers by doing! <br/>
+                  Run the show, make the connections, create the experience! <br/>
+                  Join us @ SOS 2019 <br/> Contact: GoogleForm`
                 )
               }
             />
