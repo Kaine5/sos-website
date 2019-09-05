@@ -43,7 +43,25 @@
 @include phone-screen {
   .modalContainer {
     .modalContent {
-      height: 50vmin;
+      height: 130vmin;
+      width: 50vmax;
+    }
+  }
+}
+
+@include tablet-landscape {
+  .modalContainer {
+    .modalContent {
+      height: 80vmin;
+      width: 50vmax;
+    }
+  }
+}
+
+@include tablet-screen-up {
+  .modalContainer {
+    .modalContent {
+      height: 85vmin;
       width: 50vmax;
     }
   }
