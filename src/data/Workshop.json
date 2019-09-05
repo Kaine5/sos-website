@@ -66,9 +66,9 @@
               "workshopID": "B9",
               "workshopTitle": "How to go from seed fuding to the next funding round",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "The road from seed to A round is a tricky one, lots of variables to manage and a strong focus on execution. Join the workshop to discuss how VC can help you to reach the next funding round and what it means to work with a hands-on investor.",
               "speaker": {
-                "speakerName": "John Dat",
+                "speakerName": "Andrea Di Pietrantonio",
                 "speakerTitle": "Inventure",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
@@ -97,11 +97,11 @@
           "list": [
             {
               "workshopID": "B1",
-              "workshopTitle": "Entrepreneurship",
+              "workshopTitle": "Entrepreneurship: Startup silmulator board game (4hrs)",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "Vertical OPEN™ is a board game business simulator that teaches you to think critically and creatively about collaborative innovation tools. How should one manage a business through ever-disruptive technologies and turbulent industry times? Designed by the collaborative design team at Vertical, OPEN invites you to navigate open innovation opportunities and learn how to achieve better performance through co-creation.",
               "speaker": {
-                "speakerName": "John Doe",
+                "speakerName": "Jan Bubienczyk & Sasha Kazantsev",
                 "speakerTitle": "Vertical",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
@@ -127,7 +127,7 @@
               "workshopID": "B7",
               "workshopTitle": "marketing strategy:how to iterate your growth with data",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "The Speaker will be sharing her thoughts on marketing with identifying your focus areas and how to iterate your growth with data. Workshop items: 1. Identifying your growth phase and where you should focus on right now 2. Bottle neck funnel model to identify and fix growth problems 3. Basics of metrics and collecting the data. Also, here’s a couple great reads & views on topics related to topics we’ll be discussing: Identifying our phase and focusing on right things: https: //firstround.com/review/from-zero-to-ipo-how-growth-needs-to-evolve-at-every-startup-stage/ Finding your product/market fit: https: //firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/ Necessary metrics you should be familiar with: https: //medium.com/icebreakervc/guide-to-necessary-startup-marketing-metrics-cac-roi-ltv-dfbd03df440",
               "speaker": {
                 "speakerName": "Mari Luukkainen",
                 "speakerTitle": "Icebreaker",
@@ -317,11 +317,11 @@
             },
             {
               "workshopID": "B5",
-              "workshopTitle": "Legalities ",
+              "workshopTitle": "Legalities for scaleup ",
               "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
+                "speakerName": "Topi Siniketo",
                 "speakerTitle": "Avance",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
@@ -373,7 +373,7 @@
               "workshopID": "B3",
               "workshopTitle": "Employer branding",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "You want to grow your startup? Struggling with finding the best talent? Do you understand the benefits of becoming a talent-driven organization, but don't know where to start exactly? This 2-hour employer branding workshop will help you figure out what to prioritize, where to start, what to continue and what not to focus on at all. We'll be very hands-on with this, but you'll of course get an inspirational boost, also! In this workshop, you'll learn the ins and outs of employer branding, like recruitment marketing in social media, EB ❤️ data, employee experience, and collaboration activities. You will leave this session feeling energized and filled with ideas on what to do next when thinking about growing your company's headcount.",
               "speaker": {
                 "speakerName": "Pipsa Aro ",
                 "speakerTitle": "Findersseekers",
@@ -490,7 +490,7 @@
               "workshopID": "B14",
               "workshopTitle": "Landing pages and SEO: How to be found and attack organic growth",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "Landing pages serve multiple purposes but are typically only thought as SEO boosters. I want to break this common misconception and bring up other types of landing pages as well. In this workshop we’ll go through best practises and your MVP’s.",
               "speaker": {
                 "speakerName": "Jarno Silander",
                 "speakerTitle": "Truly Agency",
@@ -682,7 +682,7 @@
               "workshopID": "B15",
               "workshopTitle": "Sales for startups &Lead generation",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "The workshop will be an inspirational, motivational, and cooperative sales training program that simplifies sales basics and provides a tangible and easy to use blueprint for novices and seasoned salespeople to apply to real life selling situations . Each participant will:- Understand what value-based solution selling is- Write a compelling value proposition and sales script- Gain insight into customers’ situation- Address objections to proposed solutions and create negotiations leverage- Close for the sale or next steps",
               "speaker": {
                 "speakerName": "Troy Woodson",
                 "speakerTitle": "CBW Global",
