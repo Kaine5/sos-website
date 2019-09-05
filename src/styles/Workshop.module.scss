@@ -81,11 +81,6 @@
   }
 }
 
-@include tablet-landscape {
-  .WorkshopCard {
-  }
-}
-
 @include phone-screen {
   .WorkshopCard {
     .WorkshopCardLeft {
