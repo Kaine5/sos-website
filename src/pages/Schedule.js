@@ -9,14 +9,11 @@ import styles from "../styles/Schedule.module.scss";
 import data from "../data/Workshop.json";
 
 const Schedule = () => {
-  console.log(data.firstDay);
   const [modalActive, setModalActive] = useState(false);
-  const [workshopType, setWorkshopType] = useState("Tech");
   const [currentSchedule, setCurrentSchedule] = useState("5th");
   const [currentWorkshop, setCurrentWorkshop] = useState({});
 
   const onModalClick = e => {
-    console.log(e.target.className);
     if (e.target.className) {
       if (
         e.target.className.includes("modalContainer") ||
@@ -35,7 +32,6 @@ const Schedule = () => {
           title={workshop.workshopTitle}
           speaker={workshop.speaker.speakerName}
           onClick={() => {
-            setWorkshopType(workshop.workshopType);
             setModalActive(true);
             setCurrentWorkshop(workshop);
           }}

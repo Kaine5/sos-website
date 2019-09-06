@@ -47,7 +47,4 @@ const LandingPartners = props => {
     </div>
   );
 };
-const PartnerPicture = props => {
-  return <div className="partnerPicture" />;
-};
 export default LandingPartners;

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import CanvasContent from "../components/CanvasContent";
 import Header from "../components/Header";
 import styles from "../styles/GetInvolved.module.scss";
 import Button from "../components/Button";
