@@ -9,7 +9,13 @@ const WorkshopCard = ({ workshop }) => {
         <div className={styles.WorkshopCardMid}>
           <div className={styles.CardSpeaker}>
             <div className={styles.CardSpeakerPicture}>
-              <img src={workshop.speaker.speakerPicture} alt="pikachu face" />
+              <img
+                src={
+                  workshop.speaker.speakerPicture ||
+                  "/img/speaker-placeholder.jpg"
+                }
+                alt="pikachu face"
+              />
             </div>
             <div className={styles.CardSpeakerName}>
               {workshop.speaker.speakerName}
@@ -20,7 +26,11 @@ const WorkshopCard = ({ workshop }) => {
           </div>
           <div
             className={styles.CardContent}
-            dangerouslySetInnerHTML={{ __html: `${workshop.workshopDesc}` }}
+            dangerouslySetInnerHTML={{
+              __html:
+                `${workshop.workshopDesc}` ||
+                "The description is not available for now. <br/> It will be updated soon."
+            }}
           ></div>
         </div>
         <div className={styles.CardTime}>
