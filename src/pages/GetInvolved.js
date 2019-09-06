@@ -43,7 +43,7 @@ const GetInvolved = props => {
                 setHeadText(
                   `Access startup companies and doers by doing! <br/>
                   Run the show, make the connections, create the experience! <br/>
-                  Join us @ SOS 2019 <br/> Contact: GoogleForm`
+                  <a href="https://forms.gle/yQjES7FXi5r18hBm6" target="_blank">Join us @ SOS 2019 </a>`
                 )
               }
             />
