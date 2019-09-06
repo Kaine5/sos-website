@@ -48,22 +48,26 @@ const LandingPartners = props => {
         <div className={styles.partnerRowGrid}>
           <div className={styles.item1}>
             <p>Partners</p>
-            <div className={styles.imgcontainer}>
-              <img
-                src="/img/maria01logo.png"
-                alt="logo"
-                className={styles.imglogo}
-              />
+            <div className={styles.partnerRow1}>
+              <div className={styles.imgcontainer}>
+                <img
+                  src="/img/aws-logo.png"
+                  alt="logo"
+                  className={styles.imglogo}
+                />
+              </div>
             </div>
           </div>
           <div className={styles.item1}>
             <p>Sponsors</p>
-            <div className={styles.imgcontainer}>
-              <img
-                src="/img/maria01logo.png"
-                alt="logo"
-                className={styles.imglogo}
-              />
+            <div className={styles.partnerRow2}>
+              <div className={styles.imgcontainer}>
+                <img
+                  src="/img/op-logo.png"
+                  alt="logo"
+                  className={styles.imglogo1}
+                />
+              </div>
             </div>
           </div>
         </div>

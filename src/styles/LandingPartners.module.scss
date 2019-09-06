@@ -30,6 +30,12 @@
   grid-template-columns: repeat(5, 20% [col-start]);
   grid-template-rows: 100%;
 }
+.partnerRow1 {
+  margin-top: 15px;
+}
+.partnerRow2 {
+  margin-bottom: 20px;
+}
 .partnerRowGrid {
   display: grid;
   margin-top: 15px;
@@ -53,6 +59,12 @@
 .imglogo {
   height: auto;
   width: 8vw;
+  min-width: 70px;
+}
+
+.imglogo1 {
+  height: auto;
+  width: 5.5vw;
   min-width: 70px;
 }
 
