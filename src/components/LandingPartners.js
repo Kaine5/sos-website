@@ -44,6 +44,30 @@ const LandingPartners = props => {
           </div>
         </div>
       </div>
+      <div>
+        <div className={styles.partnerRowGrid}>
+          <div className={styles.item1}>
+            <p>Partners</p>
+            <div className={styles.imgcontainer}>
+              <img
+                src="/img/maria01logo.png"
+                alt="logo"
+                className={styles.imglogo}
+              />
+            </div>
+          </div>
+          <div className={styles.item1}>
+            <p>Sponsors</p>
+            <div className={styles.imgcontainer}>
+              <img
+                src="/img/maria01logo.png"
+                alt="logo"
+                className={styles.imglogo}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
