@@ -6,18 +6,22 @@
 }
 
 .item1 {
-  font-size: 2vw;
-  margin: 3em auto 3em auto;
-  max-width: 20em;
+  font-size: 2vmax;
+  margin: 3em auto 1em auto;
+  height: 19vh;
+  width: 75vw;
   text-align: center;
 }
 
 .item2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   padding-left: 70px;
   padding-right: 70px;
+  .btnImage:first-child {
+    margin-right: 10vw;
+  }
 }
 
 .btnImage {
@@ -33,11 +37,11 @@
 
 @include phone-screen {
   .item1 {
-    font-size: 1rem;
+    font-size: 2vmax;
   }
 
   .item2 {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .item2 > div {
@@ -55,7 +59,7 @@
 
 @include tablet-screen-up {
   .item2 {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .item2 > div {
