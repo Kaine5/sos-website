@@ -7,87 +7,87 @@
           "id": "S1",
           "list": [
             {
-              "workshopID": 1,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B9",
+              "workshopTitle": "How to go from seed funding to the next funding round",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for todayThis is the first business workshop for today",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Andrea Di Pietrantonio",
+                "speakerTitle": "Inventure",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "9:50",
+              "endTime": "11:50",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "D2",
+              "workshopTitle": "Customer centric product development",
+              "workshopType": "Design",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Jemmi Laaninen",
+                "speakerTitle": "Sangre",
+                "speakerPicture": ""
+              },
+              "startTime": "9:50",
+              "endTime": "11:50",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B2",
+              "workshopTitle": "Community building",
+              "workshopType": "Business",
+              "workshopDesc": "",
               "speaker": {
                 "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "9:50",
+              "endTime": "11:50",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
-              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopID": "T16",
+              "workshopTitle": "How to find your tech co-founder",
               "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
+                "speakerName": "Jukka Kujala",
+                "speakerTitle": "Icebreaker",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "10:00",
+              "endTime": "12:00",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 3,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D1",
+              "workshopTitle": "The value of design thinking in business development",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "Lidia Borisova",
+                "speakerTitle": "AVP",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "10:00",
+              "endTime": "12:00",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
-              "workshopTitle": "WORKSHOP 1 TITLE",
-              "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopID": "T2",
+              "workshopTitle": "AWS Build a photo sharing app",
+              "workshopType": "Tech",
+              "workshopDesc": "",
               "speaker": {
                 "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 5,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 6,
-              "workshopTitle": "WORKSHOP 3 TITLE",
-              "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
-              "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "10:00",
+              "endTime": "12:00",
               "place": "The Shortcut- Maria 01"
             }
           ]
@@ -96,265 +96,265 @@
           "id": "S2",
           "list": [
             {
-              "workshopID": 7,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B1",
+              "workshopTitle": "Entrepreneurship",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Jan Bubienczyk",
+                "speakerTitle": "Vertical",
+                "speakerPicture": ""
+              },
+              "startTime": "13:00",
+              "endTime": "15:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "D3",
+              "workshopTitle": "Behavioral design",
+              "workshopType": "Design",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Ashwin Rajan",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "15:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T5",
+              "workshopTitle": "SCRUM role play",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "15:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B7",
+              "workshopTitle": "marketing strategy:how to iterate your growth with data",
+              "workshopType": "Business",
+              "workshopDesc": "The Speaker will be sharing her thoughts on marketing with identifying your focus areas and how to iterate your growth with data. <br /> Workshop items: <br /> 1. Identifying your growth phase and where you should focus on right now <br /> 2. Bottle neck funnel model to identify and fix growth problems <br /> 3. Basics of metrics and collecting the data <br /> Also, here’s a couple great reads & views on topics related to topics we’ll be discussing: <br /> Identifying our phase and focusing on right things: <br /> https://firstround.com/review/from-zero-to-ipo-how-growth-needs-to-evolve-at-every-startup-stage/ <br /> Finding your product/market fit: <br /> https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/ <br /> Necessary metrics you should be familiar with: <br /> https://medium.com/icebreakervc/guide-to-necessary-startup-marketing-metrics-cac-roi-ltv-dfbd03df440",
+              "speaker": {
+                "speakerName": "Mari Luukkainen",
+                "speakerTitle": "Icebreaker",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:10",
+              "endTime": "15:10",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "D4",
+              "workshopTitle": "product design while scaling (SaaS, B2B)",
+              "workshopType": "Design",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Tuukka ",
+                "speakerTitle": "Nosto",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:10",
+              "endTime": "15:10",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T4",
+              "workshopTitle": "AWS  Build a photo sharing app",
+              "workshopType": "Tech",
+              "workshopDesc": "",
               "speaker": {
                 "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 8,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 9,
-              "workshopTitle": "WORKSHOP 3 TITLE",
-              "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
-              "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 10,
-              "workshopTitle": "WORKSHOP 1 TITLE",
-              "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
-              "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 11,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 12,
-              "workshopTitle": "WORKSHOP 3 TITLE",
-              "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
-              "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
+              "startTime": "13:10",
+              "endTime": "15:10",
               "place": "The Shortcut- Maria 01"
             }
           ]
         },
         {
-          "id": 3,
+          "id": "S3",
           "list": [
             {
-              "workshopID": 31,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B1",
+              "workshopTitle": "Entrepreneurship",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Jan Bubienczyk",
+                "speakerTitle": "Vertical",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:10",
+              "endTime": "17:10",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 32,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 33,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D3",
+              "workshopTitle": "Behavioral design",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "Ashwin Rajan",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:10",
+              "endTime": "17:10",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 34,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "T13",
+              "workshopTitle": "How to gamify my product",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "15:10",
+              "endTime": "17:10",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B6",
+              "workshopTitle": "How to distribute shares in the company",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerName": "",
+                "speakerTitle": "Icebreaker",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:20",
+              "endTime": "17:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 35,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 36,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D6",
+              "workshopTitle": "Design Automaiton/Cloud based Design",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:20",
+              "endTime": "17:20",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T1",
+              "workshopTitle": "Cybersecurity: Threat Modelling",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
+                "speakerTitle": "F-Secure",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "15:20",
+              "endTime": "17:20",
               "place": "The Shortcut- Maria 01"
             }
           ]
         },
         {
-          "id": 4,
+          "id": "S4",
           "list": [
             {
-              "workshopID": 41,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B11",
+              "workshopTitle": "Video advertizing",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerName": "Simon",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:20",
+              "endTime": "19:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 42,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 43,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D7",
+              "workshopTitle": "Design talent",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of C",
+                "speakerName": "Aku-Jaako",
+                "speakerTitle": "ResQ Club COO",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:20",
+              "endTime": "19:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 44,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B12",
+              "workshopTitle": "Why Your Marketing Needs to be Data-Driven",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "What are the numbers that you should be following and how should you use them to reach your target audience at the right place at the right time? Data-driven marketing helps you improve your audience targeting, personalize communication, and increase customer engagement. Data-driven marketing should be important for every company and in this workshop, you will understand what it is all about.",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Henrik Gripenberg",
+                "speakerTitle": "Truly Agency",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:20",
+              "endTime": "19:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 45,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 46,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D8",
+              "workshopTitle": "Service design challenge",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "Michihito Mizutani",
+                "speakerTitle": "Siili",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:30",
+              "endTime": "19:30",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T3",
+              "workshopTitle": "How to plan your Tech?",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "OLEG",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "17:30",
+              "endTime": "19:30",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T1",
+              "workshopTitle": "Cybersecurity: Threat Modelling",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
+                "speakerTitle": "F-Secure",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "17:30",
+              "endTime": "19:30",
               "place": "The Shortcut- Maria 01"
             }
           ]
@@ -370,87 +370,87 @@
           "id": 1,
           "list": [
             {
-              "workshopID": 11,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B3",
+              "workshopTitle": "Employer branding",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "You want to grow your startup? Struggling with finding the best talent? Do you understand the benefits of becoming a talent-driven organization, but don't know where to start exactly? This 2-hour employer branding workshop will help you figure out what to prioritize, where to start, what to continue and what not to focus on at all. We'll be very hands-on with this, but you'll of course get an inspirational boost, also! In this workshop, you'll learn the ins and outs of employer branding, like recruitment marketing in social media, EB ❤️ data, employee experience, and collaboration activities. You will leave this session feeling energized and filled with ideas on what to do next when thinking about growing your company's headcount.",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Pipsa Aro ",
+                "speakerTitle": "Findersseekers",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "9:40",
+              "endTime": "11:40",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 3,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D9",
+              "workshopTitle": "Prototyping",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "9:40",
+              "endTime": "11:40",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "D10",
+              "workshopTitle": "Customer centric branding, marketing and design",
+              "workshopType": "Design",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": " Elina Holley",
+                "speakerTitle": "Truly Agency",
+                "speakerPicture": ""
+              },
+              "startTime": "9:40",
+              "endTime": "11:40",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B10",
+              "workshopTitle": "Content creation: Story telling for SoMe",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "Want to turn dry professional messages into emotionally engaging, credibility-enhancing experiences? How to make them inspiring, meaningful, and interactive? Having trouble coming up with the right mix of posts? Don’t know what to say, or don’t have the time to post it? In this workshop you will learn about visual storytelling and when, what, and where to apply them. It will cover everything you need to know about creating killer content for the top social media platforms like Facebook, Twitter, Instagram and LindkeIn. There will be hands-on practice about various content types, sharing platforms, and what might work best for your business. Learn how to plan and create a month’s worth of content in a few hours. Get familiar with using tools that will make creating and scheduling your content easier.",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Aleksi Leskinen",
+                "speakerTitle": "JustAleksi Visuals",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "9:50",
+              "endTime": "11:50",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
-              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopID": "T9",
+              "workshopTitle": "Test driven development ",
               "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "9:50",
+              "endTime": "11:50",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 6,
-              "workshopTitle": "WORKSHOP 3 TITLE",
-              "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopID": "T10",
+              "workshopTitle": "Big data and decision making",
+              "workshopType": "Tech",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "9:50",
+              "endTime": "11:50",
               "place": "The Shortcut- Maria 01"
             }
           ]
@@ -459,87 +459,87 @@
           "id": 2,
           "list": [
             {
-              "workshopID": 1,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B14",
+              "workshopTitle": "Landing pages and SEO: How to be found and attack organic growth",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "Landing pages serve multiple purposes but are typically only thought as SEO boosters. I want to break this common misconception and bring up other types of landing pages as well. In this workshop we’ll go through best practises and your MVP’s.",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerName": "Jarno Silander",
+                "speakerTitle": "Truly Agency",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
               "startTime": "13:00",
-              "endTime": "14:00",
+              "endTime": "15:00",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 3,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D12",
+              "workshopTitle": "Design Innovation",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Sasha kazantsev",
+                "speakerTitle": "Vertical",
+                "speakerPicture": ""
               },
               "startTime": "13:00",
-              "endTime": "14:00",
+              "endTime": "15:00",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "D11",
+              "workshopTitle": "User testing",
+              "workshopType": "Design",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "2 Options",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:00",
+              "endTime": "15:00",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T7",
+              "workshopTitle": "Blockchain",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Timo",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "13:10",
+              "endTime": "15:10",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B5",
+              "workshopTitle": "Legalities",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerName": "Topi Siniketo ",
+                "speakerTitle": "Avance",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "13:00",
-              "endTime": "14:00",
+              "startTime": "13:10",
+              "endTime": "15:10",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
-              "workshopTitle": "WORKSHOP 2 TITLE",
+              "workshopID": "T12",
+              "workshopTitle": "Game jam",
               "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "13:00",
-              "endTime": "14:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 6,
-              "workshopTitle": "WORKSHOP 3 TITLE",
-              "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
-              "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "13:00",
-              "endTime": "14:00",
+              "startTime": "13:10",
+              "endTime": "15:10",
               "place": "The Shortcut- Maria 01"
             }
           ]
@@ -548,87 +548,87 @@
           "id": 3,
           "list": [
             {
-              "workshopID": 1,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B13",
+              "workshopTitle": "Measuring yourself to success",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "If you don’t think measuring your business performance is a number one priority listen up! Setting the right goals and measuring them reliably is a key stepping stone for growing your business. And if you don’t get it right, it can lead you down the wrong path. We’ll discuss how to set the right KPI’s and measure them, and look at some real world examples. We’ll also get our hands dirty with concrete case work.",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Esa Peltonen",
+                "speakerTitle": "Truly Agency",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:10",
+              "endTime": "17:10",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 3,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D15",
+              "workshopTitle": "Video Editing: Color Correction",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Jaeseong Park & Said Aqqa",
+                "speakerTitle": "Enlighten Image",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:10",
+              "endTime": "17:10",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "T14",
+              "workshopTitle": "SAS Extract transform &Load",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "15:10",
+              "endTime": "17:10",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B4",
+              "workshopTitle": "Scaling, not expanding",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "As a growth hacker, I've seen a lot of startups and scaleups that have a clear goal to grow their businesses. However, there is no easy way to the top. In a workshop, I’ll summarise the most common weaknesses that keep startups and scaleups from growing. Moreover, I’ll share my best tips how to fix or prevent these problems.",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerName": "Aarni Kotiranta",
+                "speakerTitle": "Truly Agency",
+                "speakerPicture": ""
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:20",
+              "endTime": "17:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 6,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D5",
+              "workshopTitle": "UI",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "15:20",
+              "endTime": "17:20",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T6",
+              "workshopTitle": "A/B Testing",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "15:20",
+              "endTime": "17:20",
               "place": "The Shortcut- Maria 01"
             }
           ]
@@ -637,87 +637,87 @@
           "id": 4,
           "list": [
             {
-              "workshopID": 1,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "B15",
+              "workshopTitle": "Value-Based Solution Selling",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "The workshop will be an inspirational, motivational, and cooperative sales training program that simplifies sales basics and provides a tangible and easy to use blueprint for novices and seasoned salespeople to apply to real life selling situations. <br /> Each participant will: <br /> - Understand what value-based solution selling is <br /> - Write a compelling value proposition and sales script <br /> - Gain insight into customers’ situation <br /> - Address objections to proposed solutions and create negotiations leverage <br /> - Close for the sale or next steps",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerName": "Troy Woodson",
+                "speakerTitle": "CBW Global",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:20",
+              "endTime": "19:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 2,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 3,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D13",
+              "workshopTitle": "3D modelling (tools) Animation, Advertising industries",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:20",
+              "endTime": "19:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 4,
-              "workshopTitle": "WORKSHOP 1 TITLE",
+              "workshopID": "T15",
+              "workshopTitle": "Tech Talent(attraction &retention)",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Sofia Pohls",
+                "speakerTitle": "findersseekers",
+                "speakerPicture": ""
+              },
+              "startTime": "17:20",
+              "endTime": "19:20",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "B8",
+              "workshopTitle": "How to build a public profile?",
               "workshopType": "Business",
-              "workshopDesc": "This is the first business workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
-                "speakerTitle": "CEO of A",
+                "speakerName": "Paavo Beckman",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:30",
+              "endTime": "19:30",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": 5,
-              "workshopTitle": "WORKSHOP 2 TITLE",
-              "workshopType": "Tech",
-              "workshopDesc": "This is the first tech workshop for today",
-              "speaker": {
-                "speakerName": "John Dat",
-                "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
-              },
-              "startTime": "9:00",
-              "endTime": "10:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": 6,
-              "workshopTitle": "WORKSHOP 3 TITLE",
+              "workshopID": "D16",
+              "workshopTitle": "Data Visualization design",
               "workshopType": "Design",
-              "workshopDesc": "This is the first design workshop for today",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jay Dis",
-                "speakerTitle": "CEO of c",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
               },
-              "startTime": "9:00",
-              "endTime": "10:00",
+              "startTime": "17:30",
+              "endTime": "19:30",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T8",
+              "workshopTitle": "Automation",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+              },
+              "startTime": "17:30",
+              "endTime": "19:30",
               "place": "The Shortcut- Maria 01"
             }
           ]

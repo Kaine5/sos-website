@@ -186,7 +186,7 @@ h1 {
 
 @include phone-screen {
   .CanvasContent {
-    width: 100vw;
+    width: 100%;
   }
   .Canvas {
     width: 95vw;

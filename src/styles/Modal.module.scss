@@ -1,8 +1,8 @@
 @import "mixin";
 
 .modalContainer {
-  position: fixed;
-  height: 100vh;
+  position: absolute;
+  min-height: 100vh;
   width: 100vw;
   top: 0;
   left: 0;
@@ -11,12 +11,13 @@
   justify-content: center;
   align-items: center;
   z-index: 9;
+
   &.inactive {
     display: none;
   }
   .modalContent {
     position: relative;
-    height: 50vh;
+    min-height: 30vmax;
     width: 50vw;
     background-color: white;
   }
@@ -43,7 +44,25 @@
 @include phone-screen {
   .modalContainer {
     .modalContent {
-      height: 50vmin;
+      height: 80vmax;
+      width: 50vmax;
+    }
+  }
+}
+
+@include tablet-landscape {
+  .modalContainer {
+    .modalContent {
+      height: 40vmax;
+      width: 70vmax;
+    }
+  }
+}
+
+@include tablet-screen-up {
+  .modalContainer {
+    .modalContent {
+      height: 80vmax;
       width: 50vmax;
     }
   }

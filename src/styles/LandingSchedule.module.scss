@@ -17,7 +17,7 @@
 }
 
 .titleText {
-  font-size: 6vmax;
+  font-size: 5vmax;
   font-weight: 800;
   line-height: 1.5;
 }
@@ -168,3 +168,15 @@
 //     grid-area: c;
 //   }
 // }
+
+.anchorButton,
+.anchorButton:hover,
+.anchorButton:visited,
+.anchorButton:focus,
+.anchorButton:active {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  height: 100%;
+  cursor: auto;
+}

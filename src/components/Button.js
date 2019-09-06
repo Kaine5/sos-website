@@ -12,6 +12,7 @@ const Button = props => {
         height: props.height,
         width: props.width
       }}
+      onClick={props.onClick}
     >
       <div
         className={buttonStyles.btn}
