@@ -4,6 +4,7 @@ import CanvasContent from "../components/CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
 import LandingPartners from "../components/LandingPartners";
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 import Footer from "../layout/Footer";
 import "../App.scss";
@@ -76,20 +77,24 @@ function Home() {
 
         <div className={styles.wrapper}>
           <div className={styles.interactButtons}>
-            <Button
-              height="100%"
-              width="49%"
-              name="join"
-              backgroundImage={`url("/img/Joinbutton.png")`}
-              specialClass="footerButton"
-            />
-            <Button
-              height="100%"
-              width="49%"
-              name="get involved"
-              backgroundImage={`url("/img/Getinvolved.png")`}
-              specialClass="footerButton"
-            />
+            <Link to="/schedule/" className={styles.anchorButton}>
+              <Button
+                height="100%"
+                width="29vw"
+                name="join"
+                backgroundImage={`url("/img/Joinbutton.png")`}
+                specialClass="footerButton"
+              />
+            </Link>
+            <Link to="/getinvolved/" className={styles.anchorButton}>
+              <Button
+                height="100%"
+                width="29vw"
+                name="get involved"
+                backgroundImage={`url("/img/Getinvolved.png")`}
+                specialClass="footerButton"
+              />
+            </Link>
           </div>
 
           <Footer className={styles.footer} />

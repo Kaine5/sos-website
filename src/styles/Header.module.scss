@@ -50,11 +50,19 @@
   }
 }
 @include tablet-screen-up {
+  .headerContent {
+    width: 70vw;
+  }
   .headerLeft,
   .headerRight {
     p {
       font-size: 0.9rem;
     }
+  }
+}
+@include tablet-landscape {
+  .headerContent {
+    width: 70vw;
   }
 }
 

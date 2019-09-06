@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/LandingSchedule.module.scss";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const LandingSchedule = () => {
   return (
@@ -21,7 +22,9 @@ const LandingSchedule = () => {
       </div>
       <div className={styles.item3}>
         <div className={styles.button}>
-          <Button height="10vmax" width="24vmax" name="learn more" />
+          <Link to="/schedule/" className={styles.anchorButton}>
+            <Button height="10vmax" width="24vmax" name="learn more" />
+          </Link>
         </div>
       </div>
     </div>

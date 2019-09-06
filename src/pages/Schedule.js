@@ -9,14 +9,11 @@ import styles from "../styles/Schedule.module.scss";
 import data from "../data/Workshop.json";
 
 const Schedule = () => {
-  console.log(data.firstDay);
   const [modalActive, setModalActive] = useState(false);
-  const [workshopType, setWorkshopType] = useState("Tech");
   const [currentSchedule, setCurrentSchedule] = useState("5th");
   const [currentWorkshop, setCurrentWorkshop] = useState({});
 
   const onModalClick = e => {
-    console.log(e.target.className);
     if (e.target.className) {
       if (
         e.target.className.includes("modalContainer") ||
@@ -35,7 +32,6 @@ const Schedule = () => {
           title={workshop.workshopTitle}
           speaker={workshop.speaker.speakerName}
           onClick={() => {
-            setWorkshopType(workshop.workshopType);
             setModalActive(true);
             setCurrentWorkshop(workshop);
           }}
@@ -78,9 +74,12 @@ const Schedule = () => {
           </div>
         }
         right={
-          <div>
+          <a
+            href="https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607"
+            className={styles.anchorButton}
+          >
             <Button height="70px" width="150px" name="Get your ticket" />{" "}
-          </div>
+          </a>
         }
       />
       <CanvasContent hasBorder="true">

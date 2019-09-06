@@ -14,7 +14,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -28,7 +28,7 @@
               "speaker": {
                 "speakerName": "Jemmi Laaninen",
                 "speakerTitle": "Sangre",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -42,7 +42,7 @@
               "speaker": {
                 "speakerName": "Jukka Kujala",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -56,7 +56,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -70,7 +70,7 @@
               "speaker": {
                 "speakerName": "Andrea Di Pietrantonio",
                 "speakerTitle": "Inventure",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -84,7 +84,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -103,7 +103,7 @@
               "speaker": {
                 "speakerName": "Jan Bubienczyk & Sasha Kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -117,7 +117,7 @@
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -131,7 +131,7 @@
               "speaker": {
                 "speakerName": "Mari Luukkainen",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -145,7 +145,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -159,7 +159,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -173,7 +173,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -192,7 +192,7 @@
               "speaker": {
                 "speakerName": "Lars & Jan",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:00",
               "endTime": "17:00",
@@ -206,7 +206,7 @@
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:00",
               "endTime": "17:00",
@@ -220,7 +220,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:00",
               "endTime": "17:00",
@@ -234,7 +234,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -248,7 +248,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -262,7 +262,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -281,7 +281,7 @@
               "speaker": {
                 "speakerName": "John Doe",
                 "speakerTitle": "OLEG",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -295,7 +295,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -309,7 +309,7 @@
               "speaker": {
                 "speakerName": "Henrik Gripenberg",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -323,7 +323,7 @@
               "speaker": {
                 "speakerName": "Topi Siniketo",
                 "speakerTitle": "Avance",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -337,7 +337,7 @@
               "speaker": {
                 "speakerName": "Michihito Mizutani",
                 "speakerTitle": "Siili",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -351,7 +351,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -377,7 +377,7 @@
               "speaker": {
                 "speakerName": "Pipsa Aro ",
                 "speakerTitle": "Findersseekers",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -391,7 +391,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -405,7 +405,7 @@
               "speaker": {
                 "speakerName": " Elina Holley",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -419,7 +419,7 @@
               "speaker": {
                 "speakerName": "Aleksi Leskinen",
                 "speakerTitle": "JustAleksi Visuals",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -433,7 +433,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -447,7 +447,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -466,7 +466,7 @@
               "speaker": {
                 "speakerName": "Sasha kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -480,7 +480,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -494,7 +494,7 @@
               "speaker": {
                 "speakerName": "Jarno Silander",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -508,7 +508,7 @@
               "speaker": {
                 "speakerName": "Timo",
                 "speakerTitle": "CEO of A",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -522,7 +522,7 @@
               "speaker": {
                 "speakerName": "SIMON",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -536,7 +536,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -555,7 +555,7 @@
               "speaker": {
                 "speakerName": "Esa Peltonen",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -569,7 +569,7 @@
               "speaker": {
                 "speakerName": "Jaeseong Park & Said Aqqa",
                 "speakerTitle": "Enlighten Image",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -583,7 +583,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -597,7 +597,7 @@
               "speaker": {
                 "speakerName": "Aarni Kotiranta",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -611,7 +611,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -625,7 +625,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "Hoxhunt",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -644,7 +644,7 @@
               "speaker": {
                 "speakerName": "Paavo Beckman",
                 "speakerTitle": "Startup Catapult",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -658,7 +658,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -672,7 +672,7 @@
               "speaker": {
                 "speakerName": "Sofia Pohls",
                 "speakerTitle": "findersseekers",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -686,7 +686,7 @@
               "speaker": {
                 "speakerName": "Troy Woodson",
                 "speakerTitle": "CBW Global",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -700,7 +700,7 @@
               "speaker": {
                 "speakerName": "John Dat",
                 "speakerTitle": "CEO of B",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -714,7 +714,7 @@
               "speaker": {
                 "speakerName": "Jay Dis",
                 "speakerTitle": "CEO of c",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
