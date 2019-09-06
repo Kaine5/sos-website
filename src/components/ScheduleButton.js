@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import styles from "../styles/ScheduleButton.module.scss";
 
 const ScheduleButton = props => {
-  console.log(styles.ScheduleButton);
   return (
     <div
       className={`${styles.ScheduleButton} ${styles[props.type]}`}

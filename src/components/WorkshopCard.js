@@ -18,7 +18,10 @@ const WorkshopCard = ({ workshop }) => {
               {workshop.speaker.speakerTitle}
             </div>
           </div>
-          <div className={styles.CardContent}>{workshop.workshopDesc}</div>
+          <div
+            className={styles.CardContent}
+            dangerouslySetInnerHTML={{ __html: `${workshop.workshopDesc}` }}
+          ></div>
         </div>
         <div className={styles.CardTime}>
           {`${workshop.startTime} - ${workshop.endTime} | ${workshop.place}`}
