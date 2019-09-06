@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Workshop.module.scss";
 
 const WorkshopCard = ({ workshop }) => {
+
   return (
     <div className={`${styles.WorkshopCard} ${styles[workshop.workshopType]}`}>
       <div className={styles.WorkshopCardLeft}>
@@ -18,7 +19,7 @@ const WorkshopCard = ({ workshop }) => {
               {workshop.speaker.speakerTitle}
             </div>
           </div>
-          <div className={styles.CardContent}>{workshop.workshopDesc}</div>
+          <div className={styles.CardContent} dangerouslySetInnerHTML={{ __html: workshop.workshopDesc }}></div>
         </div>
         <div className={styles.CardTime}>
           {`${workshop.startTime} - ${workshop.endTime} | ${workshop.place}`}
@@ -29,7 +30,7 @@ const WorkshopCard = ({ workshop }) => {
           className={styles.CardType}
         >{`${workshop.workshopType} Track`}</div>
       </div>
-    </div>
+    </div >
   );
 };
 
