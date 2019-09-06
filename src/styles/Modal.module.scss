@@ -11,14 +11,13 @@
   justify-content: center;
   align-items: center;
   z-index: 9;
-  
+
   &.inactive {
     display: none;
   }
   .modalContent {
-   
     position: relative;
-    
+    min-height: 30vmax;
     width: 50vw;
     background-color: white;
   }
@@ -45,7 +44,7 @@
 @include phone-screen {
   .modalContainer {
     .modalContent {
-      height: 130vmin;
+      height: 80vmax;
       width: 50vmax;
     }
   }
@@ -54,8 +53,8 @@
 @include tablet-landscape {
   .modalContainer {
     .modalContent {
-      height: 80vmin;
-      width: 50vmax;
+      height: 40vmax;
+      width: 70vmax;
     }
   }
 }
@@ -63,7 +62,7 @@
 @include tablet-screen-up {
   .modalContainer {
     .modalContent {
-      height: 85vmin;
+      height: 80vmax;
       width: 50vmax;
     }
   }

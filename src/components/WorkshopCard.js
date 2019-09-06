@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../styles/Workshop.module.scss";
 
 const WorkshopCard = ({ workshop }) => {
-
   return (
     <div className={`${styles.WorkshopCard} ${styles[workshop.workshopType]}`}>
       <div className={styles.WorkshopCardLeft}>
@@ -10,7 +9,13 @@ const WorkshopCard = ({ workshop }) => {
         <div className={styles.WorkshopCardMid}>
           <div className={styles.CardSpeaker}>
             <div className={styles.CardSpeakerPicture}>
-              <img src={workshop.speaker.speakerPicture} alt="pikachu face" />
+              <img
+                src={
+                  workshop.speaker.speakerPicture ||
+                  "/img/speaker-placeholder.jpg"
+                }
+                alt="pikachu face"
+              />
             </div>
             <div className={styles.CardSpeakerName}>
               {workshop.speaker.speakerName}
@@ -19,7 +24,14 @@ const WorkshopCard = ({ workshop }) => {
               {workshop.speaker.speakerTitle}
             </div>
           </div>
-          <div className={styles.CardContent} dangerouslySetInnerHTML={{ __html: workshop.workshopDesc }}></div>
+          <div
+            className={styles.CardContent}
+            dangerouslySetInnerHTML={{
+              __html:
+                `${workshop.workshopDesc}` ||
+                "The description is not available for now. <br/> It will be updated soon."
+            }}
+          ></div>
         </div>
         <div className={styles.CardTime}>
           {`${workshop.startTime} - ${workshop.endTime} | ${workshop.place}`}
@@ -30,7 +42,7 @@ const WorkshopCard = ({ workshop }) => {
           className={styles.CardType}
         >{`${workshop.workshopType} Track`}</div>
       </div>
-    </div >
+    </div>
   );
 };
 

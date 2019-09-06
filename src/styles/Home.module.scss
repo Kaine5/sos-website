@@ -175,3 +175,23 @@
     }
   }
 }
+.anchorButton,
+.anchorButton:hover,
+.anchorButton:visited,
+.anchorButton:focus,
+.anchorButton:active {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  height: 100%;
+  cursor: auto;
+  @include tablet-landscape {
+    height: 50%;
+  }
+  @include tablet-screen-up {
+    height: 50%;
+  }
+  @include phone-screen {
+    height: 50%;
+  }
+}

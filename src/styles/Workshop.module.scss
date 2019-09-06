@@ -1,6 +1,7 @@
 @import "mixin";
 
 .WorkshopCard {
+  position: absolute;
   border: 6px solid #00a99d;
   background-color: #b2e5e1;
   color: #00a99d;
@@ -27,7 +28,7 @@
   }
   .WorkshopCardLeft {
     display: flex;
-    width:80%;
+    width: 80%;
     flex-direction: column;
     justify-content: space-between;
     .CardTitle {
@@ -93,7 +94,7 @@
   .WorkshopCard {
     .WorkshopCardLeft {
       display: flex;
-      width:80%;
+      width: 80%;
       flex-direction: column;
       justify-content: start;
       align-items: center;
@@ -121,7 +122,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          
+
           .CardSpeakerPicture {
             display: flex;
             justify-content: center;
@@ -156,7 +157,7 @@
   .WorkshopCard {
     .WorkshopCardLeft {
       display: flex;
-      width:80%;
+      width: 80%;
       flex-direction: column;
       justify-content: start;
       align-items: center;
@@ -184,7 +185,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          
+
           .CardSpeakerPicture {
             display: flex;
             justify-content: center;
