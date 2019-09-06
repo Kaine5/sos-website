@@ -27,45 +27,53 @@
   }
   .WorkshopCardLeft {
     display: flex;
-    width: 45%;
+    width:80%;
     flex-direction: column;
     justify-content: space-between;
     .CardTitle {
-      font-size: 28px;
+      font-size: 1.7vmax;
       font-weight: 800;
     }
-    .CardContent {
-      font-size: 13px;
-      font-weight: 600;
-      height: 50%;
+    .WorkshopCardMid {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      .CardContent {
+        font-size: 1.1vmax;
+        font-weight: 600;
+        height: 50%;
+        width: 26vmax;
+      }
+      .CardSpeaker {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .CardSpeakerPicture {
+          img {
+            height: 10vmax;
+            width: 10vmax;
+            border-radius: 50%;
+          }
+        }
+        .CardSpeakerName {
+          font-weight: 800;
+          font-size: 1.1vmax;
+        }
+        .CardSpeakerTitle {
+          font-weight: 600;
+          font-size: 1.05vmax;
+        }
+      }
     }
     .CardTime {
-      font-size: 15px;
+      font-size: 1.1vmax;
       font-weight: normal;
       font-style: italic;
     }
   }
-  .WorkshopCardRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .CardSpeakerPicture {
-      img {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-      }
-    }
-    .CardSpeakerName {
-      font-weight: 800;
-      font-size: 20px;
-    }
-    .CardSpeakerTitle {
-      font-weight: 600;
-      font-size: 15px;
-    }
-  }
+
   .WorkshopCardSide {
     position: relative;
     display: flex;
@@ -75,67 +83,70 @@
       transform: rotate(270deg);
       transform-origin: 50% 0%;
       font-weight: 800;
-      font-size: 15px;
+      font-size: 1.1vmax;
       right: 0;
     }
-  }
-}
-
-@include tablet-landscape {
-  .WorkshopCard {
   }
 }
 
 @include phone-screen {
   .WorkshopCard {
     .WorkshopCardLeft {
-      .CardTitle {
-        font-size: 15px;
-        font-weight: 600;
-      }
-      .CardContent {
-        font-size: 9px;
-        font-weight: 400;
-        height: 50%;
-      }
-      .CardTime {
-        font-size: 12px;
-        font-weight: normal;
-        font-style: italic;
-      }
-    }
-    .WorkshopCardRight {
       display: flex;
+      width:80%;
       flex-direction: column;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
-      .CardSpeakerPicture {
-        img {
-          height: 100px;
-          width: 100px;
-          border-radius: 50%;
+      .CardTitle {
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: 800;
+      }
+      .WorkshopCardMid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+        .CardContent {
+          text-align: center;
+          font-size: 0.6rem;
+          font-weight: 600;
+          margin: 1rem 0;
+          height: 50%;
+          overflow: scroll;
+        }
+        .CardSpeaker {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+          .CardSpeakerPicture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+            img {
+              height: auto;
+              width: 60%;
+              border-radius: 50%;
+            }
+          }
+          .CardSpeakerName {
+            font-weight: 800;
+            font-size: 0.8rem;
+          }
+          .CardSpeakerTitle {
+            font-weight: 600;
+            font-size: 0.7rem;
+          }
         }
       }
-      .CardSpeakerName {
-        font-weight: 400;
-        font-size: 12px;
-      }
-      .CardSpeakerTitle {
-        font-weight: 400;
-        font-size: 12px;
-      }
-    }
-    .WorkshopCardSide {
-      position: relative;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      .CardType {
-        transform: rotate(270deg);
-        transform-origin: 50% 0%;
-        font-weight: 400;
-        font-size: 12px;
-        right: 0;
+      .CardTime {
+        font-size: 0.7rem;
+        font-weight: normal;
+        font-style: italic;
       }
     }
   }
@@ -144,18 +155,61 @@
 @include tablet-screen-up {
   .WorkshopCard {
     .WorkshopCardLeft {
-      .CardContent {
-        font-size: 15px;
+      display: flex;
+      width:80%;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      .CardTitle {
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 800;
       }
-    }
-  }
-}
-
-@include tablet-landscape {
-  .WorkshopCard {
-    .WorkshopCardLeft {
-      .CardContent {
-        font-size: 15px;
+      .WorkshopCardMid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 80%;
+        .CardContent {
+          text-align: center;
+          font-size: 0.8rem;
+          font-weight: 600;
+          margin: 1rem 0;
+          height: 50%;
+          overflow: scroll;
+        }
+        .CardSpeaker {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+          .CardSpeakerPicture {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+            img {
+              height: auto;
+              width: 60%;
+              border-radius: 50%;
+            }
+          }
+          .CardSpeakerName {
+            font-weight: 800;
+            font-size: 1rem;
+          }
+          .CardSpeakerTitle {
+            font-weight: 600;
+            font-size: 0.8rem;
+          }
+        }
+      }
+      .CardTime {
+        font-size: 0.9rem;
+        font-weight: normal;
+        font-style: italic;
       }
     }
   }

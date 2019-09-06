@@ -84,15 +84,15 @@ const Schedule = () => {
         }
       />
       <CanvasContent hasBorder="true">
-        <Modal active={modalActive} onModalClick={onModalClick}>
-          <WorkshopCard workshop={currentWorkshop} />
-        </Modal>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
             ? daySchedule(data.firstDay)
             : daySchedule(data.secondDay)}
         </div>
       </CanvasContent>
+      <Modal active={modalActive} onModalClick={onModalClick}>
+        <WorkshopCard workshop={currentWorkshop} />
+      </Modal>
     </div>
   );
 };
