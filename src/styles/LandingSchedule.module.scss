@@ -168,3 +168,15 @@
 //     grid-area: c;
 //   }
 // }
+
+.anchorButton,
+.anchorButton:hover,
+.anchorButton:visited,
+.anchorButton:focus,
+.anchorButton:active {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  height: 100%;
+  cursor: auto;
+}

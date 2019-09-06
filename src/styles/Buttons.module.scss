@@ -71,7 +71,7 @@
     box-shadow: 5px 5px #24262d;
     height: 100%;
     width: 100%;
-    background-size: 50% auto;
+    background-size: 40% auto;
     &:hover {
       box-shadow: 5px 5px #24262d;
       -webkit-box-shadow: 5px 5px #24262d;
@@ -84,7 +84,7 @@
     }
   }
   .btnContainer.footerButton {
-    height: 30vh !important;
+    height: 100% !important;
     width: 70vw !important;
     margin-bottom: 10px;
   }
@@ -111,7 +111,7 @@
     }
   }
   .btnContainer.footerButton {
-    height: 50% !important;
+    height: 100% !important;
     width: 95vw !important;
     margin-bottom: 10px;
   }
@@ -123,7 +123,7 @@
     -moz-box-shadow: 5px 5px #24262d;
     height: 100%;
     width: 100%;
-    background-size: 30% auto;
+    background-size: 40% auto;
     &:hover {
       box-shadow: 5px 5px #24262d;
       -webkit-box-shadow: 5px 5px #24262d;
@@ -136,8 +136,8 @@
     }
   }
   .btnContainer.footerButton {
-    height: 30vh !important;
-    width: 65vw !important;
+    height: 100% !important;
+    width: 70vw !important;
     margin-bottom: 10px;
   }
 }
