@@ -175,3 +175,13 @@
     }
   }
 }
+.anchorButton,
+.anchorButton:hover,
+.anchorButton:visited,
+.anchorButton:focus,
+.anchorButton:active {
+  text-decoration: none;
+  color: inherit;
+  outline: 0;
+  cursor: auto;
+}

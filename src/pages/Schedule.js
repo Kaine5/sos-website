@@ -78,9 +78,12 @@ const Schedule = () => {
           </div>
         }
         right={
-          <div>
+          <a
+            href="https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607"
+            className={styles.anchorButton}
+          >
             <Button height="70px" width="150px" name="Get your ticket" />{" "}
-          </div>
+          </a>
         }
       />
       <CanvasContent hasBorder="true">
