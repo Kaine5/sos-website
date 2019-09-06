@@ -14,7 +14,7 @@
               "speaker": {
                 "speakerName": "Andrea Di Pietrantonio",
                 "speakerTitle": "Inventure",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -40,9 +40,9 @@
               "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
+                "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -56,7 +56,7 @@
               "speaker": {
                 "speakerName": "Jukka Kujala",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -70,7 +70,7 @@
               "speaker": {
                 "speakerName": "Lidia Borisova",
                 "speakerTitle": "AVP",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -82,9 +82,9 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
+                "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -117,7 +117,7 @@
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -131,7 +131,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -145,7 +145,7 @@
               "speaker": {
                 "speakerName": "Mari Luukkainen",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -159,7 +159,7 @@
               "speaker": {
                 "speakerName": "Tuukka ",
                 "speakerTitle": "Nosto",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -171,9 +171,9 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "John Doe",
+                "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -206,7 +206,7 @@
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -220,7 +220,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -234,7 +234,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -242,13 +242,13 @@
             },
             {
               "workshopID": "D6",
-              "workshopTitle": "Design Automaiton/Cloud based Design",
+              "workshopTitle": "Design Automation/ Cloud based Design",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -262,7 +262,7 @@
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -281,7 +281,7 @@
               "speaker": {
                 "speakerName": "Simon",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -295,7 +295,7 @@
               "speaker": {
                 "speakerName": "Aku-Jaako",
                 "speakerTitle": "ResQ Club COO",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -323,7 +323,7 @@
               "speaker": {
                 "speakerName": "Michihito Mizutani",
                 "speakerTitle": "Siili",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -337,7 +337,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "OLEG",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -351,7 +351,7 @@
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -391,7 +391,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -433,7 +433,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -447,7 +447,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -466,7 +466,7 @@
               "speaker": {
                 "speakerName": "Jarno Silander",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -494,7 +494,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "2 Options",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -508,7 +508,7 @@
               "speaker": {
                 "speakerName": "Timo",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -522,7 +522,7 @@
               "speaker": {
                 "speakerName": "Topi Siniketo ",
                 "speakerTitle": "Avance",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -536,7 +536,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -583,7 +583,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -611,7 +611,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -625,7 +625,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -644,7 +644,7 @@
               "speaker": {
                 "speakerName": "Troy Woodson",
                 "speakerTitle": "CBW Global",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -658,7 +658,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -686,7 +686,7 @@
               "speaker": {
                 "speakerName": "Paavo Beckman",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -700,7 +700,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -714,7 +714,7 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
-                "speakerPicture": "https://i.imgur.com/Ae3QqtC.jpg"
+                "speakerPicture": ""
               },
               "startTime": "17:30",
               "endTime": "19:30",

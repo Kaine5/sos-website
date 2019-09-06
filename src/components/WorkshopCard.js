@@ -18,10 +18,10 @@ const WorkshopCard = ({ workshop }) => {
               />
             </div>
             <div className={styles.CardSpeakerName}>
-              {workshop.speaker.speakerName}
+              {workshop.speaker.speakerName || "Wander the Bard"}
             </div>
             <div className={styles.CardSpeakerTitle}>
-              {workshop.speaker.speakerTitle}
+              {workshop.speaker.speakerTitle || "The Storyteller"}
             </div>
           </div>
           <div

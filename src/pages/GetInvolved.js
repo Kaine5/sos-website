@@ -26,7 +26,7 @@ const GetInvolved = props => {
               backgroundImage={`url("/img/btn-illustration21.png")`}
               onClick={() =>
                 setHeadText(
-                  "Become an SOS 2019 sponsor and connect with talents and the hottest startup ecosystem in Helsinki. <br/> Contact: vickie@theshortcut.org"
+                  "Become an SOS 2019 sponsor and connect with talents <br/> and the hottest startup ecosystem in Helsinki. <br/> Contact: vickie@theshortcut.org"
                 )
               }
             />
