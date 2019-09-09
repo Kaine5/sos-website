@@ -99,7 +99,12 @@ const Schedule = () => {
             href="https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607"
             className={styles.anchorButton}
           >
-            <Button height="70px" width="150px" name="Get your ticket" />{" "}
+            <Button
+              height="70px"
+              width="150px"
+              name="Get your ticket"
+              specialClass="headerButton"
+            />{" "}
           </a>
         }
         display="timeline"
