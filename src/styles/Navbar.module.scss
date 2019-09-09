@@ -25,6 +25,9 @@
       color: gray;
       font-weight: 600;
     }
+    &.onlyMobile {
+      display: none;
+    }
   }
 }
 
@@ -49,6 +52,9 @@
         &:hover {
           color: black;
         }
+      }
+      &.onlyMobile {
+        display: flex;
       }
     }
   }
