@@ -23,7 +23,9 @@
 .ScheduleDateSelector {
   div {
     height: 3em;
+    max-height: 3em;
     width: 8em;
+    max-width: 8em;
     font-family: "CircularStd";
     font-size: 13px;
 
@@ -54,4 +56,16 @@
   color: inherit;
   outline: 0;
   cursor: auto;
+}
+@include phone-screen {
+  .ScheduleDateSelector {
+    div {
+      height: 3em;
+      width: 7.5em;
+      font-size: 10px;
+      &:last-child {
+        margin-top: 5px;
+      }
+    }
+  }
 }

@@ -10,6 +10,9 @@ const ScheduleButton = props => {
     >
       <div className={styles.ScheduleButtonTitle}>{props.title}</div>
       <div className={styles.ScheduleButtonSpeaker}>{props.speaker}</div>
+      <div
+        className={styles.PlaceTime}
+      >{`${props.startTime}-${props.endTime} | ${props.place}`}</div>
       <div className={styles.sideText}>{props.type}</div>
     </div>
   );

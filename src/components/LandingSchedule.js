@@ -14,10 +14,10 @@ const LandingSchedule = () => {
 
       <div className={styles.item2}>
         <p>
-          2 Days.<br></br>
+          2 days,<br></br>
           48 hands-on workshops <br></br>
-          For entrepreneurs <br></br> and startups <br></br>
-          Learn from the doers
+          for entrepreneurs <br></br> and startups. <br></br>
+          Learn from doers
         </p>
       </div>
       <div className={styles.item3}>

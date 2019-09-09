@@ -67,11 +67,20 @@
 }
 
 @include phone-screen {
+  .Header {
+    justify-content: flex-start;
+    padding-left: 7vw;
+    width: 65vw;
+  }
   .headerContent {
-    justify-content: center;
+    justify-content: space-between;
+
     .headerLeft,
     .headerRight {
       display: none;
+    }
+    .headerLeft.timeline {
+      display: flex;
     }
   }
 }

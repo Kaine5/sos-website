@@ -23,7 +23,7 @@ const Schedule = () => {
       }
     }
   };
-  const sessionRender = array => {
+  const sessionRender = (array, id) => {
     let renderedRow = array.map(workshop => {
       return (
         <ScheduleButton
@@ -31,6 +31,9 @@ const Schedule = () => {
           type={workshop.workshopType}
           title={workshop.workshopTitle}
           speaker={workshop.speaker.speakerName}
+          startTime={workshop.startTime}
+          endTime={workshop.endTime}
+          place={workshop.place}
           onClick={() => {
             setModalActive(true);
             setCurrentWorkshop(workshop);
@@ -38,11 +41,15 @@ const Schedule = () => {
         />
       );
     });
-    return <div className={styles.ScheduleList}>{renderedRow}</div>;
+    return (
+      <div key={id} className={styles.ScheduleList}>
+        {renderedRow}
+      </div>
+    );
   };
   const dayRender = array => {
     let renderedDay = array.map(session => {
-      return sessionRender(session.list);
+      return sessionRender(session.list, session.id);
     });
     return <div>{renderedDay}</div>;
   };
@@ -81,6 +88,7 @@ const Schedule = () => {
             <Button height="70px" width="150px" name="Get your ticket" />{" "}
           </a>
         }
+        display="timeline"
       />
       <CanvasContent hasBorder="true">
         <div className={styles.ScheduleList}>

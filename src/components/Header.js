@@ -5,7 +5,11 @@ const Header = props => {
   return (
     <div className={headerStyles.Header}>
       <div className={headerStyles.headerContent}>
-        <div className={headerStyles.headerLeft}>
+        <div
+          className={`${headerStyles.headerLeft} ${
+            headerStyles[props.display]
+          }`}
+        >
           {/* <p>October 5th > 6th</p> <p> 2019 | The Shortcut</p> */}
           {props.left}
         </div>
