@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import Modal from "../components/Modal";
@@ -23,6 +23,20 @@ const Schedule = () => {
       }
     }
   };
+
+  useEffect(() => {
+    const handleEsc = event => {
+      if (event.keyCode === 27) {
+        setModalActive(false);
+      }
+    };
+    window.addEventListener("keydown", handleEsc);
+
+    return () => {
+      window.removeEventListener("keydown", handleEsc);
+    };
+  }, [modalActive]);
+
   const sessionRender = (array, id) => {
     let renderedRow = array.map(workshop => {
       return (
