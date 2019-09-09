@@ -68,12 +68,11 @@
 
 @include phone-screen {
   .Header {
-    justify-content: flex-start;
+    justify-content: center;
     padding-left: 7vw;
-    width: 65vw;
   }
   .headerContent {
-    justify-content: space-between;
+    justify-content: center;
 
     .headerLeft,
     .headerRight {
@@ -81,6 +80,8 @@
     }
     .headerLeft.timeline {
       display: flex;
+      position: absolute;
+      left: 5%;
     }
   }
 }
