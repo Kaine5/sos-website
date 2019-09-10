@@ -18,7 +18,7 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D2",
@@ -32,7 +32,7 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "D1",
@@ -46,7 +46,7 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "T16",
@@ -60,13 +60,13 @@
               },
               "startTime": "10:00",
               "endTime": "12:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -74,7 +74,7 @@
               },
               "startTime": "10:00",
               "endTime": "12:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T2",
@@ -88,7 +88,7 @@
               },
               "startTime": "10:00",
               "endTime": "12:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         },
@@ -107,7 +107,7 @@
               },
               "startTime": "13:00",
               "endTime": "15:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D3",
@@ -121,7 +121,7 @@
               },
               "startTime": "13:00",
               "endTime": "16:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "D4",
@@ -135,7 +135,7 @@
               },
               "startTime": "13:00",
               "endTime": "15:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "B7",
@@ -149,13 +149,13 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -163,7 +163,7 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T4",
@@ -177,7 +177,7 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         },
@@ -196,7 +196,7 @@
               },
               "startTime": "15:10",
               "endTime": "17:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D3",
@@ -210,7 +210,7 @@
               },
               "startTime": "15:10",
               "endTime": "17:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "D16",
@@ -224,7 +224,7 @@
               },
               "startTime": "15:10",
               "endTime": "17:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "B6",
@@ -238,13 +238,13 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -252,7 +252,7 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T1",
@@ -266,7 +266,7 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         },
@@ -285,7 +285,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D6",
@@ -299,7 +299,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "B12",
@@ -313,7 +313,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "T3",
@@ -327,13 +327,13 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -341,7 +341,7 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T1",
@@ -355,7 +355,7 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         }
@@ -381,7 +381,7 @@
               },
               "startTime": "9:40",
               "endTime": "11:40",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D9",
@@ -395,7 +395,7 @@
               },
               "startTime": "9:40",
               "endTime": "11:40",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "D10",
@@ -409,7 +409,7 @@
               },
               "startTime": "9:40",
               "endTime": "11:40",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "B10",
@@ -423,13 +423,13 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -437,7 +437,7 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T9",
@@ -451,7 +451,7 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         },
@@ -470,7 +470,7 @@
               },
               "startTime": "13:00",
               "endTime": "15:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D12",
@@ -484,7 +484,7 @@
               },
               "startTime": "13:00",
               "endTime": "15:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "D8",
@@ -498,7 +498,7 @@
               },
               "startTime": "13:00",
               "endTime": "15:00",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "B5",
@@ -512,13 +512,13 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -526,7 +526,7 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T7",
@@ -540,7 +540,7 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         },
@@ -559,7 +559,7 @@
               },
               "startTime": "15:10",
               "endTime": "17:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D15",
@@ -573,7 +573,7 @@
               },
               "startTime": "15:10",
               "endTime": "17:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T14",
@@ -587,7 +587,7 @@
               },
               "startTime": "15:10",
               "endTime": "17:10",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "B4",
@@ -601,12 +601,26 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": ""
+              },
+              "startTime": "15:20",
+              "endTime": "17:20",
+              "place": "THE SHORTCUT"
+            },
+            {
+              "workshopID": "T8",
+              "workshopTitle": "Automation",
+              "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
@@ -615,21 +629,7 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": "D8",
-              "workshopTitle": "Service design challenge",
-              "workshopType": "Design",
-              "workshopDesc": "",
-              "speaker": {
-                "speakerName": "Briana Romero",
-                "speakerTitle": "",
-                "speakerPicture": ""
-              },
-              "startTime": "15:20",
-              "endTime": "17:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         },
@@ -648,7 +648,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D13",
@@ -662,7 +662,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T15",
@@ -676,7 +676,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "The Shortcut- Maria 01"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "T5",
@@ -690,13 +690,13 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
+              "place": "ICEBREAKER"
             },
             {
               "workshopID": "",
-              "workshopTitle": "",
+              "workshopTitle": "Coffee Chate ",
               "workshopType": "",
-              "workshopDesc": "",
+              "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -704,7 +704,7 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T10",
@@ -718,7 +718,7 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
+              "place": "GAMES FACTORY"
             }
           ]
         }
