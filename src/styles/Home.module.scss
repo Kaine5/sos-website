@@ -139,6 +139,7 @@
   .wrapper {
     margin-top: 10px;
     height: 110vh;
+    min-height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -149,6 +150,7 @@
       align-items: center;
       justify-content: space-around;
       height: 40vh;
+      min-height: 275px;
     }
     .footer {
       height: 70vh;

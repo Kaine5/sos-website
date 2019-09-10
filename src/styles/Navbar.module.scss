@@ -35,12 +35,14 @@
   .Navbar {
     transition: all 0.5s ease-in;
     width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    justify-content: center;
 
     .navButton {
       border: none;
       width: auto;
-      background-color: rgba(255, 255, 255, 0.95);
       cursor: pointer;
+      height: 17vh;
 
       .navButtonName {
         transform: rotate(0deg);
