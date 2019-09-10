@@ -35,13 +35,13 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "B2",
-              "workshopTitle": "Community building",
-              "workshopType": "Business",
+              "workshopID": "D1",
+              "workshopTitle": "The value of design thinking in business development",
+              "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
+                "speakerName": "Lidia Borisova",
+                "speakerTitle": "AVP",
                 "speakerPicture": ""
               },
               "startTime": "9:50",
@@ -63,13 +63,13 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D1",
-              "workshopTitle": "The value of design thinking in business development",
-              "workshopType": "Design",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Lidia Borisova",
-                "speakerTitle": "AVP",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "10:00",
@@ -120,17 +120,17 @@
                 "speakerPicture": ""
               },
               "startTime": "13:00",
-              "endTime": "15:00",
+              "endTime": "16:00",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T5",
-              "workshopTitle": "SCRUM role play",
-              "workshopType": "Tech",
+              "workshopID": "D4",
+              "workshopTitle": "product design while scaling (SaaS, B2B)",
+              "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
+                "speakerName": "Tuukka",
+                "speakerTitle": "Nosto",
                 "speakerPicture": ""
               },
               "startTime": "13:00",
@@ -152,13 +152,13 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D4",
-              "workshopTitle": "product design while scaling (SaaS, B2B)",
-              "workshopType": "Design",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Tuukka ",
-                "speakerTitle": "Nosto",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "13:10",
@@ -213,12 +213,12 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T13",
-              "workshopTitle": "How to gamify my product",
-              "workshopType": "Tech",
+              "workshopID": "D16",
+              "workshopTitle": "Data Visualization design",
+              "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Pauliina Ullner",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -241,12 +241,12 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D16",
-              "workshopTitle": "Data Visualization design",
-              "workshopType": "Design",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Pauliina Ullner",
+                "speakerName": "",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -288,13 +288,13 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D7",
-              "workshopTitle": "Design talent",
+              "workshopID": "D6",
+              "workshopTitle": "Design Automaiton/Cloud based Design",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Aku-Jaako",
-                "speakerTitle": "ResQ Club COO",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "17:20",
@@ -316,20 +316,6 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "",
-              "workshopTitle": "UI",
-              "workshopType": "Design",
-              "workshopDesc": "",
-              "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
-                "speakerPicture": ""
-              },
-              "startTime": "17:30",
-              "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
               "workshopID": "T3",
               "workshopTitle": "How to plan your Tech?",
               "workshopType": "Tech",
@@ -337,6 +323,20 @@
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "OLEG",
+                "speakerPicture": ""
+              },
+              "startTime": "17:30",
+              "endTime": "19:30",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "17:30",
@@ -426,9 +426,9 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T9",
-              "workshopTitle": "Test driven development ",
-              "workshopType": "Tech",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
@@ -440,12 +440,12 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T10",
-              "workshopTitle": "Big data and decision making",
+              "workshopID": "T9",
+              "workshopTitle": "Setting up CI/CD pipeline and integration tests for a web application",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Meeshkan",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -487,31 +487,17 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D11",
-              "workshopTitle": "User testing",
+              "workshopID": "D8",
+              "workshopTitle": "Service design challenge",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "2 Options",
+                "speakerName": "Briana Romero",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "13:00",
               "endTime": "15:00",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": "T7",
-              "workshopTitle": "Blockchain",
-              "workshopType": "Tech",
-              "workshopDesc": "",
-              "speaker": {
-                "speakerName": "Timo",
-                "speakerTitle": "",
-                "speakerPicture": ""
-              },
-              "startTime": "13:10",
-              "endTime": "15:10",
               "place": "The Shortcut- Maria 01"
             },
             {
@@ -529,12 +515,26 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T12",
-              "workshopTitle": "Game jam",
-              "workshopType": "Tech",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": ""
+              },
+              "startTime": "13:10",
+              "endTime": "15:10",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T7",
+              "workshopTitle": "Blockchain",
+              "workshopType": "Tech",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "Timo",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -604,12 +604,12 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D8",
-              "workshopTitle": "Service design challenge",
-              "workshopType": "Design",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Briana Romero",
+                "speakerName": "",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -618,12 +618,12 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T6",
-              "workshopTitle": "A/B Testing",
-              "workshopType": "Tech",
+              "workshopID": "D8",
+              "workshopTitle": "Service design challenge",
+              "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Briana Romero",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -679,23 +679,9 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "B8",
-              "workshopTitle": "How to build a public profile?",
-              "workshopType": "Business",
-              "workshopDesc": "",
-              "speaker": {
-                "speakerName": "Paavo Beckman",
-                "speakerTitle": "",
-                "speakerPicture": ""
-              },
-              "startTime": "17:30",
-              "endTime": "19:30",
-              "place": "The Shortcut- Maria 01"
-            },
-            {
-              "workshopID": "D16",
-              "workshopTitle": "Data Visualization design",
-              "workshopType": "Design",
+              "workshopID": "T5",
+              "workshopTitle": "SCRUM",
+              "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
@@ -707,8 +693,22 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "T8",
-              "workshopTitle": "Automation",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
+              "workshopDesc": "",
+              "speaker": {
+                "speakerName": "",
+                "speakerTitle": "",
+                "speakerPicture": ""
+              },
+              "startTime": "17:30",
+              "endTime": "19:30",
+              "place": "The Shortcut- Maria 01"
+            },
+            {
+              "workshopID": "T10",
+              "workshopTitle": "Big data and decision making",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
