@@ -10,11 +10,11 @@
               "workshopID": "B9",
               "workshopTitle": "How to go from seed funding to the next funding round",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "The road from seed to A round is a tricky one, lots of variables to manage and a strong focus on execution. Join the workshop to discuss how VC can help you to reach the next funding round and what it means to work with a hands-on investor.",
               "speaker": {
                 "speakerName": "Andrea Di Pietrantonio",
                 "speakerTitle": "Inventure",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B9.jpg"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -82,7 +82,7 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Popovine Anton",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -99,11 +99,11 @@
               "workshopID": "B1",
               "workshopTitle": "Entrepreneurship",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "Vertical OPEN™ is a board game business simulator that teaches you to think critically and creatively about collaborative innovation tools. How should one manage a business through ever-disruptive technologies and turbulent industry times? Designed by the collaborative design team at Vertical, OPEN invites you to navigate open innovation opportunities and learn how to achieve better performance through co-creation.",
               "speaker": {
-                "speakerName": "Jan Bubienczyk",
+                "speakerName": "Jan Bubienczyk, Sasha Kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B1.jpg"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -145,7 +145,7 @@
               "speaker": {
                 "speakerName": "Mari Luukkainen",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B7.jpg"
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -192,7 +192,7 @@
               "speaker": {
                 "speakerName": "Jan Bubienczyk",
                 "speakerTitle": "Vertical",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B1.jpg"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -241,12 +241,12 @@
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D6",
-              "workshopTitle": "Design Automation/ Cloud based Design",
+              "workshopID": "D16",
+              "workshopTitle": "Data Visualization design",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Pauliina Ullner",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -256,7 +256,7 @@
             },
             {
               "workshopID": "T1",
-              "workshopTitle": "Cybersecurity: Threat Modelling",
+              "workshopTitle": "Threat modelling your product or service",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
@@ -309,20 +309,20 @@
               "speaker": {
                 "speakerName": "Henrik Gripenberg",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B12.jpg"
               },
               "startTime": "17:20",
               "endTime": "19:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D8",
-              "workshopTitle": "Service design challenge",
+              "workshopID": "",
+              "workshopTitle": "UI",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Michihito Mizutani",
-                "speakerTitle": "Siili",
+                "speakerName": "",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "17:30",
@@ -345,7 +345,7 @@
             },
             {
               "workshopID": "T1",
-              "workshopTitle": "Cybersecurity: Threat Modelling",
+              "workshopTitle": "Threat modelling your product or service",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
@@ -405,7 +405,7 @@
               "speaker": {
                 "speakerName": " Elina Holley",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/D10.jpg"
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -419,7 +419,7 @@
               "speaker": {
                 "speakerName": "Aleksi Leskinen",
                 "speakerTitle": "JustAleksi Visuals",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B10.jpg"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -518,11 +518,11 @@
               "workshopID": "B5",
               "workshopTitle": "Legalities",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "So you’ve founded your company and are really excited about the journey ahead – great! Do you know how to make that great new venture of yours compliant with laws so that you can keep that laser focus on building traction and ABCing? Maybe you’ve heard all those veteran founders talk about liqprefs, vesting, non-compete carveouts and other important-sounding legal stuff but don’t really know how to navigate your way around them. We’re here to help! Come join our workshop focusing on post-founding legal and governance topics. If you already know the lingo, here are some buzzwords that we aim to cover: early-stage corporate governance, SHA considerations, equity incentive programs, employment contracts, financing round preparations and completion.",
               "speaker": {
                 "speakerName": "Topi Siniketo ",
                 "speakerTitle": "Avance",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B5.jpg"
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -555,7 +555,7 @@
               "speaker": {
                 "speakerName": "Esa Peltonen",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B13.jpg"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -597,19 +597,19 @@
               "speaker": {
                 "speakerName": "Aarni Kotiranta",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B4.jpg"
               },
               "startTime": "15:20",
               "endTime": "17:20",
               "place": "The Shortcut- Maria 01"
             },
             {
-              "workshopID": "D5",
-              "workshopTitle": "UI",
+              "workshopID": "D8",
+              "workshopTitle": "Service design challenge",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Briana Romero",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -644,7 +644,7 @@
               "speaker": {
                 "speakerName": "Troy Woodson",
                 "speakerTitle": "CBW Global",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B15.jpg"
               },
               "startTime": "17:20",
               "endTime": "19:20",
