@@ -56,8 +56,9 @@ const Schedule = () => {
       );
     });
     return (
-      <div key={id} className={styles.ScheduleList}>
-        {renderedRow}
+      <div key={id}>
+        <div className={styles.ScheduleList}>{renderedRow}</div>
+        <p style={{ fontStyle: "Italic" }}>This schedule is preliminary.</p>
       </div>
     );
   };
@@ -110,7 +111,6 @@ const Schedule = () => {
         display="timeline"
       />
       <CanvasContent hasBorder="true">
-        <p style={{ fontStyle: "Italic" }}>This schedule is preliminary</p>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
             ? daySchedule(data.firstDay)
