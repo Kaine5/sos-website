@@ -5,20 +5,20 @@
   flex-direction: row;
   width: 60vw;
   margin-top: 2em;
-  &:first-child {
-    > :nth-child(4),
-    > :nth-child(5),
-    > :nth-child(6) {
-      margin-top: -0.5em;
-    }
-  }
-  &:not(:first-child) {
-    > :nth-child(4),
-    > :nth-child(5),
-    > :nth-child(6) {
-      margin-top: 0.5em;
-    }
-  }
+  // &:first-child {
+  //   > :nth-child(4),
+  //   > :nth-child(5),
+  //   > :nth-child(6) {
+  //     margin-top: -0.5em;
+  //   }
+  // }
+  // &:not(:first-child) {
+  //   > :nth-child(4),
+  //   > :nth-child(5),
+  //   > :nth-child(6) {
+  //     margin-top: 0.5em;
+  //   }
+  // }
 }
 .ScheduleDateSelector {
   div {

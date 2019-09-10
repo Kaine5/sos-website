@@ -110,6 +110,7 @@ const Schedule = () => {
         display="timeline"
       />
       <CanvasContent hasBorder="true">
+        <p style={{ fontStyle: "Italic" }}>This schedule is preliminary</p>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
             ? daySchedule(data.firstDay)
