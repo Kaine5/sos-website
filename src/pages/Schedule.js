@@ -110,6 +110,12 @@ const Schedule = () => {
         display="timeline"
       />
       <CanvasContent hasBorder="true">
+        <p className={styles.infoText}>
+          The Event will be held in the Maria01, Lapinlahdenkatu 16. <br />
+          Workshops are divided into 5 spaces inside the Maria01: <br />
+          The Shortcut, Vertical, Icebreakers, Maria01 event space, Games
+          Factory
+        </p>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
             ? daySchedule(data.firstDay)
