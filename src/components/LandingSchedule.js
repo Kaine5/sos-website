@@ -15,7 +15,7 @@ const LandingSchedule = () => {
       <div className={styles.item2}>
         <p>
           2 days,<br></br>
-          48 hands-on workshops <br></br>
+          40 hands-on workshops <br></br>
           for entrepreneurs <br></br> and startups. <br></br>
           Learn from doers
         </p>

@@ -58,7 +58,6 @@ const Schedule = () => {
     return (
       <div key={id}>
         <div className={styles.ScheduleList}>{renderedRow}</div>
-        <p style={{ fontStyle: "Italic" }}>This schedule is preliminary.</p>
       </div>
     );
   };
