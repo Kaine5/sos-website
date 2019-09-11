@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import Modal from "../components/Modal";
@@ -23,7 +23,21 @@ const Schedule = () => {
       }
     }
   };
-  const sessionRender = array => {
+
+  useEffect(() => {
+    const handleEsc = event => {
+      if (event.keyCode === 27) {
+        setModalActive(false);
+      }
+    };
+    window.addEventListener("keydown", handleEsc);
+
+    return () => {
+      window.removeEventListener("keydown", handleEsc);
+    };
+  }, [modalActive]);
+
+  const sessionRender = (array, id) => {
     let renderedRow = array.map(workshop => {
       return (
         <ScheduleButton
@@ -31,6 +45,9 @@ const Schedule = () => {
           type={workshop.workshopType}
           title={workshop.workshopTitle}
           speaker={workshop.speaker.speakerName}
+          startTime={workshop.startTime}
+          endTime={workshop.endTime}
+          place={workshop.place}
           onClick={() => {
             setModalActive(true);
             setCurrentWorkshop(workshop);
@@ -38,11 +55,15 @@ const Schedule = () => {
         />
       );
     });
-    return <div className={styles.ScheduleList}>{renderedRow}</div>;
+    return (
+      <div key={id}>
+        <div className={styles.ScheduleList}>{renderedRow}</div>
+      </div>
+    );
   };
   const dayRender = array => {
     let renderedDay = array.map(session => {
-      return sessionRender(session.list);
+      return sessionRender(session.list, session.id);
     });
     return <div>{renderedDay}</div>;
   };
@@ -78,11 +99,23 @@ const Schedule = () => {
             href="https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607"
             className={styles.anchorButton}
           >
-            <Button height="70px" width="150px" name="Get your ticket" />{" "}
+            <Button
+              height="70px"
+              width="150px"
+              name="Get your ticket"
+              specialClass="headerButton"
+            />{" "}
           </a>
         }
+        display="timeline"
       />
       <CanvasContent hasBorder="true">
+        <p className={styles.infoText}>
+          The Event will be held in the Maria01, Lapinlahdenkatu 16. <br />
+          Workshops are divided into 5 spaces inside the Maria01: <br />
+          The Shortcut, Vertical, Icebreakers, Maria01 event space, Games
+          Factory
+        </p>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
             ? daySchedule(data.firstDay)

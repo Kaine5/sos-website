@@ -3,12 +3,12 @@
 .ScheduleButton {
   font-size: 20px;
   width: 10vw;
-  min-width: 150px;
+  // min-width: 150px;
   height: 30vh;
   min-height: 225px;
-  border: #e8592e 4px solid;
-  background-color: #fbe1d9;
-  color: #e8592e;
+  border: #24262d 4px solid;
+  background-color: #b2b2b2;
+  color: #24262d;
   position: relative;
   font-weight: 800;
   letter-spacing: 0;
@@ -46,24 +46,41 @@
 }
 .ScheduleButtonTitle {
   margin: 15% 10%;
-  font-size: 1em;
+  font-size: 1vmax;
+}
+.ScheduleButtonSpeaker {
+  font-size: 11px;
+  margin: 15% 10%;
 }
 
-.ScheduleButtonSpeaker {
+.PlaceTime {
   font-size: 10px;
   font-weight: bold;
   position: absolute;
   bottom: 5%;
   left: 10%;
+  margin-right: 10%;
 }
 
 @include tablet-landscape {
   .ScheduleButton {
     width: 120px;
     height: 180px;
+    min-width: 150px;
 
     .ScheduleButtonTitle {
-      font-size: 12px;
+      font-size: 15px;
+    }
+  }
+}
+@include tablet-screen-up {
+  .ScheduleButton {
+    width: 100px;
+    height: 150px;
+    min-width: 150px;
+
+    .ScheduleButtonTitle {
+      font-size: 15px;
     }
   }
 }
@@ -72,9 +89,10 @@
   .ScheduleButton {
     width: 100px;
     height: 150px;
+    min-width: 150px;
 
     .ScheduleButtonTitle {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 }

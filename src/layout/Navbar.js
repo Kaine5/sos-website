@@ -13,6 +13,14 @@ const Navbar = ({ hideNav, openNav }) => {
       <NavButton link="/schedule/" name="schedule " styles={styles} />
       {/* /getinvolved/ */}
       <NavButton link="/getinvolved/" name="get involved" styles={styles} />
+      <div className={`${styles.navButton} ${styles.onlyMobile}`}>
+        <a
+          href="https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607"
+          className={styles.navButtonName}
+        >
+          get your tickets
+        </a>
+      </div>
     </div>
   );
 };

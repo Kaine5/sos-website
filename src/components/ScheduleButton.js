@@ -10,16 +10,19 @@ const ScheduleButton = props => {
     >
       <div className={styles.ScheduleButtonTitle}>{props.title}</div>
       <div className={styles.ScheduleButtonSpeaker}>{props.speaker}</div>
+      <div
+        className={styles.PlaceTime}
+      >{`${props.startTime}-${props.endTime} | ${props.place}`}</div>
       <div className={styles.sideText}>{props.type}</div>
     </div>
   );
 };
 
 const validType = (props, propName, componentName) => {
-  const buttonTypes = ["Business", "Tech", "Design"];
+  const buttonTypes = ["Business", "Tech", "Design", ""];
   if (buttonTypes.indexOf(props[propName]) === -1) {
     return new Error(
-      `Invalid prop ${propName} passed to ${componentName}. Expected "Business", "Tech" or "Design".`
+      `Invalid prop ${propName} passed to ${componentName}. Expected "Business", "Tech", "Design" or "".`
     );
   }
 };

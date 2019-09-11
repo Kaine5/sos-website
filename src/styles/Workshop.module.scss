@@ -2,9 +2,9 @@
 
 .WorkshopCard {
   position: absolute;
-  border: 6px solid #00a99d;
-  background-color: #b2e5e1;
-  color: #00a99d;
+  border: 6px solid #24262d;
+  background-color: #b2b2b2;
+  color: #24262d;
   padding: 3% 0 3% 3%;
   display: flex;
   justify-content: space-between;
@@ -40,11 +40,13 @@
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
+      height: 100%;
       .CardContent {
         font-size: 1.1vmax;
         font-weight: 600;
         height: 50%;
         width: 26vmax;
+        overflow: auto;
       }
       .CardSpeaker {
         display: flex;
@@ -110,7 +112,7 @@
         align-items: center;
         height: 80%;
         .CardContent {
-          text-align: center;
+          text-align: start;
           font-size: 0.6rem;
           font-weight: 600;
           margin: 1rem 0;
@@ -173,7 +175,7 @@
         align-items: center;
         height: 80%;
         .CardContent {
-          text-align: center;
+          text-align: start;
           font-size: 0.8rem;
           font-weight: 600;
           margin: 1rem 0;

@@ -67,11 +67,21 @@
 }
 
 @include phone-screen {
+  .Header {
+    justify-content: center;
+    padding-left: 7vw;
+  }
   .headerContent {
     justify-content: center;
+
     .headerLeft,
     .headerRight {
       display: none;
+    }
+    .headerLeft.timeline {
+      display: flex;
+      position: absolute;
+      left: 5%;
     }
   }
 }

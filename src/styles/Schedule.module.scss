@@ -5,25 +5,27 @@
   flex-direction: row;
   width: 60vw;
   margin-top: 2em;
-  &:first-child {
-    > :nth-child(4),
-    > :nth-child(5),
-    > :nth-child(6) {
-      margin-top: -0.5em;
-    }
-  }
-  &:not(:first-child) {
-    > :nth-child(4),
-    > :nth-child(5),
-    > :nth-child(6) {
-      margin-top: 0.5em;
-    }
-  }
+  // &:first-child {
+  //   > :nth-child(4),
+  //   > :nth-child(5),
+  //   > :nth-child(6) {
+  //     margin-top: -0.5em;
+  //   }
+  // }
+  // &:not(:first-child) {
+  //   > :nth-child(4),
+  //   > :nth-child(5),
+  //   > :nth-child(6) {
+  //     margin-top: 0.5em;
+  //   }
+  // }
 }
 .ScheduleDateSelector {
   div {
     height: 3em;
+    max-height: 3em;
     width: 8em;
+    max-width: 8em;
     font-family: "CircularStd";
     font-size: 13px;
 
@@ -54,4 +56,38 @@
   color: inherit;
   outline: 0;
   cursor: auto;
+}
+@include phone-screen {
+  .ScheduleDateSelector {
+    div {
+      height: 4vmax;
+      width: 11vmax;
+      font-size: 1.5vmax;
+      &:last-child {
+        margin-top: 5%;
+      }
+    }
+  }
+}
+
+@include tablet-screen-up {
+  .ScheduleDateSelector {
+    div {
+      height: 4vmax;
+      width: 11vmax;
+      font-size: 1.5vmax;
+      &:last-child {
+        margin-top: 5%;
+      }
+    }
+  }
+}
+
+.infoText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  font-size: 1.25vmax;
 }
