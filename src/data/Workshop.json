@@ -101,9 +101,9 @@
               "workshopType": "Business",
               "workshopDesc": "Vertical OPEN™ is a board game business simulator that teaches you to think critically and creatively about collaborative innovation tools. How should one manage a business through ever-disruptive technologies and turbulent industry times? Designed by the collaborative design team at Vertical, OPEN invites you to navigate open innovation opportunities and learn how to achieve better performance through co-creation.",
               "speaker": {
-                "speakerName": "Jan Bubienczyk, Sasha Kazantsev",
+                "speakerName": "Jan Bubienczyk <br />  Sasha Kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "/img/speaker/business/B1.jpg"
+                "speakerPicture": "/img/speaker/business/B1mix.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -190,9 +190,9 @@
               "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jan Bubienczyk",
+                "speakerName": "Jan Bubienczyk <br /> Sasha Kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "/img/speaker/business/B1.jpg"
+                "speakerPicture": "/img/speaker/business/B1mix.png"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -260,7 +260,7 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
+                "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
                 "speakerPicture": ""
               },
@@ -349,7 +349,7 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
+                "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
                 "speakerPicture": ""
               },
@@ -405,7 +405,7 @@
               "speaker": {
                 "speakerName": " Elina Holley",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "/img/speaker/business/D10.jpg"
+                "speakerPicture": "/img/speaker/design/D10.jpg"
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -567,7 +567,7 @@
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jaeseong Park & Said Aqqa",
+                "speakerName": "Jaeseong Park <br /> Said Aqqa",
                 "speakerTitle": "Enlighten Image",
                 "speakerPicture": ""
               },
