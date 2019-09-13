@@ -56,7 +56,7 @@
               "speaker": {
                 "speakerName": "Jukka Kujala",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T16.jpg"
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -82,9 +82,9 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Popovine Anton",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
+                "speakerTitle": "AWS",
+                "speakerPicture": "/img/speaker/tech/T2.jpg"
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -166,14 +166,14 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "T4",
+              "workshopID": "T2",
               "workshopTitle": "AWS  Build a photo sharing app",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
+                "speakerTitle": "AWS",
+                "speakerPicture": "/img/speaker/tech/T2.jpg"
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -262,7 +262,7 @@
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T1.jpg"
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -447,7 +447,7 @@
               "speaker": {
                 "speakerName": "Meeshkan",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T9.jpg"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -672,7 +672,7 @@
               "speaker": {
                 "speakerName": "Sofia Pohls",
                 "speakerTitle": "findersseekers",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T15.jpg"
               },
               "startTime": "17:20",
               "endTime": "19:20",
