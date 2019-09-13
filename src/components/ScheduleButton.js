@@ -9,7 +9,11 @@ const ScheduleButton = props => {
       onClick={props.onClick}
     >
       <div className={styles.ScheduleButtonTitle}>{props.title}</div>
-      <div className={styles.ScheduleButtonSpeaker}>{props.speaker}</div>
+      <div className={styles.ScheduleButtonSpeaker} dangerouslySetInnerHTML={{
+        __html:
+          `${props.speaker}`
+      }}>
+      </div>
       <div
         className={styles.PlaceTime}
       >{`${props.startTime}-${props.endTime} | ${props.place}`}</div>

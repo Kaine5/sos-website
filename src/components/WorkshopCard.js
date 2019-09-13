@@ -17,9 +17,15 @@ const WorkshopCard = ({ workshop }) => {
                 alt="pikachu face"
               />
             </div>
-            <div className={styles.CardSpeakerName}>
-              {workshop.speaker.speakerName || "Wander the Bard"}
+            <div className={styles.CardSpeakerName}
+              dangerouslySetInnerHTML={{
+                __html:
+                  `${workshop.speaker.speakerName}` || "Wander the Bard"
+              }}
+            >
+
             </div>
+
             <div className={styles.CardSpeakerTitle}>
               {workshop.speaker.speakerTitle || "The Storyteller"}
             </div>

@@ -56,7 +56,7 @@
               "speaker": {
                 "speakerName": "Jukka Kujala",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T16.jpg"
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -64,7 +64,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -82,9 +82,9 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Popovine Anton",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
+                "speakerTitle": "AWS",
+                "speakerPicture": "/img/speaker/tech/T2.jpg"
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -101,9 +101,9 @@
               "workshopType": "Business",
               "workshopDesc": "Vertical OPEN™ is a board game business simulator that teaches you to think critically and creatively about collaborative innovation tools. How should one manage a business through ever-disruptive technologies and turbulent industry times? Designed by the collaborative design team at Vertical, OPEN invites you to navigate open innovation opportunities and learn how to achieve better performance through co-creation.",
               "speaker": {
-                "speakerName": "Jan Bubienczyk, Sasha Kazantsev",
+                "speakerName": "Jan Bubienczyk <br />  Sasha Kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "/img/speaker/business/B1.jpg"
+                "speakerPicture": "/img/speaker/business/B1mix.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -125,11 +125,11 @@
             },
             {
               "workshopID": "D4",
-              "workshopTitle": "product design while scaling (SaaS, B2B)",
+              "workshopTitle": "Scaling design efforts in growth companies",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Tuukka",
+                "speakerName": "Tuukka Häkkinen",
                 "speakerTitle": "Nosto",
                 "speakerPicture": ""
               },
@@ -139,7 +139,7 @@
             },
             {
               "workshopID": "B7",
-              "workshopTitle": "marketing strategy:how to iterate your growth with data",
+              "workshopTitle": "Marketing strategy: social selling",
               "workshopType": "Business",
               "workshopDesc": "The Speaker will be sharing her thoughts on marketing with identifying your focus areas and how to iterate your growth with data. <br /> Workshop items: <br /> 1. Identifying your growth phase and where you should focus on right now <br /> 2. Bottle neck funnel model to identify and fix growth problems <br /> 3. Basics of metrics and collecting the data <br /> Also, here’s a couple great reads & views on topics related to topics we’ll be discussing: <br /> Identifying our phase and focusing on right things: <br /> https://firstround.com/review/from-zero-to-ipo-how-growth-needs-to-evolve-at-every-startup-stage/ <br /> Finding your product/market fit: <br /> https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/ <br /> Necessary metrics you should be familiar with: <br /> https://medium.com/icebreakervc/guide-to-necessary-startup-marketing-metrics-cac-roi-ltv-dfbd03df440",
               "speaker": {
@@ -153,7 +153,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -166,14 +166,14 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "T4",
+              "workshopID": "T2",
               "workshopTitle": "AWS  Build a photo sharing app",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
+                "speakerTitle": "AWS",
+                "speakerPicture": "/img/speaker/tech/T2.jpg"
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -190,9 +190,9 @@
               "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jan Bubienczyk",
+                "speakerName": "Jan Bubienczyk <br /> Sasha Kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "/img/speaker/business/B1.jpg"
+                "speakerPicture": "/img/speaker/business/B1mix.png"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -214,7 +214,7 @@
             },
             {
               "workshopID": "D16",
-              "workshopTitle": "Data Visualization design",
+              "workshopTitle": "Visualize to win",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
@@ -242,7 +242,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -260,9 +260,9 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
+                "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T1.jpg"
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -289,7 +289,7 @@
             },
             {
               "workshopID": "D6",
-              "workshopTitle": "Design Automaiton/Cloud based Design",
+              "workshopTitle": "Design Automation/ Cloud based Design",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
@@ -316,13 +316,13 @@
               "place": "MARIA01 EVENT SPACE"
             },
             {
-              "workshopID": "T3",
-              "workshopTitle": "How to plan your Tech?",
+              "workshopID": "T14",
+              "workshopTitle": "SAS Extract transform &Load",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
-                "speakerTitle": "OLEG",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "17:30",
@@ -331,7 +331,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -349,9 +349,9 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Antti Vähä-Sipilä, Laura Noukka",
+                "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T1.jpg"
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -405,7 +405,7 @@
               "speaker": {
                 "speakerName": " Elina Holley",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "/img/speaker/business/D10.jpg"
+                "speakerPicture": "/img/speaker/design/D10.jpg"
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -427,7 +427,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -447,7 +447,7 @@
               "speaker": {
                 "speakerName": "Meeshkan",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T9.jpg"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -502,7 +502,7 @@
             },
             {
               "workshopID": "B5",
-              "workshopTitle": "Legalities",
+              "workshopTitle": "From scratch to scale – legally",
               "workshopType": "Business",
               "workshopDesc": "So you’ve founded your company and are really excited about the journey ahead – great! Do you know how to make that great new venture of yours compliant with laws so that you can keep that laser focus on building traction and ABCing? Maybe you’ve heard all those veteran founders talk about liqprefs, vesting, non-compete carveouts and other important-sounding legal stuff but don’t really know how to navigate your way around them. We’re here to help! Come join our workshop focusing on post-founding legal and governance topics. If you already know the lingo, here are some buzzwords that we aim to cover: early-stage corporate governance, SHA considerations, equity incentive programs, employment contracts, financing round preparations and completion.",
               "speaker": {
@@ -516,7 +516,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -567,7 +567,7 @@
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Jaeseong Park & Said Aqqa",
+                "speakerName": "Jaeseong Park <br /> Said Aqqa",
                 "speakerTitle": "Enlighten Image",
                 "speakerPicture": ""
               },
@@ -576,17 +576,17 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "T14",
-              "workshopTitle": "SAS Extract transform &Load",
+              "workshopID": "T3",
+              "workshopTitle": "How to land your ideal job as a developer?",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
+                "speakerName": "Oleg Podsechin",
+                "speakerTitle": "Toughbyte",
                 "speakerPicture": ""
               },
               "startTime": "15:10",
-              "endTime": "17:10",
+              "endTime": "16:10",
               "place": "MARIA01 EVENT SPACE"
             },
             {
@@ -605,7 +605,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
@@ -672,7 +672,7 @@
               "speaker": {
                 "speakerName": "Sofia Pohls",
                 "speakerTitle": "findersseekers",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T15.jpg"
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -694,7 +694,7 @@
             },
             {
               "workshopID": "",
-              "workshopTitle": "Coffee Chate ",
+              "workshopTitle": "Coffee Chat ",
               "workshopType": "",
               "workshopDesc": "Book your 1 on 1 meeting  for mingle, interview, catch up, brainstorm or anything!",
               "speaker": {
