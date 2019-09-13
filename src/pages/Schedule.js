@@ -96,20 +96,21 @@ const Schedule = () => {
         }
         right={
           <a
-            href="https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607"
+            href='https://www.eventbrite.com/e/school-of-startups-2019-tickets-71047373607'
+            target='__blank'
             className={styles.anchorButton}
           >
             <Button
-              height="70px"
-              width="150px"
-              name="Get your ticket"
-              specialClass="headerButton"
+              height='70px'
+              width='150px'
+              name='Get your ticket'
+              specialClass='headerButton'
             />{" "}
           </a>
         }
-        display="timeline"
+        display='timeline'
       />
-      <CanvasContent hasBorder="true">
+      <CanvasContent hasBorder='true'>
         <p className={styles.infoText}>
           The Event will be held in Maria01, Lapinlahdenkatu 16. <br />
           Workshops are divided into 5 spaces inside Maria01: <br />
