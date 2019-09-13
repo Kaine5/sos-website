@@ -125,11 +125,11 @@
             },
             {
               "workshopID": "D4",
-              "workshopTitle": "product design while scaling (SaaS, B2B)",
+              "workshopTitle": "Scaling design efforts in growth companies",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Tuukka",
+                "speakerName": "Tuukka Häkkinen",
                 "speakerTitle": "Nosto",
                 "speakerPicture": ""
               },
@@ -139,7 +139,7 @@
             },
             {
               "workshopID": "B7",
-              "workshopTitle": "marketing strategy:how to iterate your growth with data",
+              "workshopTitle": "Marketing strategy: social selling",
               "workshopType": "Business",
               "workshopDesc": "The Speaker will be sharing her thoughts on marketing with identifying your focus areas and how to iterate your growth with data. <br /> Workshop items: <br /> 1. Identifying your growth phase and where you should focus on right now <br /> 2. Bottle neck funnel model to identify and fix growth problems <br /> 3. Basics of metrics and collecting the data <br /> Also, here’s a couple great reads & views on topics related to topics we’ll be discussing: <br /> Identifying our phase and focusing on right things: <br /> https://firstround.com/review/from-zero-to-ipo-how-growth-needs-to-evolve-at-every-startup-stage/ <br /> Finding your product/market fit: <br /> https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/ <br /> Necessary metrics you should be familiar with: <br /> https://medium.com/icebreakervc/guide-to-necessary-startup-marketing-metrics-cac-roi-ltv-dfbd03df440",
               "speaker": {
@@ -214,7 +214,7 @@
             },
             {
               "workshopID": "D16",
-              "workshopTitle": "Data Visualization design",
+              "workshopTitle": "Visualize to win",
               "workshopType": "Design",
               "workshopDesc": "",
               "speaker": {
@@ -316,13 +316,13 @@
               "place": "MARIA01 EVENT SPACE"
             },
             {
-              "workshopID": "T3",
-              "workshopTitle": "How to plan your Tech?",
+              "workshopID": "T14",
+              "workshopTitle": "SAS Extract transform &Load",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
-                "speakerTitle": "OLEG",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "17:30",
@@ -502,7 +502,7 @@
             },
             {
               "workshopID": "B5",
-              "workshopTitle": "Legalities",
+              "workshopTitle": "From scratch to scale – legally",
               "workshopType": "Business",
               "workshopDesc": "So you’ve founded your company and are really excited about the journey ahead – great! Do you know how to make that great new venture of yours compliant with laws so that you can keep that laser focus on building traction and ABCing? Maybe you’ve heard all those veteran founders talk about liqprefs, vesting, non-compete carveouts and other important-sounding legal stuff but don’t really know how to navigate your way around them. We’re here to help! Come join our workshop focusing on post-founding legal and governance topics. If you already know the lingo, here are some buzzwords that we aim to cover: early-stage corporate governance, SHA considerations, equity incentive programs, employment contracts, financing round preparations and completion.",
               "speaker": {
@@ -576,17 +576,17 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "T14",
-              "workshopTitle": "SAS Extract transform &Load",
+              "workshopID": "T3",
+              "workshopTitle": "How to land your ideal job as a developer?",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
+                "speakerName": "Oleg Podsechin",
+                "speakerTitle": "Toughbyte",
                 "speakerPicture": ""
               },
               "startTime": "15:10",
-              "endTime": "17:10",
+              "endTime": "16:10",
               "place": "MARIA01 EVENT SPACE"
             },
             {
