@@ -21,13 +21,13 @@
               "place": "VERTICAL"
             },
             {
-              "workshopID": "D2",
-              "workshopTitle": "Customer centric product development",
+              "workshopID": "D1",
+              "workshopTitle": "The value of design thinking in business development",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "How often you ask yourself following questions: will people use my product or service? How can I be sure that we are creating value before we commit large resources to the project? Design thinking can help to answer to these questions. <br /> Design thinking is a creative approach to define end users needs and to propose a unique solution for them. The approach uses algorithms and tools of designers and engineers in relation to a wide range of tasks. <br /> The workshop is interactive: theoretical blocks alternate with practical assignments. As a result, of the workshop, participants will be able to get basic understanding of design thinking and use studied techniques into their working routine.",
               "speaker": {
-                "speakerName": "Jemmi Laaninen",
-                "speakerTitle": "Sangre",
+                "speakerName": "Lidia Borisova",
+                "speakerTitle": "AVP",
                 "speakerPicture": ""
               },
               "startTime": "9:50",
@@ -35,13 +35,13 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "D1",
-              "workshopTitle": "The value of design thinking in business development",
-              "workshopType": "Design",
+              "workshopID": "B11",
+              "workshopTitle": "Video advertizing",
+              "workshopType": "Business",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Lidia Borisova",
-                "speakerTitle": "AVP",
+                "speakerName": "Simon",
+                "speakerTitle": "",
                 "speakerPicture": ""
               },
               "startTime": "9:50",
@@ -52,7 +52,7 @@
               "workshopID": "T16",
               "workshopTitle": "How to find your tech co-founder",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "Do you have a great business idea, but no-one who can build it? Have you been struggling to find a co-founder, or early employee who has the capability to create your product? Do you feel like nothing more can be done? If yes, then join this workshop and we'll teach you a more systematic approach to find just the person you're looking for. <br /> In this workshop we'll be starting from a general level of what to look for in co-founders, and then diving a bit deeper into the technical ones. We'll also discuss search and outreach strategies to help you in actually finding the right people. During the workshop we'll introduce and start working on a few templates and frameworks to help you kickoff your search. Please bring a laptop, or notebook + pen!",
               "speaker": {
                 "speakerName": "Jukka Kujala",
                 "speakerTitle": "Icebreaker",
@@ -80,7 +80,7 @@
               "workshopID": "T2",
               "workshopTitle": "AWS Build a photo sharing app",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "In the workshop we’ll build a photo sharing web app with smart tagging & search functionality. <br /> This is a hands-on, bring-your-own-laptop workshop aimed at (front-end) developers. Minimal knowledge of JavaScript is required. <br /> After completion the participants will be able to adapt and re-use the material from this workshop to quickly build their own projects.",
               "speaker": {
                 "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
                 "speakerTitle": "AWS",
@@ -97,7 +97,7 @@
           "list": [
             {
               "workshopID": "B1",
-              "workshopTitle": "Entrepreneurship",
+              "workshopTitle": " Entrepreneurship: Vertical OPEN™ game",
               "workshopType": "Business",
               "workshopDesc": "Vertical OPEN™ is a board game business simulator that teaches you to think critically and creatively about collaborative innovation tools. How should one manage a business through ever-disruptive technologies and turbulent industry times? Designed by the collaborative design team at Vertical, OPEN invites you to navigate open innovation opportunities and learn how to achieve better performance through co-creation.",
               "speaker": {
@@ -113,7 +113,7 @@
               "workshopID": "D3",
               "workshopTitle": "Behavioral design",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "Digital technology is a powerful agent of human behavioral change. Successful digital products often become part of the real world behavior of users by creating new habits and changing lifestyles. This workshop provides an introduction to the emerging discipline of 'Behavior Design' and hand-holds participants through its fundamental tools and techniques. Participants will work with the 'Behavioral Change Canvas' designed by Ashwin Rajan, founder at Fabric Consulting. ",
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "",
@@ -139,7 +139,7 @@
             },
             {
               "workshopID": "B7",
-              "workshopTitle": "Marketing strategy: social selling",
+              "workshopTitle": "Growth hacking: social selling",
               "workshopType": "Business",
               "workshopDesc": "The Speaker will be sharing her thoughts on marketing with identifying your focus areas and how to iterate your growth with data. <br /> Workshop items: <br /> 1. Identifying your growth phase and where you should focus on right now <br /> 2. Bottle neck funnel model to identify and fix growth problems <br /> 3. Basics of metrics and collecting the data <br /> Also, here’s a couple great reads & views on topics related to topics we’ll be discussing: <br /> Identifying our phase and focusing on right things: <br /> https://firstround.com/review/from-zero-to-ipo-how-growth-needs-to-evolve-at-every-startup-stage/ <br /> Finding your product/market fit: <br /> https://firstround.com/review/how-superhuman-built-an-engine-to-find-product-market-fit/ <br /> Necessary metrics you should be familiar with: <br /> https://medium.com/icebreakervc/guide-to-necessary-startup-marketing-metrics-cac-roi-ltv-dfbd03df440",
               "speaker": {
@@ -167,9 +167,9 @@
             },
             {
               "workshopID": "T2",
-              "workshopTitle": "AWS  Build a photo sharing app",
+              "workshopTitle": "AWS Build a photo sharing app",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "In the workshop we’ll build a photo sharing web app with smart tagging & search functionality. <br /> This is a hands-on, bring-your-own-laptop workshop aimed at (front-end) developers. Minimal knowledge of JavaScript is required. <br /> After completion the participants will be able to adapt and re-use the material from this workshop to quickly build their own projects.",
               "speaker": {
                 "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
                 "speakerTitle": "AWS",
@@ -186,11 +186,11 @@
           "list": [
             {
               "workshopID": "B1",
-              "workshopTitle": "Entrepreneurship",
+              "workshopTitle": " Entrepreneurship: Vertical OPEN™ game",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "Vertical OPEN™ is a board game business simulator that teaches you to think critically and creatively about collaborative innovation tools. How should one manage a business through ever-disruptive technologies and turbulent industry times? Designed by the collaborative design team at Vertical, OPEN invites you to navigate open innovation opportunities and learn how to achieve better performance through co-creation.",
               "speaker": {
-                "speakerName": "Jan Bubienczyk <br /> Sasha Kazantsev",
+                "speakerName": "Jan Bubienczyk <br />  Sasha Kazantsev",
                 "speakerTitle": "Vertical",
                 "speakerPicture": "/img/speaker/business/B1mix.png"
               },
@@ -216,7 +216,7 @@
               "workshopID": "D16",
               "workshopTitle": "Visualize to win",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "Ever wondered if you could have explained something better, to convince someone or make a sale? Maybe a good visualisation would have helped! Join this workshop to discuss the power of visualisation and how to do it right. You’ll get to work on your own complex concept or data, which you know to be the answer to that problem you want to see solved, but others don’t seem to get it (yet)! The workshop inspires design thinking and helps you become a more effective communicator. Our tools are paper and pen, a drawing tool or PowerPoint – whatever works best for you.",
               "speaker": {
                 "speakerName": "Pauliina Ullner",
                 "speakerTitle": "",
@@ -258,7 +258,7 @@
               "workshopID": "T1",
               "workshopTitle": "Threat modelling your product or service",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "How to find security and privacy risks in your product's user experience and technical design? Laura Noukka (https://twitter.com/LauraNoukka) and Antti Vähä-Sipilä (https://twitter.com/anttivs) will teach two methodologies that designers and developers can use to uncover these risks. One of the methods is better suited for analysis of customer journeys and UX flows, and the other for technical architecture and system design. Both are geared towards producing actionable backlog items. We will also discuss how threat modelling can be integrated in your development flow to produce ongoing evidence, should you ever need to seek some sort of certification for your product.We're looking for examples we could use as practice targets. If you have either of the following and are open for discussing them openly, please contact us:• A customer journey map or an epic (a bundle of user stories) with external customers • A technical design, preferably application & orchestration level one with external connections and multiple back-end services.",
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
@@ -274,14 +274,14 @@
           "id": "S4",
           "list": [
             {
-              "workshopID": "B11",
-              "workshopTitle": "Video advertizing",
+              "workshopID": "B12",
+              "workshopTitle": "Why Your Marketing Needs to be Data-Driven",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "What are the numbers that you should be following and how should you use them to reach your target audience at the right place at the right time? Data-driven marketing helps you improve your audience targeting, personalize communication, and increase customer engagement. Data-driven marketing should be important for every company and in this workshop, you will understand what it is all about.",
               "speaker": {
-                "speakerName": "Simon",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Henrik Gripenberg",
+                "speakerTitle": "Truly Agency",
+                "speakerPicture": "/img/speaker/business/B12.jpg"
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -291,7 +291,7 @@
               "workshopID": "D6",
               "workshopTitle": "Design Automation/ Cloud based Design",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "Infrastructure-as-a-Service, Platform-as-a-Service, Hardware-as-a-Service, and Software-as-a-Service. All will be explained through this 2 hour workshop diving deeper into the functions and theories behind these services.",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -302,14 +302,14 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "B12",
-              "workshopTitle": "Why Your Marketing Needs to be Data-Driven",
-              "workshopType": "Business",
-              "workshopDesc": "What are the numbers that you should be following and how should you use them to reach your target audience at the right place at the right time? Data-driven marketing helps you improve your audience targeting, personalize communication, and increase customer engagement. Data-driven marketing should be important for every company and in this workshop, you will understand what it is all about.",
+              "workshopID": "D2",
+              "workshopTitle": "Customer centric product development",
+              "workshopType": "Design",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Henrik Gripenberg",
-                "speakerTitle": "Truly Agency",
-                "speakerPicture": "/img/speaker/business/B12.jpg"
+                "speakerName": "Jemmi Laaninen",
+                "speakerTitle": "Sangre",
+                "speakerPicture": ""
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -387,7 +387,7 @@
               "workshopID": "D9",
               "workshopTitle": "Prototyping",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "This workshop will explore the tools and tricks to give your prototyping game a level-up ! Get to understand the tools. The Ideas and The thoughts behind prototyping for Scale-ups. How to make quick prototyping on your product ideas and pitch to the team.",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -401,7 +401,7 @@
               "workshopID": "D10",
               "workshopTitle": "Customer centric branding, marketing and design",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "In my workshop, I’ll give you the tools how to develop a genuinely customer centric product that resonates with your target audience.<br /> You will learn how to <br /> 👉 find out what people actually want and need. <br /> 👉 create an appealing brand that stands apart from your competitors.",
               "speaker": {
                 "speakerName": " Elina Holley",
                 "speakerTitle": "Truly Agency",
@@ -443,10 +443,10 @@
               "workshopID": "T9",
               "workshopTitle": "Setting up CI/CD pipeline and integration tests for a web application",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "When developing an application, it is import to setup a continuous integration pipeline as early as possible. Continuous integration encourages frequent automated testing, gives immediate feedback on the effect of local changes on system-wide behaviour, and all in all helps detect bugs early. <br /> In this workshop, we'll setup a continuous integration pipeline for a web application using CircleCI. We'll also write integration tests for a web application using Unmock and measure test coverage. <br /> Prerequisites: Basic knowledge of JavaScript, Node.js and git",
               "speaker": {
-                "speakerName": "Meeshkan",
-                "speakerTitle": "",
+                "speakerName": "Kimmo Sääskilahti",
+                "speakerTitle": "Meeshkan",
                 "speakerPicture": "/img/speaker/tech/T9.jpg"
               },
               "startTime": "9:50",
@@ -476,7 +476,7 @@
               "workshopID": "D12",
               "workshopTitle": "Design Innovation",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "Do you think that it is time to step-up from running post-it workshops? Are you tired of compiling PowerPoints with generic customer personas? It is time to base your design in business- and fact-driven practices. Sasha Kazantsev will share a set of practical tools that help unlock collaboration processes in the field of innovation. You will leave the workshop with tools for finding the problem-solution fit and defining business cases. ",
               "speaker": {
                 "speakerName": "Sasha kazantsev",
                 "speakerTitle": "Vertical",
@@ -490,7 +490,7 @@
               "workshopID": "D8",
               "workshopTitle": "Service design challenge",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "Learn about different ways to prototype. What methods are there which help you gain an understanding of when to use which methods. During this workshop you will not only learn about prototyping theory but also engage in some prototyping yourselves, depending on what you need to build and what you need to find out about your innovations.",
               "speaker": {
                 "speakerName": "Briana Romero",
                 "speakerTitle": "",
@@ -565,7 +565,7 @@
               "workshopID": "D15",
               "workshopTitle": "Video Editing: Color Correction",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "If you are an intermediate level videographers who are familiar with interface of Adobe Premiere Pro CC and have done some simple editing with it before, and would like to become better at color correction and know other tips. Come join the workshop! <br /> Our goal to achieves are: <br /> Understanding color and basic color correction <br /> Usage of curve function <br /> Understanding LUT and creating own look <br /> Using mask to isolate specific area of frame",
               "speaker": {
                 "speakerName": "Jaeseong Park <br /> Said Aqqa",
                 "speakerTitle": "Enlighten Image",
@@ -668,7 +668,7 @@
               "workshopID": "T15",
               "workshopTitle": "Tech Talent(attraction &retention)",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "Great people build great products, but how to attract the best and how to build a winning team? How to make sure you have the right team and talent onboard from the start and how to keep them in the ever tightening talent war? How to make sure you invest enough in your most valuable asset - a winning team? You will leave this session with tools to identify your organization's unique selling point, to attract the right people and to make sure you build a culture that is also able to keep the best talent!",
               "speaker": {
                 "speakerName": "Sofia Pohls",
                 "speakerTitle": "findersseekers",
