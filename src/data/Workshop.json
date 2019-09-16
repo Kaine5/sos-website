@@ -534,7 +534,7 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Timo",
+                "speakerName": "Timo Oinonen",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -619,12 +619,12 @@
             },
             {
               "workshopID": "T8",
-              "workshopTitle": "Automation",
+              "workshopTitle": "Computer Vision: how to teach a Machine identify things from an Image",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
+                "speakerName": "Drazen Dodik",
+                "speakerTitle": "Microsoft",
                 "speakerPicture": ""
               },
               "startTime": "15:20",
