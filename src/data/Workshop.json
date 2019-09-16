@@ -28,7 +28,7 @@
               "speaker": {
                 "speakerName": "Lidia Borisova",
                 "speakerTitle": "AVP",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D1.jpg"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -220,7 +220,7 @@
               "speaker": {
                 "speakerName": "Pauliina Ullner",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D16.jpg"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -480,7 +480,7 @@
               "speaker": {
                 "speakerName": "Sasha kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D12.jpg"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -569,7 +569,7 @@
               "speaker": {
                 "speakerName": "Jaeseong Park <br /> Said Aqqa",
                 "speakerTitle": "Enlighten Image",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D15.jpg"
               },
               "startTime": "15:10",
               "endTime": "17:10",
