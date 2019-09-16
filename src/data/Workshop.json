@@ -28,7 +28,7 @@
               "speaker": {
                 "speakerName": "Lidia Borisova",
                 "speakerTitle": "AVP",
-                "speakerPicture": "/img/speaker/design/D1.jpg"
+                "speakerPicture": "/img/speaker/design/D1.png"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -84,7 +84,7 @@
               "speaker": {
                 "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
                 "speakerTitle": "AWS",
-                "speakerPicture": "/img/speaker/tech/T2.jpg"
+                "speakerPicture": "/img/speaker/tech/T2.png"
               },
               "startTime": "10:00",
               "endTime": "12:00",
@@ -173,7 +173,7 @@
               "speaker": {
                 "speakerName": "Anton Popovine <br /> Nicolas Moutschen",
                 "speakerTitle": "AWS",
-                "speakerPicture": "/img/speaker/tech/T2.jpg"
+                "speakerPicture": "/img/speaker/tech/T2.png"
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -220,7 +220,7 @@
               "speaker": {
                 "speakerName": "Pauliina Ullner",
                 "speakerTitle": "",
-                "speakerPicture": "/img/speaker/design/D16.jpg"
+                "speakerPicture": "/img/speaker/design/D16.png"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -262,7 +262,7 @@
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": "/img/speaker/tech/T1.jpg"
+                "speakerPicture": "/img/speaker/tech/T1.png"
               },
               "startTime": "15:20",
               "endTime": "17:20",
@@ -351,7 +351,7 @@
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
-                "speakerPicture": "/img/speaker/tech/T1.jpg"
+                "speakerPicture": "/img/speaker/tech/T1.png"
               },
               "startTime": "17:30",
               "endTime": "19:30",
@@ -480,7 +480,7 @@
               "speaker": {
                 "speakerName": "Sasha kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": "/img/speaker/design/D12.jpg"
+                "speakerPicture": "/img/speaker/design/D12.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -569,7 +569,7 @@
               "speaker": {
                 "speakerName": "Jaeseong Park <br /> Said Aqqa",
                 "speakerTitle": "Enlighten Image",
-                "speakerPicture": "/img/speaker/design/D15.jpg"
+                "speakerPicture": "/img/speaker/design/D15.png"
               },
               "startTime": "15:10",
               "endTime": "17:10",
