@@ -28,7 +28,7 @@
               "speaker": {
                 "speakerName": "Lidia Borisova",
                 "speakerTitle": "AVP",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D1.png"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -220,7 +220,7 @@
               "speaker": {
                 "speakerName": "Pauliina Ullner",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D16.png"
               },
               "startTime": "15:10",
               "endTime": "17:10",
@@ -480,7 +480,7 @@
               "speaker": {
                 "speakerName": "Sasha kazantsev",
                 "speakerTitle": "Vertical",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D12.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -567,9 +567,9 @@
               "workshopType": "Design",
               "workshopDesc": "If you are an intermediate level videographers who are familiar with interface of Adobe Premiere Pro CC and have done some simple editing with it before, and would like to become better at color correction and know other tips. Come join the workshop! <br /> Our goal to achieves are: <br /> Understanding color and basic color correction <br /> Usage of curve function <br /> Understanding LUT and creating own look <br /> Using mask to isolate specific area of frame",
               "speaker": {
-                "speakerName": "Jaeseong Park <br /> Said Aqqa",
+                "speakerName": "Jaeseong Park &<br /> Said Aqqa",
                 "speakerTitle": "Enlighten Image",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D15.png"
               },
               "startTime": "15:10",
               "endTime": "17:10",
