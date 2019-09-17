@@ -81,7 +81,7 @@ const Schedule = () => {
       <Helmet>
         <title>School of Startup's schedule</title>
         <meta name="description" content="The schedule for School of startups - a two-day event/conference organized by The Shortcut" />
-        </Helmet> 
+      </Helmet>
       <Header
         left={
           <div className={styles.ScheduleDateSelector}>
@@ -119,8 +119,7 @@ const Schedule = () => {
         <p className={styles.infoText}>
           The Event will be held in Maria01, Lapinlahdenkatu 16. <br />
           Workshops are divided into 5 spaces inside Maria01: <br />
-          The Shortcut, Vertical, Icebreakers, Maria01 event space, Games
-          Factory
+          The Shortcut, Vertical, Icebreakers, Maria01 event space, Arcade 5
         </p>
         <div className={styles.ScheduleList}>
           {currentSchedule === "5th"
