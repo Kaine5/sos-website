@@ -88,7 +88,7 @@
               },
               "startTime": "10:00",
               "endTime": "12:00",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         },
@@ -148,7 +148,7 @@
                 "speakerPicture": "/img/speaker/business/B7.jpg"
               },
               "startTime": "13:10",
-              "endTime": "15:10",
+              "endTime": "14:40",
               "place": "ICEBREAKER"
             },
             {
@@ -177,7 +177,7 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         },
@@ -208,8 +208,8 @@
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
-              "startTime": "15:10",
-              "endTime": "17:10",
+              "startTime": "13:00",
+              "endTime": "16:00",
               "place": "THE SHORTCUT"
             },
             {
@@ -236,8 +236,8 @@
                 "speakerTitle": "Icebreaker",
                 "speakerPicture": ""
               },
-              "startTime": "15:20",
-              "endTime": "17:20",
+              "startTime": "15:00",
+              "endTime": "16:30",
               "place": "ICEBREAKER"
             },
             {
@@ -266,7 +266,7 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         },
@@ -355,7 +355,7 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         }
@@ -451,7 +451,7 @@
               },
               "startTime": "9:50",
               "endTime": "11:50",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         },
@@ -540,7 +540,7 @@
               },
               "startTime": "13:10",
               "endTime": "15:10",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         },
@@ -629,7 +629,7 @@
               },
               "startTime": "15:20",
               "endTime": "17:20",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         },
@@ -718,7 +718,7 @@
               },
               "startTime": "17:30",
               "endTime": "19:30",
-              "place": "GAMES FACTORY"
+              "place": "ARCADE 5"
             }
           ]
         }
