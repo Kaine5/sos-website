@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet } from 'react-helmet';
 import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import Modal from "../components/Modal";
@@ -77,6 +78,10 @@ const Schedule = () => {
 
   return (
     <div className={`App`}>
+      <Helmet>
+        <title>School of Startup's schedule</title>
+        <meta name="description" content="The schedule for School of startups - a two-day event/conference organized by The Shortcut" />
+        </Helmet> 
       <Header
         left={
           <div className={styles.ScheduleDateSelector}>

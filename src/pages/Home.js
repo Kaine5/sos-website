@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { Helmet } from 'react-helmet';
 import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
@@ -27,6 +28,10 @@ function Home() {
 
   return (
     <div className="App">
+      <Helmet>
+        <title>School of Startups</title>
+        <meta name="description" content="School of startups is a two-day event/conference, which brings together startup doers, experts and enthusiasts." />
+      </Helmet>
       {showHeader && (
         <Header
           left={

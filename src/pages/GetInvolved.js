@@ -1,14 +1,19 @@
 import React, { useState } from "react";
+import { Helmet } from 'react-helmet';
 import Header from "../components/Header";
 import styles from "../styles/GetInvolved.module.scss";
 import Button from "../components/Button";
 
-const GetInvolved = props => {
+const GetInvolved = () => {
   const [headText, setHeadText] = useState(
     "Want to get involved? <br/> Click on one of two buttons below!"
   );
   return (
     <div className={styles.getInvolved}>
+      <Helmet>
+        <title>School of Startups - Get involved</title>
+        <meta name="description" content="Want to be a volunteer or a sponsor for School of Startups? Get involved today." />
+      </Helmet>
       <Header />
 
       <div className=''>

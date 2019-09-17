@@ -5,6 +5,7 @@ import Schedule from "./pages/Schedule";
 import GetInvolved from "./pages/GetInvolved";
 import Navbar from "./layout/Navbar";
 import Hamburger from "./layout/Hamburger";
+import { Helmet } from 'react-helmet';
 
 const App = () => {
   const [hideNav, setHideNav] = React.useState(true);
@@ -14,6 +15,10 @@ const App = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Schools of Startups</title>
+        <meta name="description" content="School of Startups is a two-day event/conference organized by The Shortcut." />
+      </Helmet>
       <Router>
         <Route path="/" exact component={Home} />
         <Route path="/schedule/" component={Schedule} />
