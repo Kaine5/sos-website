@@ -466,7 +466,7 @@
               "speaker": {
                 "speakerName": "Jarno Silander",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B14.jpg"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -480,7 +480,7 @@
               "speaker": {
                 "speakerName": "Briana Romero",
                 "speakerTitle": "",
-                "speakerPicture": "g"
+                "speakerPicture": "/img/speaker/design/D8.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -494,7 +494,7 @@
               "speaker": {
                 "speakerName": "Eija-Leena Koponen",
                 "speakerTitle": "Someturva & R Ladies",
-                "speakerPicture": "/img/speaker/design/D8.png"
+                "speakerPicture": "/img/speaker/business/T10.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -625,7 +625,7 @@
               "speaker": {
                 "speakerName": "Drazen Dodik",
                 "speakerTitle": "Microsoft",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T8.png"
               },
               "startTime": "15:20",
               "endTime": "17:20",
