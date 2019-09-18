@@ -38,11 +38,11 @@
               "workshopID": "B11",
               "workshopTitle": "Video advertizing",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "Do you want to learn to do efficient video advertising plan through script and editing to the final product? This is the right workshop for you. We'll get hands dirty by analysing projects and practice. If you have a project going on, bring it to the workshop and get professional help! If you don't, no worries, you're very welcome and you'll learn by analysing ohthers.",
               "speaker": {
                 "speakerName": "Simon Bergman",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B11.png"
               },
               "startTime": "9:50",
               "endTime": "11:50",
@@ -111,16 +111,16 @@
             },
             {
               "workshopID": "D3",
-              "workshopTitle": "Behavioral design",
+              "workshopTitle": "Behavioral design Part 1",
               "workshopType": "Design",
               "workshopDesc": "Digital technology is a powerful agent of human behavioral change. Successful digital products often become part of the real world behavior of users by creating new habits and changing lifestyles. This workshop provides an introduction to the emerging discipline of 'Behavior Design' and hand-holds participants through its fundamental tools and techniques. Participants will work with the 'Behavioral Change Canvas' designed by Ashwin Rajan, founder at Fabric Consulting. ",
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D3.png"
               },
               "startTime": "13:00",
-              "endTime": "16:00",
+              "endTime": "14:30",
               "place": "THE SHORTCUT"
             },
             {
@@ -200,15 +200,15 @@
             },
             {
               "workshopID": "D3",
-              "workshopTitle": "Behavioral design",
+              "workshopTitle": "Behavioral design Part 2",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "Digital technology is a powerful agent of human behavioral change. Successful digital products often become part of the real world behavior of users by creating new habits and changing lifestyles. This workshop provides an introduction to the emerging discipline of 'Behavior Design' and hand-holds participants through its fundamental tools and techniques. Participants will work with the 'Behavioral Change Canvas' designed by Ashwin Rajan, founder at Fabric Consulting. ",
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D3.png"
               },
-              "startTime": "13:00",
+              "startTime": "14:30",
               "endTime": "16:00",
               "place": "THE SHORTCUT"
             },
@@ -230,11 +230,11 @@
               "workshopID": "B6",
               "workshopTitle": "How to distribute shares in the company",
               "workshopType": "Business",
-              "workshopDesc": "",
+              "workshopDesc": "Hey you, upcoming founder or curious mind! Having issues deciding how to split up the equity in your business between your team (co-founder), advisors, and potential investors? In this workshop you'll learn about the tips and tricks you should know before founding a company, and how to distribute the shares wisely. We will also demystify venture capital by teaching the fundamentals of it.",
               "speaker": {
-                "speakerName": "",
+                "speakerName": "Rasmus Klärck",
                 "speakerTitle": "Icebreaker",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B6.png"
               },
               "startTime": "15:00",
               "endTime": "16:30",
@@ -309,7 +309,7 @@
               "speaker": {
                 "speakerName": "Jemmi Laaninen",
                 "speakerTitle": "Sangre",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D2.png"
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -494,7 +494,7 @@
               "speaker": {
                 "speakerName": "Briana Romero",
                 "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D8.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
