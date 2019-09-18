@@ -347,7 +347,7 @@
               "workshopID": "T1",
               "workshopTitle": "Threat modelling your product or service",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "How to find security and privacy risks in your product's user experience and technical design? Laura Noukka (https://twitter.com/LauraNoukka) and Antti Vähä-Sipilä (https://twitter.com/anttivs) will teach two methodologies that designers and developers can use to uncover these risks. One of the methods is better suited for analysis of customer journeys and UX flows, and the other for technical architecture and system design. Both are geared towards producing actionable backlog items. We will also discuss how threat modelling can be integrated in your development flow to produce ongoing evidence, should you ever need to seek some sort of certification for your product.We're looking for examples we could use as practice targets. If you have either of the following and are open for discussing them openly, please contact us:• A customer journey map or an epic (a bundle of user stories) with external customers • A technical design, preferably application & orchestration level one with external connections and multiple back-end services.",
               "speaker": {
                 "speakerName": "Antti Vähä-Sipilä <br /> Laura Noukka",
                 "speakerTitle": "F-Secure",
