@@ -288,14 +288,14 @@
               "place": "VERTICAL"
             },
             {
-              "workshopID": "D6",
-              "workshopTitle": "Design Automation/ Cloud based Design",
+              "workshopID": "D12",
+              "workshopTitle": "Design Innovation",
               "workshopType": "Design",
-              "workshopDesc": "Infrastructure-as-a-Service, Platform-as-a-Service, Hardware-as-a-Service, and Software-as-a-Service. All will be explained through this 2 hour workshop diving deeper into the functions and theories behind these services.",
+              "workshopDesc": "Do you think that it is time to step-up from running post-it workshops? Are you tired of compiling PowerPoints with generic customer personas? It is time to base your design in business- and fact-driven practices. Sasha Kazantsev will share a set of practical tools that help unlock collaboration processes in the field of innovation. You will leave the workshop with tools for finding the problem-solution fit and defining business cases. ",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Sasha kazantsev",
+                "speakerTitle": "Vertical",
+                "speakerPicture": "/img/speaker/design/D12.png"
               },
               "startTime": "17:20",
               "endTime": "19:20",
@@ -473,27 +473,27 @@
               "place": "VERTICAL"
             },
             {
-              "workshopID": "D12",
-              "workshopTitle": "Design Innovation",
+              "workshopID": "D8",
+              "workshopTitle": "Cloud Flavoured Service Design",
               "workshopType": "Design",
               "workshopDesc": "Do you think that it is time to step-up from running post-it workshops? Are you tired of compiling PowerPoints with generic customer personas? It is time to base your design in business- and fact-driven practices. Sasha Kazantsev will share a set of practical tools that help unlock collaboration processes in the field of innovation. You will leave the workshop with tools for finding the problem-solution fit and defining business cases. ",
               "speaker": {
-                "speakerName": "Sasha kazantsev",
-                "speakerTitle": "Vertical",
-                "speakerPicture": "/img/speaker/design/D12.png"
+                "speakerName": "Briana Romero",
+                "speakerTitle": "",
+                "speakerPicture": "g"
               },
               "startTime": "13:00",
               "endTime": "15:00",
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "D8",
-              "workshopTitle": "Service design challenge",
-              "workshopType": "Design",
-              "workshopDesc": "Learn about different ways to prototype. What methods are there which help you gain an understanding of when to use which methods. During this workshop you will not only learn about prototyping theory but also engage in some prototyping yourselves, depending on what you need to build and what you need to find out about your innovations.",
+              "workshopID": "T10",
+              "workshopTitle": "Natural Language Processing with R",
+              "workshopType": "Tech",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "Briana Romero",
-                "speakerTitle": "",
+                "speakerName": "Eija-Leena Koponen",
+                "speakerTitle": "Someturva & R Ladies",
                 "speakerPicture": "/img/speaker/design/D8.png"
               },
               "startTime": "13:00",
@@ -679,10 +679,10 @@
               "place": "MARIA01 EVENT SPACE"
             },
             {
-              "workshopID": "T5",
-              "workshopTitle": "SCRUM",
-              "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopID": "D6",
+              "workshopTitle": "Design Automation/ Cloud based Design",
+              "workshopType": "Design",
+              "workshopDesc": "Infrastructure-as-a-Service, Platform-as-a-Service, Hardware-as-a-Service, and Software-as-a-Service. All will be explained through this 2 hour workshop diving deeper into the functions and theories behind these services.",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
@@ -707,8 +707,8 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "T10",
-              "workshopTitle": "Big data and decision making",
+              "workshopID": "T5",
+              "workshopTitle": "SCRUM",
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
