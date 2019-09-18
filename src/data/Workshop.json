@@ -466,7 +466,7 @@
               "speaker": {
                 "speakerName": "Jarno Silander",
                 "speakerTitle": "Truly Agency",
-                "speakerPicture": "/img/speaker/business/B14.jpg"
+                "speakerPicture": "/img/speaker/business/B14.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -494,11 +494,7 @@
               "speaker": {
                 "speakerName": "Eija-Leena Koponen",
                 "speakerTitle": "Someturva & R Ladies",
-<<<<<<< HEAD
-                "speakerPicture": "/img/speaker/business/T10.png"
-=======
-                "speakerPicture": ""
->>>>>>> e40ccf945592726edc46baacd3c03a1f2595c8ce
+                "speakerPicture": "/img/speaker/tech/T10.png"
               },
               "startTime": "13:00",
               "endTime": "15:00",
