@@ -490,11 +490,15 @@
               "workshopID": "T10",
               "workshopTitle": "Natural Language Processing with R",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "Welcome to learn how to NLP with R (partly) hands on! We'll go through <br /> - Basic text wrangling <br /> - Visualisation eg. wordclouds <br /> - Predictive model(s) (focus on Starspace) <br /> - How to actually use the model <br /> - Some examples <br /> You'll need your laptop, R and preferably RStudio installed if you want to follow hands on. Bring also your curious self!",
               "speaker": {
                 "speakerName": "Eija-Leena Koponen",
                 "speakerTitle": "Someturva & R Ladies",
+<<<<<<< HEAD
                 "speakerPicture": "/img/speaker/business/T10.png"
+=======
+                "speakerPicture": ""
+>>>>>>> e40ccf945592726edc46baacd3c03a1f2595c8ce
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -621,7 +625,7 @@
               "workshopID": "T8",
               "workshopTitle": "Computer Vision: how to teach a Machine identify things from an Image",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "Computer Vision workshop with Microsoft <br /> Are you getting started with exploring computer vision? Interested in how can you easily build your custom image classification? Or how to deploy your models to IoT Edge devices, allowing you to process images and make decisions on the device (without going to the cloud)? <br /> Join us for an introductory workshop with Microsoft where we’ll explore <br /> • Using pre-made Computer Vision services, like Vision API or Face API on Microsoft Azure <br /> • Building custom image classifiers with http://customvision.ai <br /> • Containerizing and deploying your custom models to IoT Edge devices <br /> We will provide attendees with the access to Microsoft Azure. Please bring your own laptop to the event (PC, Mac, Linux).",
               "speaker": {
                 "speakerName": "Drazen Dodik",
                 "speakerTitle": "Microsoft",
