@@ -41,7 +41,7 @@
               "workshopDesc": "Do you want to learn to do efficient video advertising plan through script and editing to the final product? This is the right workshop for you. We'll get hands dirty by analysing projects and practice. If you have a project going on, bring it to the workshop and get professional help! If you don't, no worries, you're very welcome and you'll learn by analysing ohthers.",
               "speaker": {
                 "speakerName": "Simon Bergman",
-                "speakerTitle": "",
+                "speakerTitle": "Bergman Films",
                 "speakerPicture": "/img/speaker/business/B11.png"
               },
               "startTime": "9:50",
@@ -113,10 +113,10 @@
               "workshopID": "D3",
               "workshopTitle": "Behavioral design Part 1",
               "workshopType": "Design",
-              "workshopDesc": "Digital technology is a powerful agent of human behavioral change. Successful digital products often become part of the real world behavior of users by creating new habits and changing lifestyles. This workshop provides an introduction to the emerging discipline of 'Behavior Design' and hand-holds participants through its fundamental tools and techniques. Participants will work with the 'Behavioral Change Canvas' designed by Ashwin Rajan, founder at Fabric Consulting. ",
+              "workshopDesc": "This class is for individuals and teams interested in human behavioural change as an outcome of their projects.</br></br>Behaviour Design is a new discipline concerned with practical approaches to behavioural change. It combines behavioural science with design thinking methods. The focus in this class is digital technology as an extension of behaviour.</br></br>You will use the Behaviour Design Canvas, a method developed by Ashwin Rajan, teacher of the class. This can now be downloaded for free here (link: [Behaviour Design Canvas](https://www.behaviourdesigncanvas.info/).</br></br>We will cover:</br>* What is behaviour design and how it works in a digital world.</br>* Behaviour design ethics and Dark Patterns.</br>* Overview of core behaviour change elements, such as motivation.</br>* The Behaviour Design Canvas method and how to use it.</br>The class will be packed with theory, discussions and exercises. If you are working on a project or service that has a behavioural side to it, all the better.</br>Come well rested and prepared for a mental workout!",
               "speaker": {
                 "speakerName": "Ashwin Rajan",
-                "speakerTitle": "",
+                "speakerTitle": "Fabric Behaviour Design",
                 "speakerPicture": "/img/speaker/design/D3.png"
               },
               "startTime": "13:00",
@@ -202,7 +202,7 @@
               "workshopID": "D3",
               "workshopTitle": "Behavioral design Part 2",
               "workshopType": "Design",
-              "workshopDesc": "Digital technology is a powerful agent of human behavioral change. Successful digital products often become part of the real world behavior of users by creating new habits and changing lifestyles. This workshop provides an introduction to the emerging discipline of 'Behavior Design' and hand-holds participants through its fundamental tools and techniques. Participants will work with the 'Behavioral Change Canvas' designed by Ashwin Rajan, founder at Fabric Consulting. ",
+              "workshopDesc": "This class is for individuals and teams interested in human behavioural change as an outcome of their projects.</br></br>Behaviour Design is a new discipline concerned with practical approaches to behavioural change. It combines behavioural science with design thinking methods. The focus in this class is digital technology as an extension of behaviour.</br></br>You will use the Behaviour Design Canvas, a method developed by Ashwin Rajan, teacher of the class. This can now be downloaded for free here (link: [Behaviour Design Canvas](https://www.behaviourdesigncanvas.info/).</br></br>We will cover:</br>* What is behaviour design and how it works in a digital world.</br>* Behaviour design ethics and Dark Patterns.</br>* Overview of core behaviour change elements, such as motivation.</br>* The Behaviour Design Canvas method and how to use it.</br>The class will be packed with theory, discussions and exercises. If you are working on a project or service that has a behavioural side to it, all the better.</br>Come well rested and prepared for a mental workout!",
               "speaker": {
                 "speakerName": "Ashwin Rajan",
                 "speakerTitle": "",
@@ -219,7 +219,7 @@
               "workshopDesc": "Ever wondered if you could have explained something better, to convince someone or make a sale? Maybe a good visualisation would have helped! Join this workshop to discuss the power of visualisation and how to do it right. You’ll get to work on your own complex concept or data, which you know to be the answer to that problem you want to see solved, but others don’t seem to get it (yet)! The workshop inspires design thinking and helps you become a more effective communicator. Our tools are paper and pen, a drawing tool or PowerPoint – whatever works best for you.",
               "speaker": {
                 "speakerName": "Pauliina Ullner",
-                "speakerTitle": "",
+                "speakerTitle": "Ullner Creative",
                 "speakerPicture": "/img/speaker/design/D16.png"
               },
               "startTime": "15:10",
@@ -305,10 +305,10 @@
               "workshopID": "D2",
               "workshopTitle": "Customer centric product development",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "How to create and design a product your clients and your clients' clients will love? In this workshop we'll dive deeper in the whats, whys and hows on designing a customer centric product and what's the business value of always keeping your users in mind.",
               "speaker": {
                 "speakerName": "Jemmi Laaninen",
-                "speakerTitle": "Sangre",
+                "speakerTitle": "Leadoo",
                 "speakerPicture": "/img/speaker/design/D2.png"
               },
               "startTime": "17:20",
@@ -321,7 +321,7 @@
               "workshopType": "Tech",
               "workshopDesc": "",
               "speaker": {
-                "speakerName": "Oleg",
+                "speakerName": "",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -377,7 +377,7 @@
               "speaker": {
                 "speakerName": "Pipsa Aro ",
                 "speakerTitle": "Findersseekers",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/business/B3.png"
               },
               "startTime": "9:40",
               "endTime": "11:40",
@@ -479,7 +479,7 @@
               "workshopDesc": "Do you think that it is time to step-up from running post-it workshops? Are you tired of compiling PowerPoints with generic customer personas? It is time to base your design in business- and fact-driven practices. Sasha Kazantsev will share a set of practical tools that help unlock collaboration processes in the field of innovation. You will leave the workshop with tools for finding the problem-solution fit and defining business cases. ",
               "speaker": {
                 "speakerName": "Briana Romero",
-                "speakerTitle": "",
+                "speakerTitle": "Nordcloud",
                 "speakerPicture": "/img/speaker/design/D8.png"
               },
               "startTime": "13:00",
@@ -508,7 +508,7 @@
               "speaker": {
                 "speakerName": "Topi Siniketo ",
                 "speakerTitle": "Avance",
-                "speakerPicture": "/img/speaker/business/B5.jpg"
+                "speakerPicture": "/img/speaker/business/B5.png"
               },
               "startTime": "13:10",
               "endTime": "15:10",
@@ -532,9 +532,9 @@
               "workshopID": "T7",
               "workshopTitle": "Blockchain",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": " A deep dive into the markets of blockchain and decentralized finance. We’ll also cover topics within bitcoin, altcoins, and fintech.",
               "speaker": {
-                "speakerName": "Timo Oinonen",
+                "speakerName": "Timo Oinonen & Song Ping",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
@@ -579,11 +579,11 @@
               "workshopID": "T3",
               "workshopTitle": "How to land your ideal job as a developer?",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "Developers are in demand and finding a job should be easy, right? Turns out that not all jobs are alike and even the ones that seem promising may not be what they appear on the surface. In addition to that, the way most companies do tech recruitment is broken, with unpredictable processes, pointless whiteboard challenges and time consuming home assignments. This session will help you cut through the noise. You'll learn how to identify the good companies early on, make the interview process less stressful and put you in a position where you have multiple offers to choose from within record time.",
               "speaker": {
                 "speakerName": "Oleg Podsechin",
                 "speakerTitle": "Toughbyte",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T3.png"
               },
               "startTime": "15:10",
               "endTime": "16:10",
@@ -671,7 +671,7 @@
               "workshopDesc": "Great people build great products, but how to attract the best and how to build a winning team? How to make sure you have the right team and talent onboard from the start and how to keep them in the ever tightening talent war? How to make sure you invest enough in your most valuable asset - a winning team? You will leave this session with tools to identify your organization's unique selling point, to attract the right people and to make sure you build a culture that is also able to keep the best talent!",
               "speaker": {
                 "speakerName": "Sofia Pohls",
-                "speakerTitle": "findersseekers",
+                "speakerTitle": "Finders Seekers",
                 "speakerPicture": "/img/speaker/tech/T15.jpg"
               },
               "startTime": "17:20",
@@ -682,7 +682,7 @@
               "workshopID": "D6",
               "workshopTitle": "Design Automation/ Cloud based Design",
               "workshopType": "Design",
-              "workshopDesc": "Infrastructure-as-a-Service, Platform-as-a-Service, Hardware-as-a-Service, and Software-as-a-Service. All will be explained through this 2 hour workshop diving deeper into the functions and theories behind these services.",
+              "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
