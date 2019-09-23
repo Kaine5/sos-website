@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import Modal from "../components/Modal";
@@ -80,7 +80,10 @@ const Schedule = () => {
     <div className={`App`}>
       <Helmet>
         <title>School of Startup's schedule</title>
-        <meta name="description" content="The schedule for School of startups - a two-day event/conference organized by The Shortcut" />
+        <meta
+          name='description'
+          content='School of Startups (SoS) is a two-day event in Helsinki for startup doers planning on scaling and for talent eager to improve their employability. Filled with 40 workshops covering business, tech, and design topics given by startup doers, SoS is one of the best in Helsinki startup events scene to bring together startup pros, experts and enthusiasts to one platform.'
+        />
       </Helmet>
       <Header
         left={

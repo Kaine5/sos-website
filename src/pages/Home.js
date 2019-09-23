@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import Header from "../components/Header";
 import CanvasContent from "../components/CanvasContent";
 import LandingSchedule from "../components/LandingSchedule";
@@ -27,10 +27,13 @@ function Home() {
   };
 
   return (
-    <div className="App">
+    <div className='App'>
       <Helmet>
         <title>School of Startups</title>
-        <meta name="description" content="School of startups is a two-day event/conference, which brings together startup doers, experts and enthusiasts." />
+        <meta
+          name='description'
+          content='School of Startups (SoS) is a two-day event in Helsinki for startup doers planning on scaling and for talent eager to improve their employability. Filled with 40 workshops covering business, tech, and design topics given by startup doers, SoS is one of the best in Helsinki startup events scene to bring together startup pros, experts and enthusiasts to one platform.'
+        />
       </Helmet>
       {showHeader && (
         <Header
@@ -52,10 +55,10 @@ function Home() {
       <CanvasContent ref={contentScroll} onScroll={checkScroll}>
         <div className={styles.landingBackground}>
           <div className={styles.arrow}>
-            <a href="#landingSchedule">
+            <a href='#landingSchedule'>
               <FontAwesomeIcon
                 icon={faChevronDown}
-                size="3x"
+                size='3x'
                 className={styles.bounce}
               />
             </a>
@@ -63,7 +66,7 @@ function Home() {
         </div>
 
         <LandingSchedule />
-        <div className="resp-container">
+        <div className='resp-container'>
           {/* <iframe
             className="resp-iframe"
             width="100%"
@@ -74,30 +77,30 @@ function Home() {
             allowFullScreen
             title="sos-video"
           /> */}
-          <video width="100%" height="100%" controls>
-            <source src="./video/sos-video.mp4" type="video/mp4" />
+          <video width='100%' height='100%' controls>
+            <source src='./video/sos-video.mp4' type='video/mp4' />
           </video>
         </div>
         <LandingPartners />
 
         <div className={styles.wrapper}>
           <div className={styles.interactButtons}>
-            <Link to="/schedule/" className={styles.anchorButton}>
+            <Link to='/schedule/' className={styles.anchorButton}>
               <Button
-                height="100%"
-                width="29vw"
-                name="join"
+                height='100%'
+                width='29vw'
+                name='join'
                 backgroundImage={`url("/img/Joinbutton.png")`}
-                specialClass="footerButton"
+                specialClass='footerButton'
               />
             </Link>
-            <Link to="/getinvolved/" className={styles.anchorButton}>
+            <Link to='/getinvolved/' className={styles.anchorButton}>
               <Button
-                height="100%"
-                width="29vw"
-                name="get involved"
+                height='100%'
+                width='29vw'
+                name='get involved'
                 backgroundImage={`url("/img/Getinvolved.png")`}
-                specialClass="footerButton"
+                specialClass='footerButton'
               />
             </Link>
           </div>
