@@ -111,7 +111,7 @@
             },
             {
               "workshopID": "D3",
-              "workshopTitle": "Behavioral design Part 1",
+              "workshopTitle": "Behavioural Design Part 1",
               "workshopType": "Design",
               "workshopDesc": "This class is for individuals and teams interested in human behavioural change as an outcome of their projects.</br></br>Behaviour Design is a new discipline concerned with practical approaches to behavioural change. It combines behavioural science with design thinking methods. The focus in this class is digital technology as an extension of behaviour.</br></br>You will use the Behaviour Design Canvas, a method developed by Ashwin Rajan, teacher of the class. This can now be downloaded for free here (link: [Behaviour Design Canvas](https://www.behaviourdesigncanvas.info/).</br></br>We will cover:</br>* What is behaviour design and how it works in a digital world.</br>* Behaviour design ethics and Dark Patterns.</br>* Overview of core behaviour change elements, such as motivation.</br>* The Behaviour Design Canvas method and how to use it.</br>The class will be packed with theory, discussions and exercises. If you are working on a project or service that has a behavioural side to it, all the better.</br>Come well rested and prepared for a mental workout!",
               "speaker": {
@@ -200,7 +200,7 @@
             },
             {
               "workshopID": "D3",
-              "workshopTitle": "Behavioral design Part 2",
+              "workshopTitle": "Behavioural Design Part 2",
               "workshopType": "Design",
               "workshopDesc": "This class is for individuals and teams interested in human behavioural change as an outcome of their projects.</br></br>Behaviour Design is a new discipline concerned with practical approaches to behavioural change. It combines behavioural science with design thinking methods. The focus in this class is digital technology as an extension of behaviour.</br></br>You will use the Behaviour Design Canvas, a method developed by Ashwin Rajan, teacher of the class. This can now be downloaded for free here (link: [Behaviour Design Canvas](https://www.behaviourdesigncanvas.info/).</br></br>We will cover:</br>* What is behaviour design and how it works in a digital world.</br>* Behaviour design ethics and Dark Patterns.</br>* Overview of core behaviour change elements, such as motivation.</br>* The Behaviour Design Canvas method and how to use it.</br>The class will be packed with theory, discussions and exercises. If you are working on a project or service that has a behavioural side to it, all the better.</br>Come well rested and prepared for a mental workout!",
               "speaker": {
@@ -285,7 +285,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "VERTICAL"
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "D12",
@@ -299,7 +299,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "THE SHORTCUT"
+              "place": "VERTICAL"
             },
             {
               "workshopID": "D2",
@@ -313,7 +313,7 @@
               },
               "startTime": "17:20",
               "endTime": "19:20",
-              "place": "MARIA01 EVENT SPACE"
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "T14",
@@ -476,7 +476,7 @@
               "workshopID": "D8",
               "workshopTitle": "Cloud Flavoured Service Design",
               "workshopType": "Design",
-              "workshopDesc": "Do you think that it is time to step-up from running post-it workshops? Are you tired of compiling PowerPoints with generic customer personas? It is time to base your design in business- and fact-driven practices. Sasha Kazantsev will share a set of practical tools that help unlock collaboration processes in the field of innovation. You will leave the workshop with tools for finding the problem-solution fit and defining business cases. ",
+              "workshopDesc": "If you are excited about service or product you want to develop, learn how to understand the user's journey and value the service gives to the user.  What kind of impacts do these tools have on the environment and the user within an holistic design process? You will as well get an introduction to  some cloud powered AI tools and choose how these could add value to your service.  The outcomes will be some more knowledge of  applying AI tools to different services and an understanding of the design process.",
               "speaker": {
                 "speakerName": "Briana Romero",
                 "speakerTitle": "Nordcloud",
