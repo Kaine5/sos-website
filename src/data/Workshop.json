@@ -274,20 +274,6 @@
           "id": "S4",
           "list": [
             {
-              "workshopID": "B12",
-              "workshopTitle": "Why Your Marketing Needs to be Data-Driven",
-              "workshopType": "Business",
-              "workshopDesc": "What are the numbers that you should be following and how should you use them to reach your target audience at the right place at the right time? Data-driven marketing helps you improve your audience targeting, personalize communication, and increase customer engagement. Data-driven marketing should be important for every company and in this workshop, you will understand what it is all about.",
-              "speaker": {
-                "speakerName": "Henrik Gripenberg",
-                "speakerTitle": "Truly Agency",
-                "speakerPicture": "/img/speaker/business/B12.jpg"
-              },
-              "startTime": "17:20",
-              "endTime": "19:20",
-              "place": "MARIA01 EVENT SPACE"
-            },
-            {
               "workshopID": "D12",
               "workshopTitle": "Design Innovation",
               "workshopType": "Design",
@@ -314,6 +300,20 @@
               "startTime": "17:20",
               "endTime": "19:20",
               "place": "THE SHORTCUT"
+            },
+            {
+              "workshopID": "B12",
+              "workshopTitle": "Why Your Marketing Needs to be Data-Driven",
+              "workshopType": "Business",
+              "workshopDesc": "What are the numbers that you should be following and how should you use them to reach your target audience at the right place at the right time? Data-driven marketing helps you improve your audience targeting, personalize communication, and increase customer engagement. Data-driven marketing should be important for every company and in this workshop, you will understand what it is all about.",
+              "speaker": {
+                "speakerName": "Henrik Gripenberg",
+                "speakerTitle": "Truly Agency",
+                "speakerPicture": "/img/speaker/business/B12.jpg"
+              },
+              "startTime": "17:20",
+              "endTime": "19:20",
+              "place": "MARIA01 EVENT SPACE"
             },
             {
               "workshopID": "T14",
@@ -652,13 +652,13 @@
             },
             {
               "workshopID": "D13",
-              "workshopTitle": "3D modelling (tools) Animation, Advertising industries",
+              "workshopTitle": "Stop for motion - add life to your content",
               "workshopType": "Design",
-              "workshopDesc": "",
+              "workshopDesc": "If you're a somewhat experienced content producer or a video editor looking for simple ways of adding animation to your toolbox come join us when we go through:</br>Simple animations in UI - How to add excitement to your UI elements</br>Creating titles/lower thirds for videos - You have that awesome video ready but you want that text/title to pop out</br>Creating a fake 3D photo - Breathe life to those still images</br></br>This workshop is for you if you're:</br>- Producing ad/social media content for your company but struggle with animations/motion design</br>- Doing UI design and wish to grasp the base concepts of motion design</br>- Video editor looking to expand your toolbox with simple animation</br>- All of the above🤔 (as I am)</br></br>We will cover basic concepts of using motion design in your content while doing experiments. Content will be provided by speaker but you are free to use your own content if you wish.</br>Programs that we will use:</br>Illustrator (+Photoshop)</br>After Effects",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
-                "speakerPicture": ""
+                "speakerName": "Vesa Hänninen",
+                "speakerTitle": "Skipperi",
+                "speakerPicture": "/img/speaker/design/D13.jpg"
               },
               "startTime": "17:20",
               "endTime": "19:20",
