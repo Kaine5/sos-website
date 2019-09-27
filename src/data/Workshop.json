@@ -316,18 +316,18 @@
               "place": "MARIA01 EVENT SPACE"
             },
             {
-              "workshopID": "T14",
-              "workshopTitle": "SAS Extract transform &Load",
-              "workshopType": "Tech",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
-              "startTime": "17:30",
-              "endTime": "19:30",
-              "place": "ICEBREAKER"
+              "startTime": "",
+              "endTime": "",
+              "place": ""
             },
             {
               "workshopID": "",
@@ -384,18 +384,18 @@
               "place": "VERTICAL"
             },
             {
-              "workshopID": "D9",
-              "workshopTitle": "Prototyping",
-              "workshopType": "Design",
-              "workshopDesc": "This workshop will explore the tools and tricks to give your prototyping game a level-up ! Get to understand the tools. The Ideas and The thoughts behind prototyping for Scale-ups. How to make quick prototyping on your product ideas and pitch to the team.",
+              "workshopID": "T5",
+              "workshopTitle": "Delivering value incrementally vs. Fake-Agile",
+              "workshopType": "Tech",
+              "workshopDesc": "",
               "speaker": {
-                "speakerName": "",
-                "speakerTitle": "",
+                "speakerName": "Ville Reijonen",
+                "speakerTitle": "Vincit",
                 "speakerPicture": ""
               },
-              "startTime": "9:40",
-              "endTime": "11:40",
-              "place": "THE SHORTCUT"
+              "startTime": "17:30",
+              "endTime": "19:30",
+              "place": "ARCADE 5"
             },
             {
               "workshopID": "D10",
@@ -679,18 +679,18 @@
               "place": "MARIA01 EVENT SPACE"
             },
             {
-              "workshopID": "D6",
-              "workshopTitle": "Design Automation/ Cloud based Design",
-              "workshopType": "Design",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
-              "startTime": "17:30",
-              "endTime": "19:30",
-              "place": "ICEBREAKER"
+              "startTime": "",
+              "endTime": "",
+              "place": ""
             },
             {
               "workshopID": "",
@@ -707,18 +707,18 @@
               "place": "THE SHORTCUT"
             },
             {
-              "workshopID": "T5",
-              "workshopTitle": "SCRUM",
-              "workshopType": "Tech",
+              "workshopID": "",
+              "workshopTitle": "",
+              "workshopType": "",
               "workshopDesc": "",
               "speaker": {
                 "speakerName": "",
                 "speakerTitle": "",
                 "speakerPicture": ""
               },
-              "startTime": "17:30",
-              "endTime": "19:30",
-              "place": "ARCADE 5"
+              "startTime": "",
+              "endTime": "",
+              "place": ""
             }
           ]
         }

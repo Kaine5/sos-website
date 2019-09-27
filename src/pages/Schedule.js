@@ -130,9 +130,11 @@ const Schedule = () => {
             : daySchedule(data.secondDay)}
         </div>
       </CanvasContent>
-      <Modal active={modalActive} onModalClick={onModalClick}>
-        <WorkshopCard workshop={currentWorkshop} />
-      </Modal>
+      {currentWorkshop.workshopID ? (
+        <Modal active={modalActive} onModalClick={onModalClick}>
+          <WorkshopCard workshop={currentWorkshop} />
+        </Modal>
+      ) : null}
     </div>
   );
 };
