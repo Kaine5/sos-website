@@ -387,11 +387,11 @@
               "workshopID": "T5",
               "workshopTitle": "Delivering value incrementally vs. Fake-Agile",
               "workshopType": "Tech",
-              "workshopDesc": "",
+              "workshopDesc": "I say we are Agile and therefore we are.” Do you know why retrospectives are essential, how roadmap and backlog are related to your success, when to use sprint based development and when not, or how Kanban can kill your efficiency. In this workshop we will go through some typical cases where you think you are doing \"the right things\" to maximise your Customer Value but actually you are not.",
               "speaker": {
                 "speakerName": "Ville Reijonen",
                 "speakerTitle": "Vincit",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/tech/T5.jpg"
               },
               "startTime": "17:30",
               "endTime": "19:30",
