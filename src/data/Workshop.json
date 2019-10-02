@@ -387,15 +387,15 @@
               "workshopID": "T5",
               "workshopTitle": "Delivering value incrementally vs. Fake-Agile",
               "workshopType": "Tech",
-              "workshopDesc": "I say we are Agile and therefore we are.” Do you know why retrospectives are essential, how roadmap and backlog are related to your success, when to use sprint based development and when not, or how Kanban can kill your efficiency. In this workshop we will go through some typical cases where you think you are doing \"the right things\" to maximise your Customer Value but actually you are not.",
+              "workshopDesc": "<q>I say we are Agile and therefore we are?</q>.</br> Do you know why</br>- retrospectives are essential and you should have them regularly,</br>- roadmap and backlog are related and essential to your success,</br>- use sprint based development and when not,</br>- Kanban can kill your efficiency when done wrong,</br>- there should be daily meetings face-to-face, and</br>- fake agile?</br>We will go first 'learn by doing' for the first hour and the dissect and advance our learning a bit further on the second hour.",
               "speaker": {
                 "speakerName": "Ville Reijonen",
                 "speakerTitle": "Vincit",
                 "speakerPicture": "/img/speaker/tech/T5.jpg"
               },
-              "startTime": "17:30",
-              "endTime": "19:30",
-              "place": "ARCADE 5"
+              "startTime": "09:40",
+              "endTime": "11:40",
+              "place": "THE SHORTCUT"
             },
             {
               "workshopID": "D10",
@@ -506,7 +506,7 @@
               "workshopType": "Business",
               "workshopDesc": "So you’ve founded your company and are really excited about the journey ahead – great! Do you know how to make that great new venture of yours compliant with laws so that you can keep that laser focus on building traction and ABCing? Maybe you’ve heard all those veteran founders talk about liqprefs, vesting, non-compete carveouts and other important-sounding legal stuff but don’t really know how to navigate your way around them. We’re here to help! Come join our workshop focusing on post-founding legal and governance topics. If you already know the lingo, here are some buzzwords that we aim to cover: early-stage corporate governance, SHA considerations, equity incentive programs, employment contracts, financing round preparations and completion.",
               "speaker": {
-                "speakerName": "Topi Siniketo ",
+                "speakerName": "Topi Siniketo</br>Ilkka Perheentupa",
                 "speakerTitle": "Avance",
                 "speakerPicture": "/img/speaker/business/B5.png"
               },
