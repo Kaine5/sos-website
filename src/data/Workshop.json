@@ -131,7 +131,7 @@
               "speaker": {
                 "speakerName": "Tuukka Häkkinen",
                 "speakerTitle": "Nosto",
-                "speakerPicture": ""
+                "speakerPicture": "/img/speaker/design/D4.jpg"
               },
               "startTime": "13:00",
               "endTime": "15:00",
@@ -478,8 +478,8 @@
               "workshopType": "Design",
               "workshopDesc": "If you are excited about service or product you want to develop, learn how to understand the user's journey and value the service gives to the user.  What kind of impacts do these tools have on the environment and the user within an holistic design process? You will as well get an introduction to  some cloud powered AI tools and choose how these could add value to your service.  The outcomes will be some more knowledge of  applying AI tools to different services and an understanding of the design process.",
               "speaker": {
-                "speakerName": "Briana Romero",
-                "speakerTitle": "Nordcloud",
+                "speakerName": "Briana Romero</br>Paul Lyons",
+                "speakerTitle": "Intergalactico design studio for Nordcloud",
                 "speakerPicture": "/img/speaker/design/D8.png"
               },
               "startTime": "13:00",
@@ -530,11 +530,11 @@
             },
             {
               "workshopID": "T7",
-              "workshopTitle": "Blockchain",
+              "workshopTitle": "Blockchain Market 2020, What to Expect?",
               "workshopType": "Tech",
               "workshopDesc": " A deep dive into the markets of blockchain and decentralized finance. We’ll also cover topics within bitcoin, altcoins, and fintech.",
               "speaker": {
-                "speakerName": "Timo Oinonen & Song Ping",
+                "speakerName": "Timo Oinonen <br /> Song Ping",
                 "speakerTitle": "dcresearch",
                 "speakerPicture": "/img/speaker/tech/T7.png"
               },
